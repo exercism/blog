@@ -7,7 +7,7 @@ To solve this we're launching the [Exercism blog](https://exercism.io/blog). It 
 - Interviews with memebers of the Exercism community
 - Insights into key changes happening on the tracks 
 
-We are also planning to launch an weekly Exercism newsletter in the coming weeks, which will contain the most popular posts from our blog.
+We are also planning to launch a weekly Exercism newsletter in the coming weeks, which will contain the most popular posts from our blog.
 
 If you'd like to write for our blog or have any ideas for articles, please open an issue at our [blog repository on GitHub](https://github.com/exercism/blog). 
 

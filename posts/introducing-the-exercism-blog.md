@@ -4,7 +4,7 @@ To solve this we're launching the [Exercism blog](https://exercism.io/blog). It 
 - Updates on new features and improvements to the Exercism website
 - Interesting technical articles regarding the languages we support
 - Walkthroughs of interesting approaches to exercises
-- Interviews with memebers of the Exercism community
+- Interviews with members of the Exercism community
 - Insights into key changes happening on the tracks 
 
 We are also planning to launch a weekly Exercism newsletter in the coming weeks, which will contain the most popular posts from our blog.

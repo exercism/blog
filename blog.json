@@ -9,7 +9,8 @@
     "title": "Introducing the Exercism blog",
     "author_handle": "iHiD",
     "marketing_copy": "Each day Exercism gets hundreds of new users, thousands of new submissions, and dozens of improvements across its language tracks and product, but many people have no idea how much is going on or how active the site is. Today we're launching our new blog in order to change that!"
-  }, {
+  }, 
+  {
     "uuid": "e1853292-1fab-4a48-babc-4234ac196ac1",
     "slug": "exercism-in-2019",
     "category": "updates",

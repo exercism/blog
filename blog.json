@@ -1,9 +1,19 @@
 [
   {
+    "uuid": "126aa8c4-9f08-4813-a05b-ad0a8d18f60b",
+    "slug": "introducing-the-exercism-blog",
+    "category": "updates",
+    "published_at": "2019-01-16 12:00",
+    "content_repository": "blog",
+    "content_filepath": "posts/introducing-the-exercism-blog.md",
+    "title": "Introducing the Exercism blog",
+    "author_handle": "iHiD",
+    "marketing_copy": "Each day Exercism gets hundreds of new users, thousands of new submissions, and dozens of improvements across its language tracks and product, but many people have no idea how much is going on or how active the site is. Today we're launching our new blog in order to change that!"
+  }, {
     "uuid": "e1853292-1fab-4a48-babc-4234ac196ac1",
     "slug": "exercism-in-2019",
     "category": "updates",
-    "published_at": "2019-01-10 19:12",
+    "published_at": "2019-01-16 19:12",
     "content_repository": "blog",
     "content_filepath": "posts/exercism-in-2019.md",
     "title": "Exercism in 2019",

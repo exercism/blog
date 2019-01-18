@@ -4,7 +4,7 @@ _An interview with [Erik Schierboom](https://exercism.io/profiles/ErikSchierboom
 
 **So for a bit of background, how did you first get involved in Exercism?**
 
-In 2014, I did a functional programming course that used Scala as its language. After finishing that course, I looked for resources to further improve my Scala skills and found Exercism. It didn't take long before I was hooked and also started to do other language tracks on Exercism. Having benefitted greatly from comments people left on my solutions, I then started commenting on solutions in the C# track. At some point, I was asked to become a maintainer of the C# track, which I accepted gladly. Five years later, I'm now a mentor in the C# and F# tracks, a maintainer of the C#, F# and Scala tracks and help work on the cross-track problem specifications.
+In 2014, I did a functional programming course that used Scala as its language. After finishing that course, I looked for resources to further improve my Scala skills and found Exercism. It didn't take long before I was hooked and also started to do other language tracks on Exercism. Having benefited greatly from comments people left on my solutions, I then started commenting on solutions in the C# track. At some point, I was asked to become a maintainer of the C# track, which I accepted gladly. Five years later, I'm now a mentor in the C# and F# tracks, a maintainer of the C#, F# and Scala tracks and help work on the cross-track problem specifications.
 
 **Nice. So you got into Exercism really early in it's life. For those who are unaware, could you explain what it means to be an Exercism maintainer, please?**
 

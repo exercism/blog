@@ -20,5 +20,16 @@
     "title": "Exercism in 2019",
     "author_handle": "iHiD",
     "marketing_copy": "We're super excited about all that we have planned for this year. Read on to learn about our focuses and plans for Exercism in 2019 including reducing friction for mentors, static analysis, improved curriculums and the launching of this blog!"
+  }, 
+  {
+    "uuid": "4ac4f8ba-9df9-4874-bcbc-8ac1c5bb0d40",
+    "slug": "what-happens-if-my-mentor-disappears",
+    "category": "updates",
+    "published_at": "2019-01-18 10:12",
+    "content_repository": "blog",
+    "content_filepath": "posts/what-happens-if-my-mentor-disappears.md",
+    "title": "What happens if my mentor disappears?",
+    "author_handle": "iHiD",
+    "marketing_copy": "Sometimes you're working away improving an exercise and your mentor disappers. Up until now, that's been a big problem but this week we've made some big strides forward. Learn more about how we're dealing with it moving forward."
   }
 ]

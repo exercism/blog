@@ -9,7 +9,7 @@
     "title": "Introducing the Exercism blog",
     "author_handle": "iHiD",
     "marketing_copy": "Each day Exercism gets hundreds of new users, thousands of new submissions, and dozens of improvements across its language tracks and product, but many people have no idea how much is going on or how active the site is. Today we're launching our new blog in order to change that!"
-  }, 
+  },
   {
     "uuid": "e1853292-1fab-4a48-babc-4234ac196ac1",
     "slug": "exercism-in-2019",
@@ -20,7 +20,7 @@
     "title": "Exercism in 2019",
     "author_handle": "iHiD",
     "marketing_copy": "We're super excited about all that we have planned for this year. Read on to learn about our focuses and plans for Exercism in 2019 including reducing friction for mentors, static analysis, improved curriculums and the launching of this blog!"
-  }, 
+  },
   {
     "uuid": "4ac4f8ba-9df9-4874-bcbc-8ac1c5bb0d40",
     "slug": "what-happens-if-my-mentor-disappears",
@@ -31,5 +31,16 @@
     "title": "What happens if my mentor disappears?",
     "author_handle": "iHiD",
     "marketing_copy": "Sometimes you're working away improving an exercise and your mentor disappers. Up until now, that's been a big problem but this week we've made some big strides forward. Learn more about how we're dealing with it moving forward."
+  },
+  {
+    "uuid": "c4bb5f31-aa09-4b85-8b8f-d2f1125a8549",
+    "slug": "interview-with-erik-schierboom",
+    "category": "interviews",
+    "published_at": "2019-01-21 01:00",
+    "content_repository": "blog",
+    "content_filepath": "posts/interview-with-erik-schierboom.md",
+    "title": "An interview with Erik Schierboom",
+    "author_handle": "iHiD",
+    "marketing_copy": "We talk to Erik Schierboom about functional programming, maintaining the C#, F# and Scala tracks, and our plans for automated static analysis of Exercism solutions."
   }
 ]

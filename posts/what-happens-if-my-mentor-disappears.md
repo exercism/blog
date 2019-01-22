@@ -1,4 +1,4 @@
-Sometimes you're working away improving an exercise and your mentor disappers. Up until now, that's been a big problem, but this week we've implemented a string of small improvements to fix this problem.
+Sometimes you're working away improving an exercise and your mentor disappears. Up until now, that's been a big problem, but this week we've implemented a string of small improvements to fix this problem.
 
 It's rare that a mentor disappears but when they do it's generally just a slip of the mind. They got the notification that you'd posted something, checked your new iteration, then life got in the way, and they forgot all about replying. Our first improvement is a simple prompt to the mentor after a few days of them not replying. We send them a friendly message reminding them that you're waiting on them and asking them to respond.
 

@@ -16,13 +16,13 @@ Although I've learned tons from every track I worked through, my favorite track 
 
 **Yeah, I hear a lot of great things about the Haskell mentors! I imagine working through so many tracks gave you a whole load of interesting insights into coding. Were there any things specifically that you learnt from that experience?**
 
-Oy yes, tons of things! Working with a wide variety of languages exposes one to many different ways of approaching problems. These different approaches have all influenced my coding style in some way, although the functional languages have probably influenced me the most. I now find that I use functional concepts whenever I can, even in non-functional languages (which are slowly incorporating functional features).
+Oh yes, tons of things! Working with a wide variety of languages exposes one to many different ways of approaching problems. These different approaches have all influenced my coding style in some way, although the functional languages have probably influenced me the most. I now find that I use functional concepts whenever I can, even in non-functional languages (which are slowly incorporating functional features).
 
 I've also learnt that while every language is different, many are actually quite similar. As a result, learning a new language becomes a lot easier once you know a couple of them. For example, knowing Haskell means that one could probably pick up F# or Scala relatively quickly. Learning new languages could thus also be a good career move, as you'll be able to switch between languages more easily.
 
 Finally, I've learnt that having mentors guide you while learning a language makes the process so much more enjoyable and effective.
 
-**I've found the same. Learning from others is such a multiplier! From a practical point of view, how did you deal with all the setups for the different languages. I often find the thought of learning a new IDE a bit intimidating. Did you stick to an editor you knew while you worked through the languages, or vary it try and get a more idiomatic experience?**
+**I've found the same. Learning from others is such a multiplier! From a practical point of view, how did you deal with all the setups for the different languages. I often find the thought of learning a new IDE a bit intimidating. Did you stick to an editor you knew while you worked through the languages, or vary it in order to try and get a more idiomatic experience?**
 
 For some languages, setting up a new development environment used to be a bit of a hassle, but nowadays most languages are fairly easy to setup. I then try to find an IDE that gives me the best experience for that specific language. As I alternately work on Windows and Mac OS, the IDE should also be cross-platform. An example of a great, cross-platform IDE is [Visual Studio Code](https://code.visualstudio.com/), which I use for the [Haskell](https://exercism.io/tracks/haskell), [JavaScript](https://exercism.io/tracks/javascript), [TypeScript](https://exercism.io/tracks/typescript), [Elm](https://exercism.io/tracks/elm) and [Elixir](https://exercism.io/tracks/elixir) tracks. For the other tracks, I use a [JetBrains IDE](https://www.jetbrains.com/products.html?fromMenu): [Rider](https://www.jetbrains.com/rider/) for [C#](https://exercism.io/tracks/csharp) and [F#](https://exercism.io/tracks/fsharp), [IntelliJ IDEA](https://www.jetbrains.com/idea/) for [Java](https://exercism.io/tracks/java), [Scala](https://exercism.io/tracks/scala) and [Kotlin](https://exercism.io/tracks/kotlin), and finally [RubyMine](https://www.jetbrains.com/ruby/) for [Ruby](https://exercism.io/tracks/ruby) (note: these are also cross-platform IDE's). As you can see, I use multiple editors to get the best experience for each language (although the Jetbrains IDE's are obviously quite similar).
 
@@ -48,7 +48,7 @@ If you're interested, check out my (early) prototype of a [C# track analyzer](ht
 
 **Yes, the static analysis is pretty much the most exciting thing for me too. It's awesome to see that you already have a prototype together. I think the speed improvements that static analysis will give us will dramatically improve Exercism, and I'm really excited about how we can extend it to teach total beginners to code. I think it's a real game-changer.**
 
-**Final question, do you have any personal projects or causes that are close to your heart, which you'd to give a shoutout too?**
+**Final question, do you have any personal projects or causes that are close to your heart, which you'd like to give a shoutout too?**
 
 To me, getting involved in Exercism, contributing to its open-source code base and mentoring people has been an incredibly rewarding experience. I've learned tons of things, got to know some pretty great people and feel I have been able to help many people.
 

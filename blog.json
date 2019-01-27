@@ -42,5 +42,16 @@
     "title": "An interview with Erik Schierboom",
     "author_handle": "iHiD",
     "marketing_copy": "We talk to Erik Schierboom about functional programming, maintaining the C#, F# and Scala tracks, and our plans for automated static analysis of Exercism solutions."
+  },
+  {
+    "uuid": "8db67471-696c-487a-8bb4-91c239b73166",
+    "slug": "introducing-community-comments",
+    "category": "updates",
+    "published_at": "2019-01-26 01:00",
+    "content_repository": "blog",
+    "content_filepath": "posts/introducting-community-comments.md",
+    "title": "Commenting on solutions",
+    "author_handle": "iHiD",
+    "marketing_copy": "One consequence of adding mentoring to Exercism last year was the removal of casual commenting. We've now added that back. Read on to learn more."
   }
 ]

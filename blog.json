@@ -49,8 +49,8 @@
     "category": "updates",
     "published_at": "2019-01-26 01:00",
     "content_repository": "blog",
-    "content_filepath": "posts/introducting-community-comments.md",
-    "title": "Commenting on solutions",
+    "content_filepath": "posts/introducing-community-comments.md",
+    "title": "We're relaunched community comments",
     "author_handle": "iHiD",
     "marketing_copy": "One consequence of adding mentoring to Exercism last year was the removal of casual commenting. We've now added that back. Read on to learn more."
   }

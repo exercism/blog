@@ -1,4 +1,4 @@
-Last year we relaunched Exercism with a new focus around more formal mentoring. As part of that change we disabled the ability for the wider community to comment on each others solutions. The logic for that was a desire to keep the learning experience in more private, safe spaces, and avoid random unsolicited comments from strangers.
+Last year we relaunched Exercism with a new focus around more formal mentoring. As part of that change we disabled the ability for the wider community to comment on each other's solutions. The logic for that was a desire to keep the learning experience in more private, safe spaces, and avoid random unsolicited comments from strangers.
 
 I'm now happy to announce that we've reintroduced community comments on solutions. Our rational for this is that others' solutions provide a valuable learning opportunity, and we want to give people the ability to ask questions about ideas or techniques they see in solutions. We actively don't want this to be a second-stage of public mentoring, and as such we've added a notice to remind commenters of the purpose of the box:
 

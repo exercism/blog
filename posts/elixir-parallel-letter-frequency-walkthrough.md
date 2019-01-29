@@ -2,6 +2,8 @@ In this post I'll walk you through how I solved the [Parallel Letter Frequency p
 
 ![The Parallel Letter Frequency problem on Exercism's Elixir track](https://www.toptechskills.com/images/articles/elixir-parallel-letter-frequency/exercism-elixir-parallel-letter-frequency-problem-d1259402e7.png)
 
+✅ [View my published solution on Exercism](https://exercism.io/tracks/elixir/exercises/parallel-letter-frequency/solutions/cc80004beded4749bce81b5dc0820952).
+
 The concurrent version of the code ran around **80% faster** on my system for certain workloads, but in some cases was over **3x slower than the original code**. As the benchmarks later in the post demonstrate, depending on the situation, adding concurrency can actually **reduce performance while also increasing the complexity of your code**.
 
 ## The problem
@@ -601,65 +603,3 @@ Did you solve this problem in a different way?
 Did you find an implementation that's even faster than mine?
 
 Hit me up in the comments and let's discuss!
-
-## Full solution code
-
-```elixir
-defmodule Frequency do
-  @doc """
-  Count letter frequency in parallel.
-
-  Returns a map of characters to frequencies.
-
-  The number of worker processes to use can be set with 'workers'.
-  """
-  @spec frequency([String.t()], pos_integer) :: map
-  def frequency([], _workers), do: %{}
-
-  def frequency(texts, 1) do
-    texts
-    |> get_all_graphemes()
-    |> count_letters()
-  end
-
-  def frequency(texts, workers) do
-    texts
-    |> get_all_graphemes()
-    |> split_into_chunks(workers)
-    |> Task.async_stream(__MODULE__, :count_letters, [])
-    |> merge_results_stream()
-  end
-
-  defp split_into_chunks(all_graphemes, num_chunks) do
-    all_graphemes_count = Enum.count(all_graphemes)
-    graphemes_per_chunk = :erlang.ceil(all_graphemes_count / num_chunks)
-
-    Enum.chunk_every(all_graphemes, graphemes_per_chunk)
-  end
-
-  defp merge_results_stream(results_stream) do
-    Enum.reduce(results_stream, %{}, fn {:ok, worker_result}, acc ->
-      Map.merge(acc, worker_result, fn _key, acc_val, worker_val ->
-        acc_val + worker_val
-      end)
-    end)
-  end
-
-  defp get_all_graphemes(texts) do
-    texts
-    |> Enum.join()
-    |> String.graphemes()
-  end
-
-  def count_letters(graphemes) do
-    Enum.reduce(graphemes, %{}, fn grapheme, acc ->
-      if String.match?(grapheme, ~r/^\p{L}$/u) do
-        downcased_letter = String.downcase(grapheme)
-        Map.update(acc, downcased_letter, 1, fn count -> count + 1 end)
-      else
-        acc
-      end
-    end)
-  end
-end
-```

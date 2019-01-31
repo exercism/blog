@@ -1,4 +1,4 @@
-_An interview with [Ryan Potts](https://exercism.io/profiles/rpottsoh) in which he and [Jeremy Walker](https://exercism.io/profiles/iHiD) discuss Delphi, the things he's learnt from being a contributor to Exercism, and his experiences of programming in industries that are still offline._
+_An interview with [Ryan Potts](https://exercism.io/profiles/rpottsoh) in which he and [Jeremy Walker](https://exercism.io/profiles/iHiD) discuss Delphi, the things he's learnt from being a contributor to Exercism, and his experiences of programming in industries that are still "offline"._
 
 **Hi Ryan. Thanks for taking the time to chat with me. You're the maintainer of the Delphi track on Exercism. How did you get into Delphi?**
 

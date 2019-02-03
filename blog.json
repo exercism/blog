@@ -64,5 +64,16 @@
     "title": "An interview with Ryan Potts",
     "author_handle": "iHiD",
     "marketing_copy": "Ryan Potts talks to us about how he got into Delphi, the things he's learnt from being a contributor to Exercism, and his experiences of programming in industries that are still offline."
+  },
+  {
+    "uuid": "378f9935-997e-4478-9b4e-ac7f138c0535",
+    "slug": "track-anatomy-project",
+    "category": "updates",
+    "published_at": "2019-01-26 01:00",
+    "content_repository": "blog",
+    "content_filepath": "posts/the-track-anatomy-project.md",
+    "title": "The Track Anatomy Project",
+    "author_handle": "iHiD",
+    "marketing_copy": "Welcome to The Track Anatomy Project - an initiative to determine how Exercism tracks can best provide structure for learners and support for mentors."
   }
 ]

@@ -8,7 +8,7 @@ We also know that many users do **not** want others to be able to comment on the
 
 ![Global commenting option](https://assets.exercism.io/blog/introducing-community-comments-option.png)
 
-In parallel, we've also replaced the "reactions" that we launched last year with a more simplified starring system. If you see a solution that you like you can quickly star it (top right of the page) and it will then appear on your "Starred Solutions" page available via the main menu under your avatar. We had initially introduced this feature as an interesting way to group solutions by different people's reactions, but we now have more extensive plans to group solutions using static analysis of the code, and so have decided to retire this feature and simply the user experience.
+In parallel, we've also replaced the "reactions" that we launched last year with a more simplified starring system. If you see a solution that you like you can quickly star it (top right of the page) and it will then appear on your "Starred Solutions" page available via the main menu under your avatar. We had initially introduced this feature as an interesting way to group solutions by different people's reactions, but we now have more extensive plans to group solutions using static analysis of the code, and so have decided to retire this feature and simplify the user experience.
 
 You can find others solutions via the "View community solutions" link once you've finished being mentored on a Core Exercise, or once you've submitted a Side Exercise. Keep an eye out for something like this:
 

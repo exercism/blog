@@ -1,4 +1,4 @@
-This blog post marks the start of [Exercism's](https://exercism.io) **Automated Mentoring Support Project**, in which we will develop a framework that programmatically analyzes users' solutions in order improve the feedback loop for learners and reduce the burden for mentors. Our aim in the short term is to automatically approve solutions that meet given acceptance criteria and provide feedback for commonly-seen improvements.
+This blog post marks the start of [Exercism's](https://exercism.io) **Automated Mentoring Support Project**, in which we will develop a framework that programmatically analyzes users' solutions in order to improve the feedback loop for learners and reduce the burden for mentors. Our aim in the short term is to automatically approve solutions that meet given acceptance criteria and provide feedback for commonly-seen improvements.
 
 The purpose of this post is to describe the problem we're trying to solve and the high-level plan for how we'll be tackling it over the next few months. We'll be following up with further posts which dig into the background of the problem and the history of automated analysis on Exercism, as well as more details about our implementation strategy.
 
@@ -12,16 +12,16 @@ For the core exercises that form the spine of an Exercism language track, we est
 
 The 80% of solutions that do not genuinely engage a mentor’s brain are a frustrating time-sink for people who are willing to volunteer their time helping others, and do not make the most of their expertise.
 
-Similarly, a learner might wait anywhere between a day and a week before receiving feedback and is unable to move forward on the track in the interim. For those who have submitted an iteration that falls within the 25% of perfectly valid solutions, this delay is exceptionally frustrating. To the remainder, it is suboptimal at best. Learners often lose momentum due to this delay and become frustrated at the process. As an added bonus, people will receive more consistent feedback when it comes to structural and stylistic questions, which sets them up to have more interesting conversations about the less clear-cut topics.
+Similarly, a learner might wait anywhere between a day and a week before receiving feedback and is unable to move forward on the track in the interim. For those who have submitted an iteration that falls within the 25% of perfectly valid solutions, this delay is exceptionally frustrating. To the remainder, it is suboptimal at best. Learners often lose momentum due to this delay and become frustrated at the process.
 
-By developing a system that can automatically analyze a solution and either approve it or provide stock feedback to known issues, we estimate we will be able to dramatically reduce mentors' workload by eliminating the "boring" parts, while significantly improving a learner's experience.
+By developing a system that can automatically analyze a solution and either approve it or provide stock feedback to known issues, we estimate we will be able to dramatically reduce mentors' workload by eliminating the "boring" parts, while significantly improving a learner's experience. As an added bonus, people will receive more consistent feedback when it comes to structural and stylistic questions, which sets them up to have more interesting conversations about the less clear-cut topics.
 
 ## How will it work?
 
 Our long-term goal is to develop deep-learning algorithms that can analyze the Abstract Syntax Trees (ASTs) of the nearly one million submissions that have been submitted since Exercism first launched in 2013. Such a tool might detect common patterns and related comments by mentors. In the near term, our goal is to use  [static analysis](https://en.wikipedia.org/wiki/Static_program_analysis) to determine what feedback can be given based on the most commonly repeated errors seen by mentors.
 
 The project breaks down into roughly the following areas:
-1) **Product changes:** We need to work out how this automated analysis fits with the current mentoring UI, how we communicate this feedback (system messages, a "bot," etc.), and then implement this the Exercism website.
+1) **Product changes:** We need to work out how this automated analysis fits with the current mentoring UI, how we communicate this feedback (system messages, a "bot," etc.), and then implement this for the Exercism website.
 2) **Infrastructure:** We will design and build infrastructure that can efficiently support running static analysis across multiple languages.
 3) **Static analysis prototype:** Develop a sample analyzer that will auto-approve good solutions to Ruby / Two-fer, and document this process so that the wider community can contribute.
 

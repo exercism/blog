@@ -75,5 +75,16 @@
     "title": "The Track Anatomy Project",
     "author_handle": "iHiD",
     "marketing_copy": "Welcome to The Track Anatomy Project - an initiative to determine how Exercism tracks can best provide structure for learners and support for mentors."
+  },
+  {
+    "uuid": "2a83f202-c5ac-4c86-8c7b-b21a5ccf60e9",
+    "slug": "automated-mentoring-support-project",
+    "category": "updates",
+    "published_at": "2019-02-07 01:00",
+    "content_repository": "blog",
+    "content_filepath": "posts/automated-mentoring-support-project.md",
+    "title": "The Automated Mentoring Support Project",
+    "author_handle": "iHiD",
+    "marketing_copy": "Over the next few months we are gong to be developing a framework that uses static analysis to automatically analysis users' solutions, automatically approve solutions that are idiomatic, and provide feedback for commonly-seen improvements. Read on to learn about the project."
   }
 ]

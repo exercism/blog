@@ -86,5 +86,16 @@
     "title": "The Automated Mentoring Support Project",
     "author_handle": "iHiD",
     "marketing_copy": "Over the next few months we are gong to be developing a framework that uses static analysis to automatically analysis users' solutions, automatically approve solutions that are idiomatic, and provide feedback for commonly-seen improvements. Read on to learn about the project."
+  },
+  {
+    "uuid": "7ddec526-4613-46f9-8804-95f508060fa2",
+    "slug": "interview-with-meade-kincke",
+    "category": "interviews",
+    "published_at": "2019-02-09 01:00",
+    "content_repository": "blog",
+    "content_filepath": "posts/interview-with-meade-kincke",
+    "title": "An interview with Meade Kicke",
+    "author_handle": "kytrinyx",
+    "marketing_copy": "Katrina talks to Meade Kicke about the Rust compiler, a calculator made that uses CSS colourspaces to calculate the colour of beer, and his book 'A Practical Guide to Rust'"
   }
 ]

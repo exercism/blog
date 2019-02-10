@@ -1,4 +1,4 @@
-_In which we talk to Meade Kicke about the Rust compiler, a calculator made that uses CSS colourspaces to calculate the colour of beer, and his book 'A Practical Guide to Rust'._
+_An interview with [Meade Kincke](https://exercism.io/profiles/TheDarkula) in which he and Katrina Owen talk about the Rust compiler, a GUI that uses scientific colourspaces to determine the colour of beer, and his book 'A Practical Guide To Rust'._
 
 **Hey Meade. Thanks for chatting. We wanted to talk with you because you’re the most prolific mentor that we have on the Rust track. You've helped over 400 students. How did you find out about Exercism?**
 
@@ -62,7 +62,7 @@ It was so much fun. There's still a ton of work to be done, which I'll get to in
 
 Blockchain has, unfortunately, become the buzziest buzzword that ever did buzz.
 
-It is much more than The City and Wall Street cashing in on a new trend for digital currency. We are actually not a “blockchain company”, we at Chainetix provide private ledgers to secure a company’s data securely. In fact, we don’t even deal in crypocurrency. The aim at [Chainetix](https://chainetix.com/) is to bring our expertise into the hands of everyone who has a basic understanding of programming.
+It is much more than The City and Wall Street cashing in on a new trend for digital currency. We are actually not a “blockchain company”, we at [Chainetix](https://chainetix.com/) provide private ledgers to secure a company’s data securely. In fact, we don’t even deal in crypocurrency. The aim at Chainetix is to bring our expertise into the hands of everyone who has a basic understanding of programming.
 
 My work has involved mapping out our systems and infrastructure from scratch to create something rock-solid. I chose a project called [Habitat by Chef](https://www.habitat.sh/). I found out about it because it's written in Rust, which was intriguing coming from such a huge company like Chef. In contrast to plain Docker, Habitat creates images that can automatically update themselves and do amazing things like service bindings. I've also contributed quite a bit to Habitat's [core-plans](https://github.com/habitat-sh/core-plans/) repository.
 

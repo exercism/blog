@@ -2,7 +2,7 @@
 
 It's your first day at a new company.  You've done all the paperwork, met the team, and it is finally time for you to sit down and start reading some of the code that you'll be working on.  You start to read through the different functions, classes, and modules, and, as you read, you find yourself starting to squint at the screen in confusion.  You keep reading and single word escapes from your mouth, barely spoken, almost breathed: "Whaaaaaaaaaat..."[^1]  The more you go on, the more this happens as you get more bewildered and even a little angry.  
 
-> What the heck was the person who wrote this code thinking?
+> What is happening in this code?  It's so complex, and it's *way* different from how I usually write my code!
 
 Anytime there's more than one person working on a piece of code, the amount of care and deliberateness required to keep things sane goes *way* up.  It's no longer the concept that lives in your brain and the code that just has to make that concept happen.  Now, the concept has to live *inside the code* where all the collaborators can see it and change it if need be.
 
@@ -47,7 +47,7 @@ This particular student came up with a pretty clever way to calculate the total.
 bc <<< 'ibase=16;FFFFFFFFFFFFFFFF'
 ```
 
-`bc` is a command-line calculator.  You can pass it strings of arithmetic and it will evaluate them, even for very large integers and floating point numbers.  In Bash, there are other ways to do calculations without using `bc`, but, to simplify things, we'll stick with `bc` for all of the examples in this article.
+`bc` is a command-line calculator.  You can pass it strings of arithmetic and it will evaluate them, even for very large integers and floating point numbers.  There are other ways to do calculations without using `bc` in Bash, but, for the sake of simplicity, we'll be looking at how intent can be communicated—or not—while using `bc`.
 
 This solution works because the whole exercise revolves around powers of two — and where there are powers of two, there's binary, and where there is binary, there's hexadecimal[^2]!
 
@@ -79,7 +79,7 @@ In the student's solution, we could replace the F's with 64 1's (one for each sq
 bc <<< "ibase=2;1111111111111111111111111111111111111111111111111111111111111111"
 ```
 
-More intentional, because it more closely matches what the problem gives us.  But, with it being so long and with us not speaking robot, a long, essentially uncountable string of 1's is maybe not an improvement.
+More intentional, because it more closely matches what the problem gives us.  But, we don't speak robot.  A long, essentially uncountable string of 1's is maybe not an improvement.
 
 ### Second option: the brute-force calculation
 
@@ -103,15 +103,6 @@ It's slow.  Looping, adding, and repeatedly calling out to an external command? 
 
 ### Third option: direct calculation
 
-In the math biz (that's what cool math folks call it), we've got a name for the process "take something and then multiply it by the same number a bunch of times": exponents.
-
-In fact, the number of grains on each square can be expressed as:
-
-```bash
-bc <<< "2^($square - 1)"
-# We subtract one from $square because square 1 has 1 (2^0) grains on it.
-```
-
 So, how do we add all these up without iterating?
 
 Let's consider a *smaller* version of the same problem: a chessboard with 5 squares[^3].
@@ -126,11 +117,12 @@ The five squares would have the following number of grains:
 
 And the total here would be: 1 + 2 + 4 + 8 + 16 = 31.  Hm.  31 doesn't scream anything obvious at me yet.  Let's go a little bigger.
 
-OK, well what about a 6-square chessboard?
+OK, well what about a 6-square chessboard?  This time, I'll show the running total below each square to help us add it up.
 
 ```txt
 -------------------------
 | 1 | 2 | 4 | 8 |16 |32 |
+|   | 3 | 7 |15 |31 |63 |
 -------------------------
 ```
 
@@ -141,18 +133,35 @@ And the sum: 1 + 2 + 4 + 8 + 16 + 32 = 63.  Hmm... I'm actually starting to see 
 ```txt
 -----------------------------
 | 1 | 2 | 4 | 8 |16 |32 |64 |
+|   | 3 | 7 |15 |31 |63 |127|
 -----------------------------
 ```
 
 1 + 2 + 4 + 8 + 16 + 32 +64 = 127.  Do you see it?  Anything ringing any alarms with the values 31, 63, 127?
 
-They're *almost* powers of 2.  In fact, they're *one less* than the *next* power of two.  For another example: if the biggest square on your board was 4096, you can bet your bottom dollar that the total will be 8191.  (1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256 + 512 + 1024 + 2048 + 4096 = 8191).
+They're *almost* powers of 2.  In fact, they're *one less* than the *next* power of two.  
+
+One more example, to drive it home.  Imagine a 12-square chess board. That's twelve doublings, or 2 multiplied by itself 12 times (which, in the math biz, is 2^12): 4096. Double that again and you get 8192 (2^13). So... if we got the pattern right, the running total would be *one short* of 8192, also known as 8191. And if we tally it up, that's, exactly what we get: 1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256 + 512 + 1024 + 2048 + 4096 = 8191.
 
 > To put it another way, to find the total for all `n` squares, all you need is the value on square `n + 1` minus one.
 
 Soooooo, if we want to total up all of the squares up through square 64, all we need to do is calculate the number of grains on *square 65* and subtract 1.
 
 Blammo.
+
+In Bash, to calculate the value on any particular square according to our new pattern, it will look like this:
+
+```bash
+bc <<< "2^($square - 1)"
+```
+
+More specifically, for the "65th" square, that would look like this:
+
+```bash
+bc <<< "2^64"
+```
+
+And to calculate the total of all of the squares that come before it (all 64 of our chessboard squares), all that's left is to subtract 1!
 
 ```bash
 bc <<< "2^64 - 1"
@@ -174,9 +183,11 @@ How do you get from 1 and 64 zeros down to 64 ones?  You subtract 1.
 
 And what additional benefit does this give us?  Well, now we've got a nice, readable expression for the total.  It doesn't iterate, so performance is good.  And it contains the number 64, which is the number of squares on a chessboard, which is a good example of well-signalled **design intent**.  If, for some reason, in 1000 years, the world standardizes on a 7x7 chessboard, that future engineer (probably using Bash 6.1) will check the script, see what you were going for, and change the 64 to a 49.  All good!
 
-## Stay Intentional, my Friends
+## Stay intentional, my friends
 
 When working out an implementation, it's easy to throw things around and latch onto the first solution that works, and that's fine while you're exploring the problem, but once you fully understand the critical components — if you've got the time to spend giving things a good polish — make sure every algorithm, every variable name, and even your white space draw a picture of the problem, the critical requirements, and how all the pieces fit together.
+
+A *huge* thank you to @kytrinyx for all of her feedback and help with this post.  Much of the wisdom, clarity, and friendly explanations are thanks to her.  And @iHiD, who helped me get started and then published.
 
 [^1]: See also [Thom Holwerda's comic.](https://www.osnews.com/story/19266/wtfsm/)
 [^2]: If you're feeling a little rusty on your binary and hexadecimal counting, @kytrinyx recommends the book [How to Count](https://www.amazon.com/Count-Programming-Mere-Mortals-Book-ebook/dp/B005DPIKPE).  As a shameless plug, I recently wrote [a couple blog posts about binary and hexadecimal too.](https://www.assertnotmagic.com/2018/09/10/binary-hexadecimal-part-1/)

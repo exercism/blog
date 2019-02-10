@@ -74,9 +74,9 @@ Yes, it definitely is!
 
 I’ve created different tabs to separate the calculators that are specific to beer and champagne while having a general tab that applies to brewers, vintners, and distillers alike. If you look at most beer and wine bottles, you’ll see the percent of alcohol in that bottle—the Alcohol By Volume. Well, one of the things that BrewStillery does is determine that ABV. As you can probably guess, there’s a bunch of nerdy awesomeness involved here. The thing I'm most pleased about is calculating the beer color:
 
-![BrewStillery Beer Tab Empty Glass](BrewStillery_Empty_Glass.png)
+![BrewStillery Beer Tab Empty Glass](https://assets.exercism.io/blog/introducing-thedarkula-BrewStillery_Empty_Glass.png)
 
-![BrewStillery Beer Tab Full Glass](BrewStillery_Full_Glass.png)
+![BrewStillery Beer Tab Full Glass](https://assets.exercism.io/blog/introducing-thedarkula-BrewStillery_Full_Glass.png)
 
 These before and after images show what happens after you’ve entered amounts. The way I’ve done it is something that no one’s done previously. Another great feature is that it’s all calculated on the fly as you type. If you want the gritty details about colorspaces, hit me up at a conference and we can talk about it over pints!
 

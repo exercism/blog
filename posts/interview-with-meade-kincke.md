@@ -1,4 +1,4 @@
-_In which we talk to Meade Kicke about the Rust compiler, a calculator made that uses CSS colourspaces to calculate the colour of beer, and his book 'A Practical Guide to Rust'_
+_In which we talk to Meade Kicke about the Rust compiler, a calculator made that uses CSS colourspaces to calculate the colour of beer, and his book 'A Practical Guide to Rust'._
 
 **Hey Meade. Thanks for chatting. We wanted to talk with you because you’re the most prolific mentor that we have on the Rust track. You've helped over 400 students. How did you find out about Exercism?**
 

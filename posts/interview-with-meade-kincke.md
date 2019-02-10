@@ -1,4 +1,4 @@
-_In which we talk to [Meade Kicke](https://exercism.io/profiles/TheDarkula) about the Rust compiler, a GUI that uses scientific colourspaces to determine the colour of beer, and his book 'A Practical Guide To Rust'_
+_In which we talk to [Meade Kicke](https://exercism.io/profiles/TheDarkula) about the Rust compiler, a GUI that uses scientific colourspaces to determine the colour of beer, and his book 'A Practical Guide To Rust'._
 
 **Hey Meade. Thanks for chatting. We wanted to talk with you because you’re the most prolific mentor that we have on the Rust track. You've helped over 400 students. How did you find out about Exercism?**
 

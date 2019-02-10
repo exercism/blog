@@ -93,7 +93,7 @@
     "category": "interviews",
     "published_at": "2019-02-09 01:00",
     "content_repository": "blog",
-    "content_filepath": "posts/interview-with-meade-kincke",
+    "content_filepath": "posts/interview-with-meade-kincke.md",
     "title": "An interview with Meade Kicke",
     "author_handle": "kytrinyx",
     "marketing_copy": "Katrina talks to Meade Kicke about the Rust compiler, a calculator made that uses CSS colourspaces to calculate the colour of beer, and his book 'A Practical Guide to Rust'"

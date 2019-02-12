@@ -5,5 +5,4 @@ The grant will help fund three key areas of our static analysis work:
 2) The infrastucture required to run static-analysis and the integration of this into the submission pipeline
 3) A proof-of-concept for Two Fer in Ruby that will give us reference documentation for other languages/exercises
 
-We're extremely grateful to Mozilla, and excited to be able to dedicate some full-time people-power to the product and infrastructure sides of the project, which will be so important moving forward. We feel that this addition of static analysis to Exercism will dramatically increase our ability to serve a wider community and make mentoring a more enjoyable and rewarding activity.
-
+We're extremely grateful to Mozilla, and excited to be able to dedicate some full-time people-power to the product and infrastructure sides of the project, which will be so important moving forward. We feel that this addition of static analysis to [Exercism](https://exercism.io) will dramatically increase our ability to serve a wider community and make mentoring a more enjoyable and rewarding activity.

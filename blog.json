@@ -100,5 +100,17 @@
     "author_handle": "kytrinyx",
     "marketing_copy": "Katrina talks to Meade Kicke about the Rust compiler, a GUI that uses scientific colourspaces to determine the colour of beer, and his book 'A Practical Guide To Rust'.",
     "image_url": "https://assets.exercism.io/blog/social/interview-with-meade-kincke.jpg"
+  },
+  {
+    "uuid": "fbad1abb-cea5-4296-88fe-0a1faca4837b",
+    "slug": "mozilla-supports-exercism-static-analysis",
+    "category": "awards",
+    "published_at": "2019-02-12 01:00",
+    "content_repository": "blog",
+    "content_filepath": "posts/mozilla-supports-exercism-static-analysis.md",
+    "title": "Mozilla awards Exercism an Open Source Support Award",
+    "author_handle": "iHiD",
+    "marketing_copy": "Mozilla has awarded Exercism an Open Source Support Award to help support our Automated Mentoring Support Project - using static analysis to automatically approve solutions that are idiomatic, and provide feedback for commonly-seen improvements.",
+    "image_url": "https://assets.exercism.io/blog/social/mozilla-supports-exercism-static-analysis.png"
   }
 ]

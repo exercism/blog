@@ -122,6 +122,7 @@
     "content_filepath": "posts/interview-with-clever-tykes.md",
     "title": "Inspiring kids with Clever Tykes",
     "author_handle": "nicolechalemrs",
-    "marketing_copy": "..."
+    "marketing_copy": "Meet Code-it Cody, a computer whizz who starts coding at school - part of the Clever Tykes of storybooks and resources which inspire children to develop positive, resourceful and creative behaviour.",
+    "image_url": "https://assets.exercism.io/blog/social/inspiring-kids-with-clever-tykes.jpg"
   }
 ]

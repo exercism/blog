@@ -41,7 +41,8 @@
     "content_filepath": "posts/interview-with-erik-schierboom.md",
     "title": "An interview with Erik Schierboom",
     "author_handle": "iHiD",
-    "marketing_copy": "We talk to Erik Schierboom about functional programming, maintaining the C#, F# and Scala tracks, and our plans for automated static analysis of Exercism solutions."
+    "marketing_copy": "We talk to Erik Schierboom about functional programming, maintaining the C#, F# and Scala tracks, and our plans for automated static analysis of Exercism solutions.",
+    "image_url": "https://assets.exercism.io/blog/social/interview-with-erik-schierboom.jpg"
   },
   {
     "uuid": "8db67471-696c-487a-8bb4-91c239b73166",
@@ -63,7 +64,8 @@
     "content_filepath": "posts/interview-with-ryan-potts.md",
     "title": "An interview with Ryan Potts",
     "author_handle": "iHiD",
-    "marketing_copy": "Ryan Potts talks to us about how he got into Delphi, the things he's learnt from being a contributor to Exercism, and his experiences of programming in industries that are still offline."
+    "marketing_copy": "Ryan Potts talks to us about how he got into Delphi, the things he's learnt from being a contributor to Exercism, and his experiences of programming in industries that are still offline.",
+    "image_url": "https://assets.exercism.io/blog/social/interview-with-ryan-potts.jpg"
   },
   {
     "uuid": "378f9935-997e-4478-9b4e-ac7f138c0535",

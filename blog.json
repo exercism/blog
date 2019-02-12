@@ -98,6 +98,7 @@
     "content_filepath": "posts/interview-with-meade-kincke.md",
     "title": "An interview with Meade Kincke",
     "author_handle": "kytrinyx",
-    "marketing_copy": "Katrina talks to Meade Kicke about the Rust compiler, a GUI that uses scientific colourspaces to determine the colour of beer, and his book 'A Practical Guide To Rust'."
+    "marketing_copy": "Katrina talks to Meade Kicke about the Rust compiler, a GUI that uses scientific colourspaces to determine the colour of beer, and his book 'A Practical Guide To Rust'.",
+    "image_url": "https://assets.exercism.io/blog/social/interview-with-meade-kincke.jpg"
   }
 ]

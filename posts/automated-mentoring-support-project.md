@@ -1,3 +1,5 @@
+_Update: We're excited to announce that Mozilla have awarded us an Open Source Support Award for this project. You can [read more here](https://exercism.io/blog/mozilla-supports-exercism-static-analysis)._
+
 This blog post marks the start of [Exercism's](https://exercism.io) **Automated Mentoring Support Project**, in which we will develop a framework that programmatically analyzes users' solutions in order to improve the feedback loop for learners and reduce the burden for mentors. Our aim in the short term is to automatically approve solutions that meet given acceptance criteria and provide feedback for commonly-seen improvements.
 
 The purpose of this post is to describe the problem we're trying to solve and the high-level plan for how we'll be tackling it over the next few months. We'll be following up with further posts which dig into the background of the problem and the history of automated analysis on Exercism, as well as more details about our implementation strategy.

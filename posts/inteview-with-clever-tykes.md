@@ -37,7 +37,7 @@ Storytelling is an incredibly powerful tool to help influence beliefs, affinitie
 
 From the feedback we've received from parents, teachers and kids, Cody and his story resonates with children who begin to share his passion and desire to learn how to code. We've been thrilled when parents have told us that their kids have asked to start coding lessons after reading the book! It's also given parents a way of opening up discussions about what their child wants to be when they grow up.
 
-**Cody is an interesting character, he has some typical introvert traits and is hearing impaired - can you tell us more about that?**
+**Cody is an interesting character, he has some traits that are considered typically introverted and is hearing impaired - can you tell us more about your thinking behind these decisions?**
 
 Yes, Cody is fairly reserved and he likes to assess a situation quietly before he contributes. Cody is hearing impaired to demonstrate to readers to not let things hold them back! He certainly doesn't allow it to stand in his way. We found there are very few characters in kids books with disabilities of any sort. Cody's hearing impairment can be a metaphor for any obstacle in life; the learning is to accept that it's there and move beyond it.
 

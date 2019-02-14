@@ -1,6 +1,6 @@
 _I'm chatting to Jodie and Ben Cook who have a series of storybooks for children including one that inspires children to learn to code._
 
-**Hello! Could you give us a quick overview of your CleverTykes books?**
+**Hello! Could you give us a quick overview of your Clever Tykes books?**
 
 Yes! The [Clever Tykes storybooks](https://clevertykes.com/) and resources aim to inspire children to develop positive, resourceful and creative behaviour. The series of four storybooks - Walk-it Willow, Code-it Cody, Change-it Cho and Write-it Ryan - follow characters who turn something they enjoy doing into a venture of their own. That's how we enable children ages 6-9 to experience the entrepreneurial process and encourage them to think and behave in a more enterprising way.
 

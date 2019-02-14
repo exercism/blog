@@ -1,16 +1,16 @@
-**Spoiler Alert: This article has spoilers for the Grains exercise in general and specifically the Grains exercise on the Bash track.  If you haven't completed it yourself, yet, and you don't want to be shown some solutions, come back once you've finished it!**
+**Spoiler Alert: This article has spoilers for the Grains exercise in general, and specifically the Grains exercise on the Bash track.  If you haven't completed it yourself, yet, and you don't want to be shown some solutions, come back once you've finished it!**
 
-It's your first day at a new company.  You've done all the paperwork, met the team, and it is finally time for you to sit down and start reading some of the code that you'll be working on.  You start to read through the different functions, classes, and modules, and, as you read, you find yourself starting to squint at the screen in confusion.  You keep reading and single word escapes from your mouth, barely spoken, almost breathed: "Whaaaaaaaaaat..."[^1]  The more you go on, the more this happens as you get more bewildered and even a little angry.  
+It's your first day at a new company.  You've done all the paperwork, met the team, and it is finally time for you to sit down and start reading some of the code that you'll be working on.  You begin to read through the different functions, classes, and modules, and, as you read, you find yourself starting to squint at the screen in confusion.  You keep reading, and single word escapes from your mouth, barely spoken, almost breathed: "Whaaaaaaaaaat..."[^1]  The more you go on, the more this happens as you get more bewildered and even a little angry.
 
 > What is happening in this code?
 
-Anytime there's more than one person working on a piece of code, the amount of care and deliberateness required to keep things manageable goes *way* up.  It's no longer the concept that lives in your brain and the code that just has to make that concept happen.  Now, the concept has to live *inside the code* where all the collaborators can see it and change it if need be.
+Anytime more than one person is working on a piece of code, the amount of care and deliberateness required to keep things manageable goes *way* up.  It's no longer the concept that lives in your brain and the code that just has to make that concept happen.  Now, the concept has to live *inside the code* where all the collaborators can see it and change it if need be.
 
 *How* you go about implementing something doesn't mean much to the end user, but it should speak *volumes* to every engineer that touches your design at any point.  There are often a lot of ways to achieve the same functionality, and it might seem like any of the options would be sufficient to get the job done.  However, I believe that every single decision you make should have a reason (even if it's a small decision with a small reason), and that reason should communicate an objective or requirement.
 
 The idea that implementation details should help readers of code discern thought process, goals, and priorities is called **design intent**.  How you name your variables, what parameters your function takes, and how things are abstracted are all places where the design intent can be expressed — either well or poorly.
 
-I'm a firm believer that design intent is one of the most important things to consider when implementing an engineering design.  It's one of the things that sets Software Engineering apart from programming.  
+I'm a firm believer that design intent is one of the most important things to consider when implementing an engineering design.  It's one of the things that sets Software Engineering apart from programming.
 
  > Software engineering is what happens to programming when you add time and other programmers.
  >
@@ -20,15 +20,15 @@ I'm a firm believer that design intent is one of the most important things to co
 
 I work as a mechanical engineer, designing [injection molds](https://youtu.be/WHwTHarf8Ck?t=51), mostly for medical devices.  All of my designs, once they're finished, go straight out the door into the machine shop, where they start making all the pieces and assembling them together.  Since they don't know everything that went through my head as I was creating each design, I have to find a way to *show* my intent through the design itself.
 
-A lot of times, there are features that are especially critical.  Either the customer has said that they need special tight tolerances there, or the way the mold fits together requires extreme accuracy for some reason.  So, in order to help the machinists create the pieces in a way that will prioritize accuracy on the important bits, I have to leave spots that are specifically square or easy to put in a vice a particular way.  That way, the easiest path for them produces the best results for me.
+A lot of times, some features are especially critical.  Either the customer has said that they need special tight tolerances there, or the way the mold fits together requires extreme accuracy for some reason.  So, to help the machinists create the pieces in a way that will prioritize accuracy on the important bits, I have to leave spots that are specifically square or easy to put in a vice a particular way.  That way, the easiest path for them produces the best results for me.
 
-There are also spots where the dimensions aren't as critical.  For example, if I put a hole in the design that's just for an air vent, I'll make it a nice common size like 6mm.  
+There are also spots where the dimensions aren't as critical.  For example, if I put a hole in the design that's just for an air vent, I'll make it a nice common size like 6mm.
 
-When they're machining this hole and they go to measure how it came out, if they see a number like 5.99mm,  they'll think, "OK, this was probably supposed to be 6mm, so I'm pretty close," and they won't even have to go double-check the dimensions on the CAD or the specification drawing.  Instead, if I was to make it something uncommon, like 5.87mm,   they would look at it, and have this initial reaction:
+When they're machining this hole and they go to measure how it came out, if they see a number like 5.99mm,  they'll think, "OK, this was probably supposed to be 6mm, so I'm pretty close," and they won't even have to go double-check the dimensions on the CAD or the specification drawing.  Instead, if I were to make it something uncommon, like 5.87mm,   they would look at it, and have this initial reaction:
 
 1. Oh, shoot, did I come in super undersized?  Was it supposed to be 6mm?
 2. (They go check the CAD and see that their hole is good and it's just an uncommon size.)
-3. Hmmm.  I'm sure this hole is an uncommon size for a reason.  Maybe it's really important or the customer asked for a special hole here.  I'll need to go talk to Ryan and see what's so important about this hole.
+3. Hmmm.  I'm sure this hole is an uncommon size for a reason.  Maybe it's really important, or the customer asked for a special hole here.  I'll need to go talk to Ryan and see what's so important about this hole.
 4. (SLAM!  They set the chunk of aluminum on my desk daintily.)
 5. (They find out that there's nothing important about this hole, I just picked a weird size, and all of this extra work and worry was for no reason.)
 6. Boy, that Ryan guy, he's a real piece of work. (grumble, swear word, grumble)
@@ -45,11 +45,11 @@ This particular student came up with a pretty clever way to calculate the total.
 bc <<< 'ibase=16;FFFFFFFFFFFFFFFF'
 ```
 
-`bc` is a command-line calculator.  You can pass it strings of arithmetic and it will evaluate them, even for very large integers and floating point numbers.  There are other ways to do calculations without using `bc` in Bash, but, for the sake of simplicity, we'll be looking at how intent can be communicated—or not—while using `bc`.
+`bc` is a command-line calculator.  You can pass it strings of arithmetic, and it will evaluate them, even for very large integers and floating point numbers.  There are other ways to do calculations without using `bc` in Bash, but, for the sake of simplicity, we'll be looking at how intent can be communicated—or not—while using `bc`.
 
 This solution works because the whole exercise revolves around powers of two — and where there are powers of two, there's binary, and where there is binary, there's hexadecimal[^2]!
 
-It is a clever solution, but what is the code telling us?  That hexadecimal is important here?  That the problem fundamentally revolves around 16?  After re-reading the problem statement, it's pretty clear that neither of those are the case.  The student and I brainstormed some ideas for how to more clearly communicate intent.  Here are a few things we came up with:
+It is a clever solution, but what is the code telling us?  That hexadecimal is important here?  That the problem fundamentally revolves around 16?  After re-reading the problem statement, it's pretty clear that neither of those is the case.  The student and I brainstormed some ideas for how to more clearly communicate intent.  Here are a few things we came up with:
 
 ### First option: binary
 
@@ -57,7 +57,7 @@ Because we've got a bunch of things doubling (and thus, a bunch of powers of 2),
 
 ---
 
-The first square has 1 grain on it.  In binary, this would also be `0b1` (the `0b` just meaining "this is a binary number", with the actual number being `1`).
+The first square has 1 grain on it.  In binary, this would also be `0b1` (the `0b` just meaning "this is a binary number", with the actual number being `1`).
 
 The second square has 2 grains on it.  In binary, `0b10`.  The total so far is 3 (or `0b11`).
 
@@ -77,7 +77,7 @@ In the student's solution, we could replace the F's with 64 1's (one for each sq
 bc <<< "ibase=2;1111111111111111111111111111111111111111111111111111111111111111"
 ```
 
-More intentional, because it more closely matches what the problem gives us.  But, we don't speak robot.  A long, essentially uncountable string of 1's is maybe not an improvement.
+More intentional, because it more closely matches what the problem gives us.  But, we don't speak robot.  A long essentially uncountable string of 1's is maybe not an improvement.
 
 ### Second option: the brute-force calculation
 
@@ -137,9 +137,9 @@ And the sum: 1 + 2 + 4 + 8 + 16 + 32 = 63.  Hmm... I'm actually starting to see 
 
 1 + 2 + 4 + 8 + 16 + 32 +64 = 127.  Do you see it?  Anything ringing any alarms with the values 31, 63, 127?
 
-They're *almost* powers of 2.  In fact, they're *one less* than the *next* power of two.  
+They're *almost* powers of 2.  In fact, they're *one less* than the *next* power of two.
 
-One more example, to drive it home.  Imagine a 12-square chess board. That's twelve doublings, or 2 multiplied by itself 12 times (which, in the math biz, is 2^12): 4096. Double that again and you get 8192 (2^13). So... if we got the pattern right, the running total would be *one short* of 8192, also known as 8191. And if we tally it up, that's, exactly what we get: 1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256 + 512 + 1024 + 2048 + 4096 = 8191.
+One more example, to drive it home.  Imagine a 12-square chess board. That's twelve doublings, or 2 multiplied by itself 12 times (which, in the math biz, is 2^12): 4096. Double that again, and you get 8192 (2^13). So... if we got the pattern right, the running total would be *one short* of 8192, also known as 8191. And if we tally it up, that's, exactly what we get: 1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256 + 512 + 1024 + 2048 + 4096 = 8191.
 
 > To put it another way, to find the total for all `n` squares, you need to go up one power of two and subtract 1 from the result.
 
@@ -167,11 +167,11 @@ What's the number of grains on the theoretical 65th square?
 
 How do you get from 1 and 64 zeros down to 64 ones?  You subtract 1.
 
-And what additional benefit does this give us?  Well, now we've got a nice, readable expression for the total.  It doesn't iterate, so performance is good.  And it contains the number 64, which is the number of squares on a chessboard, which is a good example of well-signalled **design intent**.  If, for some reason, in 1000 years, the world standardizes on a 7x7 chessboard, that future engineer (probably using Bash 6.1) will check the script, see what you were going for, and change the 64 to a 49.  All good!
+And what additional benefit does this give us?  Well, now we've got a nice, readable expression for the total.  It doesn't iterate, so performance is good.  And it contains the number 64, which is the number of squares on a chessboard, which is a good example of well-signaled **design intent**.  If for some reason, in 1000 years, the world standardizes on a 7x7 chessboard, that future engineer (probably using Bash 6.1) will check the script, see what you were going for, and change the 64 to a 49.  All good!
 
 ## Stay intentional, my friends
 
-When working out an implementation, it's easy to throw things around and latch onto the first solution that works, and that's fine while you're exploring the problem, but once you fully understand the critical components — if you've got the time to spend giving things a good polish — make sure every algorithm, every variable name, and even your white space draw a picture of the problem, the critical requirements, and how all the pieces fit together.
+When working out an implementation, it's easy to throw things around and latch onto the first solution that works. That's fine while you're exploring the problem, but once you fully understand the critical components—if you've got the time to spend giving things a good polish—make sure every algorithm, every variable name, and even your white space draw a picture of the problem, the critical requirements, and how all the pieces fit together.
 
 [^1]: See also [Thom Holwerda's comic.](https://www.osnews.com/story/19266/wtfsm/)
 [^2]: If you're feeling a little rusty on your binary and hexadecimal counting, @kytrinyx recommends the book [How to Count](https://www.amazon.com/Count-Programming-Mere-Mortals-Book-ebook/dp/B005DPIKPE).  As a shameless plug, I recently wrote [a couple blog posts about binary and hexadecimal too.](https://www.assertnotmagic.com/2018/09/10/binary-hexadecimal-part-1/)

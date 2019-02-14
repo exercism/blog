@@ -44,7 +44,7 @@ Yes, Cody is fairly reserved and he likes to assess a situation quietly before h
 
 Within the storybook there are characters from a range of backgrounds with very different personalities. We hope that we can help reaffirm the belief that difference is something to celebrate. The attendees of Code Club are all very supportive of each other's efforts!
 
-**I love that through the characters, readers are encouraged to warm to children that might be different from them in some way and from people they might be in contact with day-to-day. Let's get into the business side now, how are you spreading the word about your books?**
+**It's so refreshing to read about some multidimensional characters in children's storybooks! Let's get into the business side now, how are you spreading the word about your books?**
 
 After we had finalised the storybooks, website and distribution, and ecommerce sales were at a good level, we set about finding sponsors for the books. We are well aware that the kids who the stories benefit the most aren't the ones whose parents are able to buy them books. The first sponsorship we secured was from a technology publishing company based in Birmingham, called Packt Publishing. Packt sponsored 300 copies of Code-it Cody and gave them out to parents across the city.
 

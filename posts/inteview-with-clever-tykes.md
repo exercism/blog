@@ -8,7 +8,7 @@ Of specific interest to Exercism's members is the second in the series and by fa
 
 Sure. After noticing that many entrepreneurs came from families of other entrepreneurs, we began to research the impact of role models. Turns out, role models are integral in shaping someone's aspirations, and especially influential in their future choice of career. We looked at the role models that exist in current media and weren't satisfied with the selection, so we decided to write our own!
 
-**I love that it led to the creation of new role models to inspire children. So tell me a little about the idea behind Code-it Cody?**
+**I love the idea of encouraging children to think in enterprising ways. Could you tell us a little about the idea behind Code-it Cody?**
 
 We see Code-it Cody as being how we inspire children to want to learn more about coding, regardless of their parents' knowledge or what their school happens to teach. There are several tools available that teach children how to code. Many of the parents of budding coders will know of a few. However, we don't want it to only be the children with parents already tuned in to the world of programming to be the ones that go on to be great programmers. Code-it Cody gives readers the inspiration to begin.
 

@@ -23,7 +23,7 @@ There are very few barriers to entry for kids to take their interest in coding f
 Change-it Cho is a social entrepreneur who champions healthy eating and exercise, something we're both big fans of. Write-it Ryan is about thinking creatively and how to channel a strong imagination into producing content for an audience. We centred Walk-it Willow on a service-based business because our experience of enterprise programmes in schools is that they focus on products. Kids are taught that a viable business is buying and selling; inventing products and holding cake sales, or even lemonade stands, but less about a service they can provide for their community. The story of Walk-it Willow's venture has the lowest barriers to entry for someone to replicate and the story involves cute dogs which readers seem to enjoy!
 
 
-**Poor Bake-it Benny! So in the stories the messages about enterprise are subtle, but there is an element of competition and commercial awareness there. How did you strike the right balance between fiction and non-fiction?**
+**So in the stories the messages about enterprise are subtle, but there is an element of competition and commercial awareness there. How did you strike the right balance between fiction and non-fiction?**
 
 We're not trying to create child businesspeople, we're trying to introduce the mindset and behaviours associated with entrepreneurship to open up future opportunities. The goal is to create a mindset shift and to encourage resilient and resourceful behaviour, not just teach certain skills.
 

@@ -18,7 +18,7 @@ We felt it important to give the stories modern context, so technology plays a r
 
 There are very few barriers to entry for kids to take their interest in coding further. They can pretty much start learning at any time and this kind of accessibility was really important to us.
 
-**This is right up our street! What about the other characters? How did you choose which topics to focus on and were there any you wrote but didn't release?**
+**This is right up our street! What about the other characters? How did you choose which topics to focus on?**
 
 Change-it Cho is a social entrepreneur who champions healthy eating and exercise, something we're both big fans of. Write-it Ryan is about thinking creatively and how to channel a strong imagination into producing content for an audience. We centred Walk-it Willow on a service-based business because our experience of enterprise programmes in schools is that they focus on products. Kids are taught that a viable business is buying and selling; inventing products and holding cake sales, or even lemonade stands, but less about a service they can provide for their community. The story of Walk-it Willow's venture has the lowest barriers to entry for someone to replicate and the story involves cute dogs which readers seem to enjoy!
 

@@ -25,7 +25,7 @@ Change-it Cho is a social entrepreneur who champions healthy eating and exercise
 
 **Poor Bake-it Benny! So in the stories the messages about enterprise are subtle, but there is an element of competition and commercial awareness there. How did you strike the right balance between fiction and non-fiction? **
 
-We're not trying to create child businesspeople, we're trying to introduce the mindset and behaviours associated with entrepreneurship to open up future opportunities. The goal is to create a mindset shift and to encourage resilient and resourceful behaviour, not just business skills.
+We're not trying to create child businesspeople, we're trying to introduce the mindset and behaviours associated with entrepreneurship to open up future opportunities. The goal is to create a mindset shift and to encourage resilient and resourceful behaviour, not just teach certain skills.
 
 The presence of competition plays a role a large parts of our lives, including the worlds of work, business and sport. To shy away from that is rather unenterprising and isn't really preparing children for the future they will enter into!
 

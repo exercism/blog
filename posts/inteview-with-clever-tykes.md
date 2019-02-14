@@ -29,7 +29,7 @@ We're not trying to create child businesspeople, we're trying to introduce the m
 
 The presence of competition plays a role a large parts of our lives, including the worlds of work, business and sport. To shy away from that is rather unenterprising and isn't really preparing children for the future they will enter into!
 
-Commercial awareness is something else we address because it's important to appreciate that in order for something to be financially successful, there must be market demand and a viable business model. Of course, we don't use that kind of language in the story, itself, but the concepts are there for kids to grasp on a basic level and parents to continue the discussions.
+Commercial awareness is something else we address because it's important to understand that in order for an enterprise to be sustainable, there must be market demand and a viable business model. Of course, we don't use that kind of language in the story, itself, but the concepts are there for kids to grasp on a basic level and parents to continue the discussions.
 
 **What has been the impact on children so far?**
 

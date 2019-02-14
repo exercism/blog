@@ -61,3 +61,5 @@ There are so many things to consider when planning, writing, producing and selli
 **Where can we find the Clever Tykes books?**
 
 They are available for the USA [here](http://clevertykes.com/amazonusa), the UK and Europe [here](https://amazon.co.uk/clevertykes), Japan [here](https://www.amazon.co.jp/dp/0992691389), and the rest of the world [here](http://clevertykes.com/).
+
+![Clever Tykes characters on a book](https://assets.exercism.io/blog/inspiring-kids-with-clever-tykes.jpg-book.jpg)

@@ -56,7 +56,7 @@ At the moment we're working on replicating this in the USA.
 
 The main thing is just to get started! Do some research to see what else is out there on a similar topic to get an idea of where your story might fit in, then get planning and writing. Don't underestimate the value of having a great editor and illustrator and don't underestimate the challenge of marketing your book once it's produced.
 
-There are so many things to consider when planning, writing, producing and selling children's books. We are asked about this a lot, so we put everything we know in an article [here](https://medium.com/@cookiewhirls/how-to-sell-thousands-of-childrens-storybooks-without-a-publisher-898ff9544ef9).
+There are so many things to consider when planning, writing, producing and selling children's books. We are asked about this a lot, so we put everything we know in an article [How to-Sell Thousands of Childrens Storybooks Without a Publisher](https://medium.com/@cookiewhirls/how-to-sell-thousands-of-childrens-storybooks-without-a-publisher-898ff9544ef9).
 
 **Where can we find the Clever Tykes books?**
 

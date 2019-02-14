@@ -39,7 +39,7 @@ From the feedback we've received from parents, teachers and kids, Cody and his s
 
 **Cody is an interesting character, he has some typical introvert traits and is hearing impaired - can you tell us more about that?**
 
-Yes, Cody is fairly shy and he likes to assess a situation quietly before he contributes. Cody is hearing impaired to demonstrate to readers that nothing can hold you back unless you let it! He certainly doesn't allow it to stand in his way. We found there are very few characters in kids books with disabilities of any sort. Cody's hearing impairment can be a metaphor for any struggle; the learning is to accept that it's there and move beyond it.
+Yes, Cody is fairly reserved and he likes to assess a situation quietly before he contributes. Cody is hearing impaired to demonstrate to readers to not let things hold them back! He certainly doesn't allow it to stand in his way. We found there are very few characters in kids books with disabilities of any sort. Cody's hearing impairment can be a metaphor for any obstacle in life; the learning is to accept that it's there and move beyond it.
 
 Within the storybook there are characters from a range of backgrounds with very different personalities. We hope that we can help reaffirm the belief that difference is something to celebrate. The attendees of Code Club are all very supportive of each other's efforts!
 

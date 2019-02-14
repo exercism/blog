@@ -1,4 +1,4 @@
-_I'm chatting to Jodie and Ben Cook who have a series of storybooks for children including one that inspires children to learn to code._
+_I'm chatting to Jodie and Ben Cook who have a series of storybooks including one that inspires children to learn to code._
 
 **Hello! Could you give us a quick overview of your Clever Tykes books?**
 

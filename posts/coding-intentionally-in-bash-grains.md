@@ -139,7 +139,7 @@ And the sum: 1 + 2 + 4 + 8 + 16 + 32 = 63.  Hmm... I'm actually starting to see 
 
 They're *almost* powers of 2.  In fact, they're *one less* than the *next* power of two.
 
-One more example, to drive it home.  Imagine a 12-square chess board. That's twelve doublings, or 2 multiplied by itself 12 times (which, in the math biz, is 2^12): 4096. Double that again, and you get 8192 (2^13). So... if we got the pattern right, the running total would be *one short* of 8192, also known as 8191. And if we tally it up, that's, exactly what we get: 1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256 + 512 + 1024 + 2048 + 4096 = 8191.
+One more example, to drive it home.  Imagine a 12-square chess board. That's one, doubled 11 times (which, in the math biz, is 2^11): 2048. Double that again, and you get 4096 (2^12). So... if we got the pattern right, the running total would be *one short* of 4096, also known as 4095. And if we tally it up, that's, exactly what we get: 1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256 + 512 + 1024 + 2048 = 4095.
 
 > To put it another way, to find the total for all `n` squares, you need to go up one power of two and subtract 1 from the result.
 

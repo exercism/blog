@@ -135,6 +135,7 @@
     "content_filepath": "posts/coding-intentionally-in-bash-grains.md",
     "title": "Coding Intentionally in Bash Grains",
     "author_handle": "rpalo",
-    "marketing_copy": "Often, there are many approaches that all solve the same problem.  Coming up with one that communicates your thought process and goals to others is the hard part."
+    "marketing_copy": "Often, there are many approaches that all solve the same problem.  Coming up with one that communicates your thought process and goals to others is the hard part.",
+    "image_url": "https://assets.exercism.io/blog/social/coding-intentionally-in-bash-grains.png"
   }
 ]

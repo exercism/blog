@@ -124,5 +124,18 @@
     "author_handle": "nicolechalmers",
     "marketing_copy": "Meet Code-it Cody, a computer whizz who starts coding at school - part of the Clever Tykes of storybooks and resources which inspire children to develop positive, resourceful and creative behaviour.",
     "image_url": "https://assets.exercism.io/blog/social/inspiring-kids-with-clever-tykes.jpg"
+  },
+  {
+    "uuid": "e6f3da5f-98b9-4cf7-be0b-447890aff367",
+    "slug": "coding-intentionally-in-bash-grains",
+    "category": "programming skills",
+    "language": "bash",
+    "published_at": "2019-02-14 01:00",
+    "content_repository": "blog",
+    "content_filepath": "posts/coding-intentionally-in-bash-grains.md",
+    "title": "Coding Intentionally in Bash Grains",
+    "author_handle": "rpalo",
+    "marketing_copy": "Ryan Palo explores the concepts of 'intentional coding' and 'design intent' in this excellent walkthrough of the Grains exercise in Bash. Thinking of ways to solve a problem is easy- designing one that communicates your thought process and goals to others is the hard part.",
+    "image_url": "https://assets.exercism.io/blog/social/coding-intentionally-in-bash-grains.png"
   }
 ]

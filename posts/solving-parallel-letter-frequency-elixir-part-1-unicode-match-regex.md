@@ -1,6 +1,8 @@
-# "Solving Parallel Letter Frequency in Elixir - Part I: Unicode Matching in Elixir"
+# 1. What Parallel Letter Frequency can teach you about Unicode matching in Elixir
 
-[Parallel Letter Frequency](https://exercism.io/tracks/elixir/exercises/parallel-letter-frequency) is a medium difficulty problem on [Exercism's Elixir Track](https://exercism.io/tracks/elixir) that I found really interesting to solve. You need to write a function that calculates the frequency of letters in a list of strings containing _non-English characters_ with a user-controlled number of workers that do the calculation _concurrently_:
+Exercises on Exercism are small, synthetic, and often seemingly trivial. It’s easy to imagine that experienced practitioners would have nothing to learn from them. However, solving these synthetic problems can push you to learn and apply parts of your language that you may not have explored. This new learning can lead you to solve real world problems more efficiently or in a more expressive way.
+
+[Parallel Letter Frequency](https://exercism.io/tracks/elixir/exercises/parallel-letter-frequency) is a medium difficulty exercise on [Exercism's Elixir Track](https://exercism.io/tracks/elixir). It asks you to write a function that calculates the frequency of letters in a list of strings, and to do so concurrently. This unpacks a surprising number of interesting lessons.
 
 ```elixir
 iex> Frequency.frequency(["Freude", "schöner", "Götterfunken"], num_workers)
@@ -13,16 +15,7 @@ iex> Frequency.frequency(["Freude", "schöner", "Götterfunken"], num_workers)
 }
 ```
 
-Luckily for all the Alchemists out there, Elixir has core features that make meeting these requirements relatively simple. But -- if you're like me -- you might have never used or even heard of them. The features I'm talking about are:
-
-1. Unicode matching in the [Regex module](https://hexdocs.pm/elixir/Regex.html)
-2. Using the [`Task` module](https://hexdocs.pm/elixir/Task.html) to write concurrent code
-
-Prior to solving this problem I barely knew about these features, but I would now consider them an indispensible part of my Elixir toolbox. To me, this really demonstrates the value of Exercism even for more-experienced developers: solving challenging "synthetic" problems pushes you to learn and apply parts of your language that you may not have explored. Often this new learning lets you solve "real world" problems in your production code in a more efficient or expressive way.
-
-In this post I'll walk you through the first feature: how to apply Unicode matching in Elixir to solve part of this Exercism problem. In future posts I'll explore how to use the `Task` module to add concurrency to the solution, and then how to benchmark your code to check whether adding concurrency actually made the function any faster. As you'll see in the final part, although concurrency might be seen as a "free" way to make your code faster, in some cases it can have the opposite effect (gasp!).
-
-✅ [View my published solution on Exercism](https://exercism.io/tracks/elixir/exercises/parallel-letter-frequency/solutions/cc80004beded4749bce81b5dc0820952).
+Luckily for all the Alchemists out there, Elixir has some core features that make solving this problem relatively simple. But -- if you're like me -- you might have never used them prior to starting this problem. One such feature is Unicode matching, and in this post I'll walk you through how I used it to help me solve the Parallel Letter Frequency problem.
 
 ## Determine whether a character is a letter in Elixir
 
@@ -106,6 +99,8 @@ defp count_letters(graphemes) do
 end
 ```
 
-## The next step: adding concurrency
+## Conclusion
 
-Determining whether a character is a letter was just the first hurdle in solving this problem. The problem of concurrency still remains and in the next post I'll explore how to use the `Task` module to add concurrency to the solution.
+It turns out that matching non-English letters becomes pretty simple when you know about Unicode matching, and luckily for us it's a core feature in Elixir. Prior to solving this problem I barely knew about this feature, but I would now consider it an indispensable part of my Elixir toolbox. If you also just learned about Unicode matches, I hope this post has given you some ideas about how you might apply it in your application.
+
+✅ [View my published solution on Exercism](https://exercism.io/tracks/elixir/exercises/parallel-letter-frequency/solutions/cc80004beded4749bce81b5dc0820952).

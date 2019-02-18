@@ -1,21 +1,29 @@
----
-title: "Solving Parallel Letter Frequency in Elixir - Part III: Benchmarking the Code"
-date: 2018-06-27T21:29:19+08:00
-draft: true
----
-In `Part I` I showed how I applied Unicode matching in Elixir to help me solve the first part of [Parallel Letter Frequency](https://exercism.io/tracks/elixir/exercises/parallel-letter-frequency), a medium difficulty problem on [Exercism's Elixir Track](https://exercism.io/tracks/elixir). In `Part II` I tackled the next part of the problem -- adding concurrency -- and explored how you can use Elixir's `Task` module to do this.
+# 3. What Parallel Letter Frequency can teach you about benchmarking in Elixir
 
-In this final part I'll walk you through how to benchmark the Elixir code to determine whether or not adding concurrency actually made it any faster. As you'll see, although concurrency might be seen as a "free" way to make your code faster, in some cases it can have the opposite effect. 
+Exercises on Exercism are small, synthetic, and often seemingly trivial. It’s easy to imagine that experienced practitioners would have nothing to learn from them. However, solving these synthetic problems can push you to learn and apply parts of your language that you may not have explored. This new learning can lead you to solve real world problems more efficiently or in a more expressive way.
 
-The concurrent code in my solution ran around **80% faster** on my system for certain workloads, but in some cases was over **3x slower than the original code**. As the benchmarks later in the post demonstrate, depending on the situation, adding concurrency can actually **reduce performance while also increasing the complexity of your code**.
+[Parallel Letter Frequency](https://exercism.io/tracks/elixir/exercises/parallel-letter-frequency) is a medium difficulty exercise on [Exercism's Elixir Track](https://exercism.io/tracks/elixir). It asks you to write a function that calculates the frequency of letters in a list of strings, and to do so concurrently. This unpacks a surprising number of interesting lessons.
 
-✅ [View my published solution on Exercism](https://exercism.io/tracks/elixir/exercises/parallel-letter-frequency/solutions/cc80004beded4749bce81b5dc0820952).
+```elixir
+iex> Frequency.frequency(["Freude", "schöner", "Götterfunken"], num_workers)
+%{
+  "c" => 1, 
+  "d" => 1, 
+  "e" => 5, 
+  ...
+  "ö" => 2
+}
+```
+
+A major part of solving this problem was adding concurrency, but what's the point of adding concurrency if you can get the same result with sequential code? The primary reason for writing concurrent code is to make it faster, and although concurrency might be seen as a "free" way to make your code faster, in some cases it can have the opposite effect. In this post I'll walk you through how to benchmark Elixir code to determine whether or not adding concurrency actually increases performance.
+
+The concurrent code in my solution ran around **80% faster** on my system for certain workloads, but in some cases was over **3x slower than the sequential code**. As the benchmarks later in the post demonstrate, depending on the situation, adding concurrency can actually **reduce performance while also increasing the complexity of your code**.
 
 ## Does concurrency actually make the code faster?
 
-The `frequency/2` function can now do the letter frequency calculation concurrently, **but does the concurrent code run any faster?** Theoretically, concurrency can speed up code on a system by distributing work across all available CPU cores, but it's a really good idea test this assumption before accepting the additional complexity and potential fragility that concurrency adds to your code.
+Theoretically, concurrency can speed up code on a system by distributing work across all available CPU cores, but it's a really good idea test this assumption before accepting the additional complexity and potential fragility that concurrency adds to your code.
 
-I split the clauses of the function based on the number of workers to allow me to test the concurrent and non-concurrent implementations separately:
+I split the clauses of my solution's `frequency/2` function based on the number of workers to allow me to test the concurrent and sequential implementations separately:
 
 ```elixir
 def frequency([], _workers), do: %{}
@@ -35,7 +43,7 @@ def frequency(texts, workers) do
 end
 ```
 
-The original implementation of the function is called when `workers == 1`, and the concurrent implementation when `workers > 1`. This allows me to benchmark both the sequential and concurrent versions of the function for the same input by simply varying the `workers` argument.
+The sequential implementation of the function is called when `workers == 1`, and the concurrent implementation when `workers > 1`. This allows me to benchmark both the sequential and concurrent versions of the function for the same input by simply varying the `workers` argument.
 
 ### Benchmarking the function
 
@@ -135,7 +143,7 @@ text = "The quick brown fox jumps over the lazy dog"
 texts = List.duplicate(text, duplicates)
 
 Benchee.run(%{
-  "original code" => fn -> Frequency.frequency(texts, 1) end,
+  "sequential code" => fn -> Frequency.frequency(texts, 1) end,
   "concurrent code: 2 workers" => fn -> Frequency.frequency(texts, 2) end,
   "concurrent code: 4 workers" => fn -> Frequency.frequency(texts, 4) end,
   "concurrent code: 8 workers" => fn -> Frequency.frequency(texts, 8) end
@@ -179,19 +187,19 @@ Erlang 21.1.1
 ...
 
 Name                                 ips        average  deviation         median         99th %
-original code                    18.91 K       52.88 μs    ±26.19%          49 μs         114 μs
+sequential code                  18.91 K       52.88 μs    ±26.19%          49 μs         114 μs
 concurrent code: 2 workers        8.96 K      111.59 μs    ±26.41%         103 μs         230 μs
 concurrent code: 4 workers        7.27 K      137.57 μs    ±24.44%         125 μs         285 μs
 concurrent code: 8 workers        6.00 K      166.76 μs    ±22.26%         154 μs         329 μs
 
 Comparison:
-original code                    18.91 K
+sequential code                  18.91 K
 concurrent code: 2 workers        8.96 K - 2.11x slower
 concurrent code: 4 workers        7.27 K - 2.60x slower
 concurrent code: 8 workers        6.00 K - 3.15x slower
 ```
 
-For `duplicates == 1`, the concurrent code is **slower** than the original code by a significant amount. In fact, the code gets slower as the workers increase, with 8 workers being over **3 times slower** than the original code.
+For `duplicates == 1`, the concurrent code is **slower** than the sequential code by a significant amount. In fact, the code gets slower as the workers increase, with 8 workers being over **3 times slower** than the sequential code.
 
 I sort of expected this. The `text` is so short that with `duplicates == 1` there is likely to be much more time spent in breaking up the text, spawning separate processes and merging the results than the actual letter frequency computation.
 
@@ -212,16 +220,16 @@ Name                                 ips        average  deviation         media
 concurrent code: 8 workers        190.34        5.25 ms    ±10.34%        5.08 ms        7.24 ms
 concurrent code: 4 workers        182.38        5.48 ms     ±8.78%        5.34 ms        7.18 ms
 concurrent code: 2 workers        176.21        5.67 ms     ±8.98%        5.52 ms        7.55 ms
-original code                     159.70        6.26 ms     ±9.47%        6.07 ms        8.71 ms
+sequential code                   159.70        6.26 ms     ±9.47%        6.07 ms        8.71 ms
 
 Comparison:
 concurrent code: 8 workers        190.34
 concurrent code: 4 workers        182.38 - 1.04x slower
 concurrent code: 2 workers        176.21 - 1.08x slower
-original code                     159.70 - 1.19x slower
+sequential code                   159.70 - 1.19x slower
 ```
 
-With `duplicates == 100` the concurrent code started to perform better than the original code by a small margin. There was little difference between 4 and 8 workers, but both were around 20% faster than the original code.
+With `duplicates == 100` the concurrent code started to perform better than the sequential code by a small margin. There was little difference between 4 and 8 workers, but both were around 20% faster than the sequential code.
 
 For such a small improvement, the additional complexity added by the concurrent code is probably not worthwhile at this workload.
 
@@ -242,16 +250,16 @@ Name                                 ips        average  deviation         media
 concurrent code: 8 workers         28.04       35.66 ms    ±17.33%       33.45 ms       56.97 ms
 concurrent code: 4 workers         26.72       37.42 ms    ±15.06%       35.69 ms       58.45 ms
 concurrent code: 2 workers         20.84       47.98 ms    ±11.75%       46.48 ms       73.73 ms
-original code                      15.34       65.21 ms    ±12.37%       62.90 ms       88.35 ms
+sequential code                    15.34       65.21 ms    ±12.37%       62.90 ms       88.35 ms
 
 Comparison:
 concurrent code: 8 workers         28.04
 concurrent code: 4 workers         26.72 - 1.05x slower
 concurrent code: 2 workers         20.84 - 1.35x slower
-original code                      15.34 - 1.83x slower
+sequential code                    15.34 - 1.83x slower
 ```
 
-At `duplicates == 1000` there was a significant difference between the original code and the concurrent code, with 4 and 8 workers both around 80% faster.
+At `duplicates == 1000` there was a significant difference between the sequential code and the concurrent code, with 4 and 8 workers both around 80% faster.
 
 The difference between 4 and 8 workers was minimal, most likely because the number of physical cores on my system is 4. The value of `8` reported by `benchee` is due to my processor having [`Hyper-threading`](https://en.wikipedia.org/wiki/Hyper-threading), which doubles the number of _logical_ cores seen by the OS.
 
@@ -272,23 +280,23 @@ Name                                 ips        average  deviation         media
 concurrent code: 8 workers          2.59      386.24 ms     ±3.59%      388.54 ms      404.97 ms
 concurrent code: 4 workers          2.40      417.01 ms     ±5.90%      413.12 ms      464.11 ms
 concurrent code: 2 workers          1.91      523.79 ms     ±3.70%      525.62 ms      564.83 ms
-original code                       1.44      696.58 ms     ±4.97%      690.44 ms      750.42 ms
+sequential code                     1.44      696.58 ms     ±4.97%      690.44 ms      750.42 ms
 
 Comparison:
 concurrent code: 8 workers          2.59
 concurrent code: 4 workers          2.40 - 1.08x slower
 concurrent code: 2 workers          1.91 - 1.36x slower
-original code                       1.44 - 1.80x slower
+sequential code                     1.44 - 1.80x slower
 ```
 
 At `duplicates == 10_000` the concurrent code was still the clear victor. `8 workers` performed the best on my system, at around 80% faster than the original non-concurrent implementation. 
 
-On average, `8 workers` computed the result over `300ms` faster than the original code (`386ms` vs `696ms`), which is pretty significant. 
+On average, `8 workers` computed the result over `300ms` faster than the sequential code (`386ms` vs `696ms`), which is pretty significant. 
 
 ## Conclusion
 
-In this series of posts, I walked you through how I used 2 awesome features of Elixir to help me solve the [Parallel Letter Frequency problem](https://exercism.io/tracks/elixir/exercises/parallel-letter-frequency) on [Exercism's Elixir Track](https://exercism.io/tracks/elixir). I hope it's been useful for you to be able see my approach to solving the problem and perhaps it gave you some ideas about how you might use the `Task` module to add concurrency to your applications. **But beware:** as the benchmarks demonstrate, depending on your specific workload, adding concurrency can actually _reduce_ performance while also making your code more complex. When in doubt, write the [cleanest, most expressive code you can](https://www.oreilly.com/library/view/code-complete-second/0735619670/) and test whether or not changes _actually_ improve performance.
+The `frequency/2` function ran around **80% faster** on my system for certain workloads by using 4 to 8 workers. This improvement could be crucial for your application -- returning a result in around half the time could be the difference between acceptable and unusable.
 
-I was able to make the `frequency/2` function run around **80% faster** on my system for certain workloads by using 4 to 8 workers. This improvement could be crucial for your application -- returning a result in around half the time could be the difference between acceptable and unusable. But if your application demands such high CPU performance for acceptable usability, Elixir may not be the correct technology choice.
+However, as the benchmarks demonstrate, depending on your specific workload, adding concurrency can actually _reduce_ performance while also making your code more complex. When in doubt, write the [cleanest, most expressive code you can](https://www.oreilly.com/library/view/code-complete-second/0735619670/) and use a tool like `benchee` to test whether changes to your code _actually_ improve performance or not.
 
-This shouldn't be interpreted as a criticism of Elixir's `Task` module, which is an incredibly useful toolbox for writing asynchronous code with ease. Rather than applying `Task` for CPU-bound tasks like the letter frequency calculation, a better-suited application might be to make [multiple HTTP requests concurrently](https://www.toptechskills.com/elixir-phoenix-tutorials-courses/clean-concurrent-code-elixir-task-module/#sequential-vs-concurrent-code). Rather than waiting for each request to succeed/fail before initiating the next one, initiate all the requests at the same time and return once all of them are complete. This could shave off hundreds of milliseconds and significantly improve the experience for users, or even your [`PageSpeed`](https://developers.google.com/speed/) results.
+✅ [View my published solution on Exercism](https://exercism.io/tracks/elixir/exercises/parallel-letter-frequency/solutions/cc80004beded4749bce81b5dc0820952).

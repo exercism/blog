@@ -1,6 +1,8 @@
-# "Solving Parallel Letter Frequency in Elixir - Part II: Adding Concurrency with `Task`"
+# 2. What Parallel Letter Frequency can teach you about concurrency with Elixir’s `Task` module
 
-In `Part I` I showed how I applied Unicode matching in Elixir to help me solve the first part of [Parallel Letter Frequency](https://exercism.io/tracks/elixir/exercises/parallel-letter-frequency), a medium difficulty problem on [Exercism's Elixir Track](https://exercism.io/tracks/elixir).
+Exercises on Exercism are small, synthetic, and often seemingly trivial. It’s easy to imagine that experienced practitioners would have nothing to learn from them. However, solving these synthetic problems can push you to learn and apply parts of your language that you may not have explored. This new learning can lead you to solve real world problems more efficiently or in a more expressive way.
+
+[Parallel Letter Frequency](https://exercism.io/tracks/elixir/exercises/parallel-letter-frequency) is a medium difficulty exercise on [Exercism's Elixir Track](https://exercism.io/tracks/elixir). It asks you to write a function that calculates the frequency of letters in a list of strings, and to do so concurrently. This unpacks a surprising number of interesting lessons.
 
 ```elixir
 iex> Frequency.frequency(["Freude", "schöner", "Götterfunken"], num_workers)
@@ -13,15 +15,11 @@ iex> Frequency.frequency(["Freude", "schöner", "Götterfunken"], num_workers)
 }
 ```
 
-In this post I'll tackle the next part of the problem -- adding concurrency -- and explore how you can use Elixir's `Task` module to do this.
-
-In the next and final part, you'll see how to benchmark your code to check whether adding concurrency actually made the function any faster. The results may not be what you expect.
-
-✅ [View my published solution on Exercism](https://exercism.io/tracks/elixir/exercises/parallel-letter-frequency/solutions/cc80004beded4749bce81b5dc0820952).
+Luckily for all the Alchemists out there, Elixir has some core features that make solving this problem relatively simple. But -- if you're like me -- you might have never used them prior to starting this problem. Elixir's `Task` module makes writing concurrent code unbelievably easy and clean, and I found it crucial for solving this Exercism problem. In this post I'll walk you through how I applied the `Task` module to add concurrency to my solution.
 
 ## How to make your code concurrent using the `Task` module
 
-The second major challenge in solving this problem was adding concurrency. The function is required to do the letter frequency calculation by distributing the work to a number of worker processes, which the user can set with the `workers` argument.
+Adding concurrency was a major challenge in solving this problem. The function is required to do the letter frequency calculation by distributing the work to a number of worker processes, which the user can set with the `workers` argument.
 
 While Elixir allows you to very easily spawn processes with functions like [`Kernel.spawn_link/1`](https://hexdocs.pm/elixir/Kernel.html#spawn_link/1), you're much better off using the awesomely powerful abstractions provided by the [`Task` module](https://hexdocs.pm/elixir/Task.html):
 
@@ -77,8 +75,11 @@ defp merge_results_stream(results_stream) do
 end
 ```
 
-## Does concurrency actually make the code faster?
+## Conclusion
 
-The `frequency/2` function can now do the letter frequency calculation concurrently, **but does the concurrent code run any faster?** Theoretically, concurrency can speed up code on a system by distributing work across all available CPU cores, but it's a really good idea test this assumption before accepting the additional complexity and potential fragility that concurrency adds to your code.
+Once I discovered the awesomely powerful `Task` module, adding concurrency to the solution turned out to be easier than expected. The concurrent code added some extra complexity because it needs to split up the list of graphemes and combine the results from all the workers, but even by my standards I would say that the end result is surprisingly clean. 
 
-In the next and final part, I'll show you how you can benchmark your code to check whether adding concurrency actually made the function any faster.
+I hope you've seen how useful `Task` is when it comes to writing clean concurrent code in Elixir, and maybe you even got some ideas about how you might use the functions in `Task` in your own application. Just remember that concurrency won't always increase the speed of your code, so please make sure to test the performance impact of any changes you make.
+
+✅ [View my published solution on Exercism](https://exercism.io/tracks/elixir/exercises/parallel-letter-frequency/solutions/cc80004beded4749bce81b5dc0820952).
+

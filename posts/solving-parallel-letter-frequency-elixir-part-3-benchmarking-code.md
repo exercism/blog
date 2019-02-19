@@ -1,11 +1,11 @@
-# 3. What Parallel Letter Frequency can teach you about benchmarking in Elixir
-
 Exercises on Exercism are small, synthetic, and often seemingly trivial. It’s easy to imagine that experienced practitioners would have nothing to learn from them. However, solving these synthetic problems can push you to learn and apply parts of your language that you may not have explored. This new learning can lead you to solve real world problems more efficiently or in a more expressive way.
 
-[Parallel Letter Frequency](https://exercism.io/tracks/elixir/exercises/parallel-letter-frequency) is a medium difficulty exercise on [Exercism's Elixir Track](https://exercism.io/tracks/elixir). It asks you to write a function that calculates the frequency of letters in a list of strings, and to do so concurrently. This unpacks a surprising number of interesting lessons.
+[Parallel Letter Frequency](https://exercism.io/tracks/elixir/exercises/parallel-letter-frequency) is a medium difficulty exercise on [Exercism's Elixir Track](https://exercism.io/tracks/elixir) that unpacks a surprising number of interesting lessons. One of those lessons is that although concurrency might be seen as a "free" way to make your code faster, in some cases it can have the opposite effect, which has clear implications for anyone writing applications whose performance could be impacted by concurrent code.
+
+This exercise requires you to implement a `Frequency.frequency/2` function that determines letter frequency in a list of strings, with the added challenge of distributing the calculation to a number of worker processes, set with the `workers` argument:
 
 ```elixir
-iex> Frequency.frequency(["Freude", "schöner", "Götterfunken"], num_workers)
+iex> Frequency.frequency(["Freude", "schöner", "Götterfunken"], workers)
 %{
   "c" => 1, 
   "d" => 1, 
@@ -15,15 +15,17 @@ iex> Frequency.frequency(["Freude", "schöner", "Götterfunken"], num_workers)
 }
 ```
 
-A major part of solving this problem was adding concurrency, but what's the point of adding concurrency if you can get the same result with sequential code? The primary reason for writing concurrent code is to make it faster, and although concurrency might be seen as a "free" way to make your code faster, in some cases it can have the opposite effect. In this post I'll walk you through how to benchmark Elixir code to determine whether or not adding concurrency actually increases performance.
+The primary reason for writing concurrent code is to make it faster, but is your concurrent solution to this exercise actually faster than a regular sequential implementation? In this post I'll walk you through how to benchmark your Elixir code to determine whether or not adding concurrency actually increases performance. 
 
-The concurrent code in my solution ran around **80% faster** on my system for certain workloads, but in some cases was over **3x slower than the sequential code**. As the benchmarks later in the post demonstrate, depending on the situation, adding concurrency can actually **reduce performance while also increasing the complexity of your code**.
+This post uses [my solution code](https://exercism.io/tracks/elixir/exercises/parallel-letter-frequency/solutions/cc80004beded4749bce81b5dc0820952) in the examples, but you can easily apply the process to benchmark your own solution, and I encourage you to do so.
 
-## Does concurrency actually make the code faster?
+## Why should you write concurrent code?
 
 Theoretically, concurrency can speed up code on a system by distributing work across all available CPU cores, but it's a really good idea test this assumption before accepting the additional complexity and potential fragility that concurrency adds to your code.
 
-I split the clauses of my solution's `frequency/2` function based on the number of workers to allow me to test the concurrent and sequential implementations separately:
+To compare your sequential and concurrent code, you'll need some way to control which version of the code gets called. In this exercise, the `workers` argument controls the number of worker processes that are used to do the letter frequency calculation. It makes sense to call the sequential implementation when `workers == 1`, and the concurrent implementation when `workers > 1`.
+
+Here's the way I split the sequential and concurrent implementations of `Frequency.frequency/2` from [my solution](https://exercism.io/tracks/elixir/exercises/parallel-letter-frequency/solutions/cc80004beded4749bce81b5dc0820952):
 
 ```elixir
 def frequency([], _workers), do: %{}
@@ -43,9 +45,9 @@ def frequency(texts, workers) do
 end
 ```
 
-The sequential implementation of the function is called when `workers == 1`, and the concurrent implementation when `workers > 1`. This allows me to benchmark both the sequential and concurrent versions of the function for the same input by simply varying the `workers` argument.
+If you've done something similar with your own solution, you're ready to benchmark it.
 
-### Benchmarking the function
+## Benchmarking Elixir code
 
 There are a number of ways to benchmark Elixir code:
 
@@ -53,13 +55,11 @@ There are a number of ways to benchmark Elixir code:
 2. Use Erlang's [`:timer.tc/1`](http://www.erlang.org/doc/man/timer.html#tc-1) to time how long an Elixir function takes to execute
 3. Use the [`time` command](https://en.wikipedia.org/wiki/Time_(Unix)) found on Unix and Unix-like operating systems to time the execution of an Elixir script (`.exs`)
 
-I felt that option 1 was the best overall; it required the most work, but gave the best results. 
+I highly suggest using `benchee` for benchmarking Elixir code, it takes a little more work than the other options, but gives you way better results. Since `benchee` is an external dependency, you'll need to convert your `Frequency` module into a [`Mix`](https://hexdocs.pm/mix/Mix.html) application before using it.
 
-Since `benchee` is an external dependency, I first needed to convert the `Frequency` module into a [`Mix`](https://hexdocs.pm/mix/Mix.html) application.
+## Convert your `Frequency` module into a `Mix` application
 
-### Convert `Frequency` into a `Mix` application
-
-I first created a new `Mix` application called `frequency` with `mix new`:
+You can create a new `Mix` application inside your Exercism solution directory by running `mix new frequency`:
 
 ```shell
 $ mix new frequency
@@ -74,7 +74,7 @@ You can use "mix" to compile it, test it, and more:
 Run "mix help" for more commands.
 ```
 
-I then installed `benchee` by adding it to the `deps` in `mix.exs` and running `mix deps.get`:
+Then simply install `benchee` by adding it to the `deps` in `mix.exs` and running `mix deps.get`:
 
 ```elixir
 # mix.exs
@@ -98,7 +98,7 @@ New:
 * Getting deep_merge (Hex package)
 ```
 
-Finally, I copied the contents of the original `frequency.exs` into `lib/frequency.ex`:
+Finally, copy the contents of your Exercism solution's `frequency.exs` into `frequency/lib/frequency.ex`:
 
 ```elixir
 # lib/frequency.ex
@@ -109,27 +109,14 @@ defmodule Frequency do
 
   def frequency(texts, 1) do
   ...
-
   def frequency(texts, workers) do
-  ...
-
-  defp split_into_chunks(all_graphemes, num_chunks) do
-  ...
-
-  defp merge_results_stream(results_stream) do
-  ...
-
-  defp get_all_graphemes(texts) do
-  ...
-
-  def count_letters(graphemes) do
   ...
 end
 ```
 
-### Create a script that calls `benchee` to benchmark the code
+## Create a script that calls `benchee` to benchmark the code
 
-To actually benchmark the code, I created an Elixir script that calls [`Benchee.run/2`](https://hexdocs.pm/benchee/Benchee.html#run/2) to benchmark the function with different numbers of `workers`:
+You can use `benchee` in `IEx`, but I recommend making an [Elixir script (`.exs`)](https://elixir-lang.org/getting-started/introduction.html#running-scripts) to make it easy to re-run later. I would suggest writing a script called `benchmark.exs` that calls [`Benchee.run/2`](https://hexdocs.pm/benchee/Benchee.html#run/2). Here's some code you can use for benchmarking `Frequency.frequency/2`:
 
 ```elixir
 # benchmark.exs
@@ -157,9 +144,7 @@ iex> List.duplicate("hello", 3)
 ["hello", "hello", "hello"]
 ```
 
-The `duplicates` variable is set from the first command line argument from [`System.argv/0`](https://hexdocs.pm/elixir/System.html#argv/0), so I was able to vary the size of `texts` by changing its value. 
-
-For example, I could set `duplicates` to `1` by running:
+The `duplicates` variable is set from the first command line argument to the script by using [`System.argv/0`](https://hexdocs.pm/elixir/System.html#argv/0), so you can vary the size of `texts` by changing its value.  For example, you could set `duplicates` to `1` by running:
 
 ```shell
 $ mix run benchmark.exs 1
@@ -171,7 +156,9 @@ Or `1000` by running:
 $ mix run benchmark.exs 1000
 ```
 
-## Concurrent vs non-current benchmark results 
+## My sequential vs concurrent benchmark results
+
+The next few sections go through the results of benchmarking my solution code with the `benchmark.exs` above. If you're following along, you can test your implementation with the same script and compare your results with mine.
 
 ### Benchmark results: `duplicates == 1`
 
@@ -201,7 +188,7 @@ concurrent code: 8 workers        6.00 K - 3.15x slower
 
 For `duplicates == 1`, the concurrent code is **slower** than the sequential code by a significant amount. In fact, the code gets slower as the workers increase, with 8 workers being over **3 times slower** than the sequential code.
 
-I sort of expected this. The `text` is so short that with `duplicates == 1` there is likely to be much more time spent in breaking up the text, spawning separate processes and merging the results than the actual letter frequency computation.
+This makes sense: the `text` is so short that with `duplicates == 1` there is likely to be much more time spent in breaking up the text, spawning separate processes and merging the results than the actual letter frequency computation.
 
 ### Benchmark results: `duplicates == 100`
 
@@ -289,14 +276,14 @@ concurrent code: 2 workers          1.91 - 1.36x slower
 sequential code                     1.44 - 1.80x slower
 ```
 
-At `duplicates == 10_000` the concurrent code was still the clear victor. `8 workers` performed the best on my system, at around 80% faster than the original non-concurrent implementation. 
+At `duplicates == 10_000` the concurrent code was still the clear victor. `8 workers` performed the best on my system, at around 80% faster than the sequential implementation. 
 
-On average, `8 workers` computed the result over `300ms` faster than the sequential code (`386ms` vs `696ms`), which is pretty significant. 
+On average, `8 workers` computed the result over `300ms` faster than the sequential code (`386ms` vs `696ms`), which is pretty significant.
 
 ## Conclusion
 
-The `frequency/2` function ran around **80% faster** on my system for certain workloads by using 4 to 8 workers. This improvement could be crucial for your application -- returning a result in around half the time could be the difference between acceptable and unusable.
+This Exercism exercise really highlights that although concurrency might be seen as a "free" way to make your code faster, in some cases it can have the opposite effect, which has clear implications for anyone writing applications whose performance could be impacted by concurrent code.
 
-However, as the benchmarks demonstrate, depending on your specific workload, adding concurrency can actually _reduce_ performance while also making your code more complex. When in doubt, write the [cleanest, most expressive code you can](https://www.oreilly.com/library/view/code-complete-second/0735619670/) and use a tool like `benchee` to test whether changes to your code _actually_ improve performance or not.
+The concurrent code in my solution ran around **80% faster** on my system for certain workloads, but in some cases was over **3x slower than the sequential code**. An 80% improvement could be crucial for your application -- returning a result in around half the time could be the difference between acceptable and unusable. However, depending on your specific situation, adding concurrency has the potential to actually _reduce_ performance while also making your code more complex.
 
-✅ [View my published solution on Exercism](https://exercism.io/tracks/elixir/exercises/parallel-letter-frequency/solutions/cc80004beded4749bce81b5dc0820952).
+Benchmarking your code with `benchee` is simple enough that you don't need to make assumptions about the effect a code change has on performance. When in doubt, write the [cleanest, most expressive code you can](https://www.oreilly.com/library/view/code-complete-second/0735619670/) and use `benchee` to test whether changes to your code _actually_ improve performance or not.

@@ -109,8 +109,6 @@ iex> String.match?("Ж", ~r/^\p{L}$/u)
 true
 ```
 
-![Mind blown.](https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif)
-
 ## Applying Unicode matching to the problem at hand
 
 Now that we have a tool that can help us determine whether or not a grapheme is a letter, we can apply it to solve the problem. An initial implementation of the `Frequency.frequency/2` function might look like this:

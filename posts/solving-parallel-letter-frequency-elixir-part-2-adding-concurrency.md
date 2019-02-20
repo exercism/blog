@@ -42,7 +42,7 @@ The first option is simple and easy to understand, and lets you ensure the corre
 
 Here's a diagram of how you could apply `Task.async_stream/5` to parallelize the letter frequency calculation:
 
-{{< figure src="/images/articles/elixir-parallel-letter-frequency/exercism-elixir-parallel-letter-concurrency.png" alt="Making the letter frequency computation concurrent" >}}
+![Making the letter frequency computation concurrent](https://www.toptechskills.com/images/articles/elixir-parallel-letter-frequency/exercism-elixir-parallel-letter-concurrency.png)
 
 Or in words:
 

@@ -1,8 +1,8 @@
 Exercises on Exercism are small, synthetic, and often seemingly trivial. It’s easy to imagine that experienced practitioners would have nothing to learn from them. However, solving these synthetic problems can push you to learn and apply parts of your language that you may not have explored. This new learning can lead you to solve real world problems more efficiently or in a more expressive way.
 
-[Parallel Letter Frequency](https://exercism.io/tracks/elixir/exercises/parallel-letter-frequency) is a medium difficulty exercise on [Exercism's Elixir Track](https://exercism.io/tracks/elixir) that unpacks a surprising number of interesting lessons. One of those lessons is how to determine whether a character is a letter in non-English language, which has clear benefits for anyone writing a multilingual application or an application in a language other than English. 
+[Parallel Letter Frequency](https://exercism.io/tracks/elixir/exercises/parallel-letter-frequency) is a medium difficulty exercise on [Exercism's Elixir Track](https://exercism.io/tracks/elixir) that unpacks a surprising number of interesting lessons. A central challenge in solving the exercise is handling letters from multiple languages, as one of the test cases is in German and contains characters outside the English alphabet. If you spend most of your time developing applications for English speakers, this may be the first time you've had to deal with a requirement like this. The learning from this exercise has clear benefits for anyone writing a multilingual/non-English application, but could also help in many other areas, such as more robust username and password validations.
 
-This exercise requires you to implement a `Frequency.frequency/2` function that determines letter frequency in a list of strings, with the added challenge of counting letters in any language:
+To solve the exercise successfully, you need to implement a `Frequency.frequency/2` function that determines letter frequency in a list of strings that could be in any language:
 
 ```elixir
 iex> Frequency.frequency(["Freude", "schöner", "Götterfunken"], workers)
@@ -15,7 +15,7 @@ iex> Frequency.frequency(["Freude", "schöner", "Götterfunken"], workers)
 }
 ```
 
-Let's start with the simplest version of this problem and see how we can meet this added challenge in Elixir.
+Let's start with the fundamental problem this function needs to solve and work our way up to a full implementation.
 
 ## Determine whether a character is a letter in Elixir
 
@@ -68,21 +68,48 @@ A better approach to this problem is using the [`u` modifier in Elixir's `Regex`
 
 It turns out that the `u` modifier -- and [specifically the `\p` pattern](https://www.regular-expressions.info/unicode.html) -- is a really elegant solution. The `\p` pattern lets you match a grapheme (another name for a single Unicode character) in any of the [Unicode character categories](https://en.wikipedia.org/wiki/Unicode_character_property#General_Category). This not only includes specific categories like `Ll` ([Letter, lowercase](https://www.compart.com/en/unicode/category/Ll)) and `Sc` ([Symbol, currency](https://www.compart.com/en/unicode/category/Sc)), but also the parent categories like `L` (Letter) and `S` (Symbol).
 
-You can match _any_ letter  of _any_ case in _any_ [human language covered by Unicode](https://www.unicode.org/faq/basic_q.html) with the pattern `\p{L}` and easily [use it in Elixir regular expressions](https://www.toptechskills.com/elixir-phoenix-tutorials-courses/how-to-match-any-unicode-letter-with-regex-elixir/) to solve the problem: 
+You can match _any_ letter  of _any_ case in _any_ [human language covered by Unicode](https://www.unicode.org/faq/basic_q.html) with the pattern `\p{L}`. This allows for some [pretty powerful matching](https://www.toptechskills.com/elixir-phoenix-tutorials-courses/how-to-match-any-unicode-letter-with-regex-elixir/#more-cool-stuff-you-can-match-with-unicode).
+
+Basic Latin characters from English work as usual:
 
 ```elixir
 iex> String.match?("a", ~r/^\p{L}$/u)
 true
-
 iex> String.match?("A", ~r/^\p{L}$/u)
 true
+```
 
+Latin character variants with [umlauts](https://en.wikipedia.org/wiki/Umlaut_(linguistics)) and [acute accents](https://en.wikipedia.org/wiki/Acute_accent) are no problem either:
+
+```elixir
 iex> String.match?("ö", ~r/^\p{L}$/u)
 true
+iex> String.match?("Á", ~r/^\p{L}$/u)
+true
+```
 
+Let's make sure it's not just returning a match for any character. How about some characters that look like letters but aren't:
+
+```elixir
 iex> String.match?("$", ~r/^\p{L}$/u)
 false
+iex> String.match?("@", ~r/^\p{L}$/u)
+false
 ```
+
+Very nice, but remember how I said _any_ language? No sweat:
+
+```elixir
+# Chinese character for "you"
+iex> String.match?("你", ~r/^\p{L}$/u)
+true
+
+# Cyrillic capital letter "zhe"
+iex> String.match?("Ж", ~r/^\p{L}$/u)
+true
+```
+
+![Mind blown.](https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif)
 
 ## Applying Unicode matching to the problem at hand
 
@@ -93,6 +120,12 @@ def frequency(texts, _workers) do
   texts
   |> get_all_graphemes()
   |> count_letters()
+end
+
+defp get_all_graphemes(texts) do
+  texts
+  |> Enum.join()
+  |> String.graphemes()
 end
 ```
 

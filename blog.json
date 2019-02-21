@@ -137,5 +137,18 @@
     "author_handle": "rpalo",
     "marketing_copy": "Ryan Palo explores the concepts of 'intentional coding' and 'design intent' in this excellent walkthrough of the Grains exercise in Bash. Thinking of ways to solve a problem is easy- designing one that communicates your thought process and goals to others is the hard part.",
     "image_url": "https://assets.exercism.io/blog/social/coding-intentionally-in-bash-grains.png"
+  },
+  {
+    "uuid": "930d520f-1f94-4cf8-9aaf-6f5201470f80",
+    "slug": "parallel-letter-frequency-unicode-matching-elixir",
+    "category": "programming skills",
+    "language": "elixir",
+    "published_at": "2019-02-29 01:00",
+    "content_repository": "blog",
+    "content_filepath": "posts/parallel-letter-frequency-unicode-matching-elixir.md",
+    "title": "What Parallel Letter Frequency can teach you about Unicode matching in Elixir",
+    "author_handle": "percygrunwald",
+    "marketing_copy": "",
+    "image_url": ""
   }
 ]

@@ -148,7 +148,7 @@
     "content_filepath": "posts/parallel-letter-frequency-unicode-matching-elixir.md",
     "title": "What Parallel Letter Frequency can teach you about Unicode matching in Elixir",
     "author_handle": "percygrunwald",
-    "marketing_copy": "",
+    "marketing_copy": "Percy Grunwald shows how a trivial exercise can teach useful real-world lessons about handling Unicode in Elixir.",
     "image_url": ""
   }
 ]

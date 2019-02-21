@@ -1,8 +1,8 @@
-Exercises on Exercism are small, synthetic, and often seemingly trivial. It’s easy to imagine that experienced practitioners would have nothing to learn from them. However, solving these synthetic problems can push you to learn and apply parts of your language that you may not have explored. This new learning can lead you to solve real world problems more efficiently or in a more expressive way.
+Exercises on Exercism are small, synthetic, and often seemingly trivial. It’s easy to imagine that experienced practitioners would have nothing to learn from them. However, solving these artificial problems can push you to learn and apply parts of your language that you may not have explored. This new learning can lead you to solve real-world problems more efficiently or more expressively.
 
 [Parallel Letter Frequency](https://exercism.io/tracks/elixir/exercises/parallel-letter-frequency) is a medium difficulty exercise on [Exercism's Elixir Track](https://exercism.io/tracks/elixir) that unpacks a surprising number of interesting lessons. A central challenge in solving the exercise is handling letters from multiple languages, as one of the test cases is in German and contains characters outside the English alphabet. If you spend most of your time developing applications for English speakers, this may be the first time you've had to deal with a requirement like this. The learning from this exercise has clear benefits for anyone writing a multilingual/non-English application, but could also help in many other areas, such as more robust username and password validations.
 
-To solve the exercise successfully, you need to implement a `Frequency.frequency/2` function that determines letter frequency in a list of strings that could be in any language:
+To solve the exercise successfully, you need to implement a function, `Frequency.frequency/2` , that determines letter frequency in a list of strings that could be in any language:
 
 ```elixir
 iex> Frequency.frequency(["Freude", "schöner", "Götterfunken"], workers)
@@ -58,7 +58,7 @@ Freude schöner Götterfunken
 """
 ```
 
-Maybe you could use regular expression to check if a character **isn't** a special character, but it's likely to be long, inelegant and fragile. How confident can you be that you've covered every possible special character that might be passed as input to your function? I believe there's a better approach.
+Maybe you could use a regular expression to check if a character **isn't** a special character, but it's likely to be long, inelegant and fragile. How confident can you be that you've covered every possible special character that might be passed as input to your function? I believe there's a better approach.
 
 ## Unicode regular expressions in Elixir
 
@@ -66,7 +66,7 @@ A better approach to this problem is using the [`u` modifier in Elixir's `Regex`
 
 > unicode (`u`) - enables Unicode specific patterns like `\p` and change modifiers like `\w`, `\W`, `\s` and friends to also match on Unicode.
 
-It turns out that the `u` modifier -- and [specifically the `\p` pattern](https://www.regular-expressions.info/unicode.html) -- is a really elegant solution. The `\p` pattern lets you match a grapheme (another name for a single Unicode character) in any of the [Unicode character categories](https://en.wikipedia.org/wiki/Unicode_character_property#General_Category). This not only includes specific categories like `Ll` ([Letter, lowercase](https://www.compart.com/en/unicode/category/Ll)) and `Sc` ([Symbol, currency](https://www.compart.com/en/unicode/category/Sc)), but also the parent categories like `L` (Letter) and `S` (Symbol).
+It turns out that the `u` modifier—and [specifically the `\p` pattern](https://www.regular-expressions.info/unicode.html)—is a really elegant solution. The `\p` pattern lets you match a grapheme (another name for a single Unicode character) in any of the [Unicode character categories](https://en.wikipedia.org/wiki/Unicode_character_property#General_Category). This not only includes specific categories like `Ll` ([Letter, lowercase](https://www.compart.com/en/unicode/category/Ll)) and `Sc` ([Symbol, currency](https://www.compart.com/en/unicode/category/Sc)), but also the parent categories like `L` (Letter) and `S` (Symbol).
 
 You can match _any_ letter  of _any_ case in _any_ [human language covered by Unicode](https://www.unicode.org/faq/basic_q.html) with the pattern `\p{L}`. This allows for some [pretty powerful matching](https://www.toptechskills.com/elixir-phoenix-tutorials-courses/how-to-match-any-unicode-letter-with-regex-elixir/#more-cool-stuff-you-can-match-with-unicode).
 
@@ -146,9 +146,9 @@ This function accepts a list of graphemes, e.g. `["a", "A", "ö", "$"]`, and ret
 
 ## Conclusion
 
-It turns out that matching non-English letters becomes pretty simple when you know about Unicode matching, and luckily for us it's a core feature in Elixir's `Regex` module. Prior to solving this Exercism problem I barely knew about this feature, but I would now consider it an indispensable part of my Elixir toolbox.
+It turns out that matching non-English letters becomes pretty simple when you know about Unicode matching, and luckily for us, it's a core feature in Elixir's `Regex` module. Before solving this Exercism problem I barely knew about this feature, but I would now consider it an indispensable part of my Elixir toolbox.
 
-You could use this new tool in a number of ways, and a few that spring to my mind are more robust validation of passwords and usernames, or even for determining whether an input string is a valid currency string without needing to manually list [all possible currency symbols](https://www.compart.com/en/unicode/category/Sc):
+You could use this new tool in many ways, and a few that spring to my mind are more robust validation of passwords and usernames, or even for determining whether an input string is a valid currency string without needing to manually list [all possible currency symbols](https://www.compart.com/en/unicode/category/Sc):
 
 ```elixir
 iex> currency_string_regex = ~r/\p{Sc}\d+\.\d{2}/u

@@ -1,6 +1,8 @@
 # The Exercism Blog
 
-## Guidelines
+## Want to write a blog post to feature on Exercism?
+
+Great! Please feel free to open an issue and we will discuss it with you.
 
 ## Images
 

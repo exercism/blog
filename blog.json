@@ -128,7 +128,7 @@
   {
     "uuid": "e6f3da5f-98b9-4cf7-be0b-447890aff367",
     "slug": "coding-intentionally-in-bash-grains",
-    "category": "programming skills",
+    "category": "programming-skills",
     "language": "bash",
     "published_at": "2019-02-14 01:00",
     "content_repository": "blog",
@@ -141,14 +141,14 @@
   {
     "uuid": "930d520f-1f94-4cf8-9aaf-6f5201470f80",
     "slug": "parallel-letter-frequency-unicode-matching-elixir",
-    "category": "programming skills",
+    "category": "programming-skills",
     "language": "elixir",
-    "published_at": "2019-02-29 01:00",
+    "published_at": "2019-03-03 01:00",
     "content_repository": "blog",
     "content_filepath": "posts/parallel-letter-frequency-unicode-matching-elixir.md",
-    "title": "What Parallel Letter Frequency can teach you about Unicode matching in Elixir",
+    "title": "Unicode matching in Elixir",
     "author_handle": "percygrunwald",
-    "marketing_copy": "Percy Grunwald shows how a trivial exercise can teach useful real-world lessons about handling Unicode in Elixir.",
-    "image_url": ""
+    "marketing_copy": "Percy Grunwald explores unicode matching in Elixir and shows how a trivial exercise can teach useful real-world lessons about handling Unicode in Elixir.",
+    "image_url": "https://assets.exercism.io/tracks/elixir-bordered-turquoise.png"
   }
 ]

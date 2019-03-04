@@ -147,7 +147,7 @@
     "content_repository": "blog",
     "content_filepath": "posts/unicode-matching-in-elixir.md",
     "title": "Unicode matching in Elixir",
-    "author_handle": "percygrunwald",
+    "author_handle": "PercyGrunwald",
     "marketing_copy": "Percy Grunwald explores unicode matching in Elixir and shows how a trivial exercise can teach useful real-world lessons about handling Unicode in Elixir.",
     "image_url": "https://assets.exercism.io/tracks/elixir-bordered-turquoise.png"
   }

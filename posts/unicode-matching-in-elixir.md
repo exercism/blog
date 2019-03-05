@@ -127,7 +127,7 @@ defp get_all_graphemes(texts) do
 end
 ```
 
-All `count_letters/1` would need to do is apply the `String.match?(grapheme, ~r/^\p{L}$/u)` pattern we identified above to increment the count of each letter in the list of `graphemes`. Here's an example implementation taken from [my solution to this Exercism problem]((https://exercism.io/tracks/elixir/exercises/parallel-letter-frequency/solutions/cc80004beded4749bce81b5dc0820952).):
+All `count_letters/1` would need to do is apply the `String.match?(grapheme, ~r/^\p{L}$/u)` pattern we identified above to increment the count of each letter in the list of `graphemes`. Here's an example implementation taken from [my solution to this Exercism problem](https://exercism.io/tracks/elixir/exercises/parallel-letter-frequency/solutions/cc80004beded4749bce81b5dc0820952):
 
 ```elixir
 defp count_letters(graphemes) do

@@ -19,27 +19,13 @@ In this post we'll explore concurrency in Elixir by making a working sequential 
 
 ## Concurrency and parallelism
 
-Concurrency and parallelism are related terms, but don't mean exactly the same thing. Both terms describe how tasks are executed by a program:
+Concurrency and parallelism are related terms, but don't mean exactly the same thing. A _concurrent_ program is one where multiple tasks can be "in progress", but at any single point in time, only one task is executing on the CPU (e.g. executing one task while another is waiting for IO [disk, network, etc.]). On the other hand, a _parallel_ program is capable of executing multiple tasks _at the same time_ on multiple CPU cores.
 
-* A _concurrent_ program is one where multiple tasks can be "in progress", but at any single point in time, only one task is executing on the CPU (e.g. executing one task while another is waiting for IO [disk, network, etc.]).
-* A _parallel_ program on the other hand is capable of executing multiple tasks _at the same time_ on multiple CPU cores.
+Both concurrent and parallel execution can give major speed increases, but the amount of speedup possible -- if any -- is dependent on many factors. There are cases in which concurrency or parallelism are not even possible; it may be that the task you're trying to complete doesn't lend itself to either concurrent or parallel execution, or that the runtime doesn't support them. If your case _does_ allow for concurrent or parallel execution, the amount of speedup possible is largely dependent on whether the task is IO- or CPU-bound, and whether there is more than 1 CPU core available.
 
-Both concurrent and parallel execution can give major speed increases, but the situations where this is true (or even possible) are dependent on a multitude of factors, some of which are: 
+Despite the number of contributing factors, there are a few "rules of thumb" for determining whether concurrency or parallelism are possible and how much speedup to expect. Firstly, concurrent execution is possible on a single CPU core, but parallel execution is not. Secondly, parallelism and concurrency should give significant speedup to IO-bound tasks, and the speedup should be nominally the same for both. Finally, CPU-bound tasks should have the same (or slower) performance when executed concurrently and generally speed increases are only possible when executed in parallel across multiple CPU cores.
 
-* Whether or not the runtime supports either concurrency or parallelism.
-* Whether or not it's even possible to do the tasks concurrently or in parallel.
-* Whether the tasks are IO-bound or CPU-bound.
-* Whether or not there is more than 1 CPU core available.
-
-Despite the speedup being highly dependent on many factors, you can generally expect the following to be true:
-
-* Parallel execution is not possible on a single CPU core.
-* You can speed up IO-bound tasks even on a single CPU core by making the tasks concurrent. 
-* Adding parallelism to IO-bound tasks that are already concurrent should give minimal additional improvement.
-* Speeding up CPU-bound tasks is generally only possible with parallelism on multiple CPU cores.
-* CPU-bound tasks should perform the same (or slower) if they are executed concurrently, but not in parallel.
-
-The letter frequency calculation in this exercise is an example of a CPU-bound task, so according to the list above, a speed increase should only be possible by doing the calculation _in parallel_ on multiple CPU cores.
+The letter frequency calculation in this exercise is an example of a CPU-bound task, so according to rules of thumb above, a speed increase should only be possible by doing the calculation in parallel on multiple CPU cores.
 
 ### Concurrency and parallelism in Elixir vs other languages
 

@@ -150,5 +150,18 @@
     "author_handle": "PercyGrunwald",
     "marketing_copy": "Percy Grunwald explores unicode matching in Elixir and shows how a trivial exercise can teach useful real-world lessons about handling Unicode in Elixir.",
     "image_url": "https://assets.exercism.io/tracks/elixir-bordered-turquoise.png"
+  },
+  {
+    "uuid": "523dd645-234c-4d61-9b15-b8016a6ca10b",
+    "slug": "concurrency-parallelism-in-elixir",
+    "category": "programming-skills",
+    "language": "elixir",
+    "published_at": "2019-04-03 01:00",
+    "content_repository": "blog",
+    "content_filepath": "posts/concurrency-parallelism-in-elixir.md",
+    "title": "Concurrency and Parallelism in Elixir",
+    "author_handle": "PercyGrunwald",
+    "marketing_copy": "Percy Grunwald explores concurrency and parallelism in Elixir and shows how a trivial exercise can teach useful real-world lessons about parallel and concurrent computation in Elixir vs other popular languages.",
+    "image_url": "https://assets.exercism.io/tracks/elixir-bordered-turquoise.png"
   }
 ]

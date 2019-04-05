@@ -29,7 +29,7 @@ Despite the number of contributing factors, there are a few "rules of thumb" for
 
 The letter frequency calculation in this exercise is an example of a CPU-bound task, so according to rules of thumb above, a speed increase should only be possible by doing the calculation in parallel on multiple CPU cores.
 
-### Concurrency and parallelism in Elixir vs. other languages
+## Concurrency and parallelism in Elixir vs. other languages
 
 Many popular languages give you tools to write concurrent code, but achieving parallelism is usually much more complex and full of trade-offs.
 

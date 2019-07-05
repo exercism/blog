@@ -87,7 +87,7 @@
     "content_filepath": "posts/automated-mentoring-support-project.md",
     "title": "The Automated Mentoring Support Project",
     "author_handle": "iHiD",
-    "marketing_copy": "Over the next few months we are gong to be developing a framework that uses static analysis to automatically analysis users' solutions, automatically approve solutions that are idiomatic, and provide feedback for commonly-seen improvements. Read on to learn about the project."
+    "marketing_copy": "Over the next few months we are going to be developing a framework that uses static analysis to automatically analysis users' solutions, automatically approve solutions that are idiomatic, and provide feedback for commonly-seen improvements. Read on to learn about the project."
   },
   {
     "uuid": "7ddec526-4613-46f9-8804-95f508060fa2",

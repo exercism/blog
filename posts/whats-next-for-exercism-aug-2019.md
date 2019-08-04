@@ -62,21 +62,19 @@ Over the next 12 months we will be working out how to make Exercism feel like a 
 
 Once we get this right, we will lower the barrier to mentoring on Exercism. We will make it easier for anyone to help others, knowing that there is a strong community there to support and moderate what is happening within the site.
 
-### Extrinsic motivations / progressing in Exercism
+### Carefully introducing structure to support motivation
 
-In designing v2, we made a very deliberate decision to keep Exercism centered around intrinsic motivations and to avoid any sort of gamification. While we still think it's essential that Exercism is centered around people doing things for the right reasons, there are things that have made us question the "exclusivity" of intrinsic motivation in our model.
+In designing v2, we made a very deliberate decision to continue to avoid gamification. We think it is essential that people participate because they find intrinsic value, not because we tickle their reward centers artificially.
 
-Mentors burn out after a while. Things become repetitive - they have their fair share of difficult students, and they take a break. Sometimes permanently.
+The people who remain active are those who continuously challenge themselves in new ways within Exercism's ecosystem. Whether it's maintaining a track, mentoring a new language, writing blog posts, or building analyzers, they keep finding new ways to keep things interesting. For all the work we put into adding a sense of progression and unexpected reward for students, we have nothing similar for mentors, and I think this is a real loss.
 
-Those who stay the most active are those who get new challenges. People who maintain, mentor, contribute on Slack, do the Track Anatomy project, build an analyzer, write a blog post etc. Those people are consistently finding new ways to keep Exercism interesting for them. If you don't actively go out seeking thing to do (which has generally meant befriending one of the core team on Slack) there is no progression or newness for people. There is nothing to unlock, no structures to move through. For all the work we put into adding a sense of progression and unexpected reward for students, we have nothing similar for mentors, and I think this is a real loss.
+Also, we want people's hard work and amazing contributions to be recognized and celebrated.
 
-Those people who are amazing get no recognition for it. If you get mentored by a seasoned well-respected mentor, you should know it. If you are that mentor, and you've done amazing things for Exercism, right now no-one knows and you can't use that in your "real-world" life.
-
-We want to explore ways to provide opportunities for our community to have new challenges, opportunities and privileges the more they use Exercism. We are going to spend time asking what things can we add that would be valuable to Exercism and valuable to people within our community, while not detracting from the intrinsic motivations that must continue to power Exercism. While we want to tread carefully in getting this right, we feel strongly that getting it right will make a huge difference to Exercism. This is something we will experiment with, and build on month-by-month over the next 12 months.
+We will tread carefully to get this right, and we feel strongly that getting it right will make a tremendous difference to Exercism.
 
 ### Shouting about being us
 
-The final area we want to work on over the next year, and the final big gap we think exists at the moment, is better communicating what Exercism is about, who we are, and what we're trying to do. When people assess if they want to give their time to Exercism, they're going to assess us on our values, and principles and their experience of us outside of Exercism itself. 
+The final area we want to work on over the next year, and the final big gap we think exists at the moment, is better communicating what Exercism is about, who we are, and what we're trying to do. When people assess if they want to give their time to Exercism, they're going to evaluate us on our values, and principles and their experience of us outside of Exercism itself. 
 
 So we need to shout about our vision, shout about who we are, what we believe in. We need to be constantly reinforcing the vision to everyone in the community, getting excited together about all we can achieve with Exercism. We need pages that talk and excite, and videos that feel like there's people behind the text. Our aim in this is strictly not to try and acquire users - it's to be clear about who we are and to keep people excited and motivated to be part of us. It will probably mean we do grow faster and gain more momentum, but that's not what we want to be measuring or caring about. We want to care about everyone associated with Exercism feeling excited, empowered, and connected.
 

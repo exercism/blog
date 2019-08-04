@@ -163,5 +163,16 @@
     "author_handle": "PercyGrunwald",
     "marketing_copy": "Percy Grunwald explores concurrency and parallelism in Elixir and shows how a trivial exercise can teach useful real-world lessons about parallel and concurrent computation in Elixir vs other popular languages.",
     "image_url": "https://assets.exercism.io/tracks/elixir-bordered-turquoise.png"
+  },
+  {
+    "uuid": "523dd645-234c-4d61-9b15-b8016a6ca10b",
+    "slug": "whats-next-for-exercism-aug-2019",
+    "category": "updates",
+    "published_at": "2019-08-05 01:00",
+    "content_repository": "blog",
+    "content_filepath": "posts/whats-next-for-exercism-aug-2019.md",
+    "title": "What's next for Exercism?",
+    "author_handle": "iHiD",
+    "marketing_copy": "Where has Exercism got to? What's next for it? Learn about our plans for the next 12 months and where we'll be focussing our energy."
   }
 ]

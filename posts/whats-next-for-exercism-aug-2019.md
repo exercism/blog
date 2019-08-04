@@ -36,17 +36,19 @@ We believe this additional automation will have the following benefits:
 
 - **Reduce student frustration:** We want to give students a quick feedback loop. If a solution is optimal, let them continue. If it fails predictably, tell them so they can improve it.
 
-- **Dramatically reduce the size of the queue:** Our prototyping has shown that for simple exercises (e.g. TwoFer) we will be able to provide automated mentoring in 90%+ of cases. For more complex exercises, the percentage will be smaller but we expect to be able to provide automated mentoring on 50% of exercises, and on all optimal, or close-to-optimal, solutions.
+- **Dramatically reduce queue size:** Our prototyping has shown that for simple exercises we can provide automated mentoring in over 90% of cases. While we expect that number to be smaller on more complex exercises, we think we can provide automated mentoring on about half of the submitted solutions.
 
-- **Removes repetitiveness for mentors:** As most solutions fall into similar buckets, mentoring often turns into a copy and paste process, with a canned answer for each class of solution. This is boring and uninteresting to all but the most determined of mentors. By removing common solutions from the mentor queue, mentors will be able to focus solely on students who need something extra or have a fundamental learning gap that we cannot see.
+- **Removes repetitiveness for mentors:** Most solutions fall into similar buckets. A lot of mentoring relies on copy/pasting canned answers for each class of solution, which is tedious and uninteresting even to the most determined of mentors. Removing common solutions from the mentor queue will allow mentors to focus on the cases that require their knowledge and experience.
 
 ### Encourage respectful relationships between students and mentors
 
-Mentoring on Exercism is currently a very transactional process. A student submits a solution and a mentor gives comments. Other than the generally friendly nature of conversations there is no "relationship" between the mentor and the learner. There is no easy way for a mentor to remember if they have given feedback to that student before. There is no way to know if a student is a beginner or an experienced programmer and tailor feedback accordingly. There is no way for a student to know their mentor's background and respect/appreciate the feedback in that context.
+Mentoring on Exercism is currently a very transactional process. A student submits a solution, and a mentor gives comments. Other than the generally friendly nature of conversations, there is no "relationship" between the mentor and the learner. There is no easy way for a mentor to remember if they have given feedback to that student before. There is no way to know if a student is a beginner or an experienced programmer and tailor feedback accordingly. There is no way for a student to know their mentor's background and respect/appreciate the feedback in that context.
 
-By providing better information, and integrated profiles for both mentors and learners within the user interface, we can make the whole experience more empathetic, making mentoring more rewarding and enjoyable.
+We will explore two things that we hope will make the whole experience more empathetic, making mentoring more rewarding and enjoyable.
 
-We also intend to explore the idea of allowing pairings students and mentors, enabling students to continue to learn from mentors they find particularly helpful, and providing less transaction, more rewarding interactions to mentors. We believe this will increase the enjoyment of value of Exercism, and also speak more to mentors' intrinsic motivations of helping others and therefore increase mentor retention.
+The first is more in-depth profiles for both learners and mentors, with much tighter integration into the mentoring experience.
+
+The second is the idea of student-mentor pairings. This would enable students to continue to learn from mentors they find particularly helpful, and mentors to work with students whose learning style or background they understand well.
 
 ### Turn our userbase into a community
 

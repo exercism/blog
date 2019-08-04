@@ -28,7 +28,7 @@ The [Track Anatomy Project](https://exercism.io/blog/track-anatomy-project) has 
 
 We are automatically approving solutions in ten tracks. For these solutions we also provide automated tips for improvement.
 
-We will expand existing analyzers to handle more exercises, and add analyzers for other languages. We also want to better incorporate the analysis into the students' and mentors' experience on the site, in particular by identifying common problems that prevent automated approval.
+We will expand existing analyzers to handle more exercises, and add analyzers for other languages. We also want to better incorporate the analysis into the students' and mentors' experience on the site, in particular by identifying and reporting common problems that prevent automated approval.
 
 We will start running the test suites against submitted solutions.
 

@@ -1,6 +1,6 @@
 Just over 12 months ago, we launched the new version of Exercism. It was a radical change, rethinking the product from the ground up, and introducing the concepts of progression and formal mentoring.
 
-Our plan at launching v2 was to respond quickly to anything that was broken or missing - either in terms of software or conceptually - and then to take our time watching and learning how everyone used the new version. We've now come to the end of this phase and are now ready to start taking the next steps and invest some serious energy into Exercism based on everything we've observed over the last year. In this post I want to outline where we feel Exercism has got to - the good and the painful - and what we want to improve over the next few months.
+Immediately after the launch, we spent a short, hectic time fixing things that were broken and missing. Then we slowed down intending to watch and learn how everyone used the new version. This post outlines what the past twelve months have taught us—the good and the painful. It also lays out what we hope to achieve in the next few months.
 
 ## The Good
 

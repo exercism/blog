@@ -52,15 +52,15 @@ The second is the idea of student-mentor pairings. This would enable students to
 
 ### Turn our userbase into a community
 
-The tracks that "work", work because they have 2-5 key "ever-present" mentors. These are the "parents" of the track. They advise others, improve the mentor notes, welcome new people, answer their questions, and generally make the mentors feel part of something. Once a track gets one key mentor who is comfortable being that voice on Slack, the track's backlog tends to quickly reduce. And momentum is key. When it feels like the backlog is going down, everyone jumps on board and helps. Then everyone wants to keep the backlog low.
+When tracks "work," they work because they have a small number of ever-present mentors. These mentors advise others, improve the mentor notes, welcome new people, answer their questions, and generally make people feel part of something. Once a track gets one key mentor who is comfortable being that voice on Slack, the track's backlog tends to reduce quickly. This momentum is key. When it feels like the backlog is going down, everyone jumps on board and helps. Then everyone wants to keep the backlog low.
 
-Those mentors who mentor the most regularly are also the most active on our Slack community. We believe this is because they feel the most connected to Exercism, the most supported, and because mentoring becomes more than just replying to students - it becomes about sharing in bigger goals with other like-minded people.
+Those mentors who mentor the most regularly are also the most active on our Slack community. We believe this is because they feel the most connected to Exercism,  and the most supported. Mentoring becomes more than just replying to students—it becomes about sharing in bigger goals with other like-minded people.
 
-We are convinced that the fundamental blocker for Exercism's growth and success is not a technological one, it's a people one. Our focus needs to be on considering Exercism not as a website or product, but as a community - a place where people can gift their time to helping others. Exercism offers people the opportunities of connection, community, purpose, kindness, but we currently do not harness or encourage this well.
+We are convinced that the fundamental blocker for Exercism's growth and success is not a technological one, it's a people one. Our focus needs to be on considering Exercism not as a website or product, but as a community—a place where people can gift their time to helping others. Exercism offers people the opportunities of connection, community, purpose, kindness, but we currently do not harness or encourage this well.
 
-A large focus for us over the next 12 months will be working out how to improve this - how to make Exercism feel like a community not like a website, without watering down the functional reality of learning and mentoring. We do not want to be a "social network" or an unfocussed forum for discussion - but we do want people involved in Exercism to feel connected to the other thousands of people who are also using it. Getting this right is complicated and will be a slow and careful process.
+Over the next 12 months we will be working out how to make Exercism feel like a community rather than a website. We don't want to water down the functional reality of learning and mentoring. We don't want to be a "social network" or an unfocussed forum for discussion. We want people involved in Exercism to feel connected to the other thousands of people who are also using it. Getting this right is complicated and will be a slow and careful process.
 
-Once we feel we have this right, we will also lower the barrier to mentoring on Exercism, making it easier for anyone to help others, knowing that there is a strong community there to support and moderate what is happening within the site.
+Once we get this right, we will lower the barrier to mentoring on Exercism. We will make it easier for anyone to help others, knowing that there is a strong community there to support and moderate what is happening within the site.
 
 ### Extrinsic motivations / progressing in Exercism
 

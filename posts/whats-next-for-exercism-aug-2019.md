@@ -4,31 +4,37 @@ Immediately after the launch, we spent a short, hectic time fixing things that w
 
 ## The Good
 
-Since we launched v2 in July 2019, we've had 133,823 new members sign up, 578,464 iterations submitted and 294,504 comments posted. We've had over 2,500 people sign up as mentors and 75,000 posts written by them in our Slack Workspace. All of that growth and activity has come about purely by word of mouth - by our community raising awareness of what we're doing, and supporting and encouraging each other. That's something we're incredibly excited about and exceptionally grateful for.
+Exercism has experienced a tremendous amount of growth, purely by word of mouth. Since July 2018, 134,000 new members joined. We've seen 578,000 submitted iterations, and 395,000 posted comments and over 2,500 people signed up as mentors, writing 75,000 posts in our Slack Workspace. The community supports and encourages each other, and this has allowed Exercism to thrive. We are incredibly excited and exceptionally grateful for this.
 
-Thanks to our community of maintainers, our language tracks have continued to improve on a daily basis, and in a few tracks we've made huge steps forward thanks to the work of the Track Anatomy Project. We now have 3,085 exercises spread over 50 active tracks.
+Thanks to our community of maintainers, our language tracks have continued to improve daily. In a few tracks, we've made huge steps forward thanks to the work of the Track Anatomy Project. We now have over 3,000 exercises spread over 50 active tracks.
 
-A few months ago, with the support of Mozilla, we launched automated analysis of solutions. Our community have now built analyzers for 10 languages and we've now analysed 14,000 solutions and approved over 4,000 of them automatically, saving our mentors ~350hrs of effort.
+With the support of Mozilla, we've implemented automated analysis of solutions. Our community has built analyzers for ten languages and we've analyzed 14,000 solutions since launching. The analysis has allowed us to approve 4,000 submissions automatically, saving our mentors about 350 hours of effort.
 
 ## The Painful
 
-Beyond some early teething issues, there has been one real pain point over the last 12 months, and that has been large response times for mentoring, and subsequently the large backlogs that build up in some tracks. This is something we always knew would be a teething pain point, and something we've spent a lot of time addressing over the year. The challenges around this can be broken into three main categories:
+Beyond some early teething issues, there has been one major pain point over the last 12 months: large response times for mentoring. Significant backlogs built up in some tracks, and we've spent a lot of time addressing these backlogs over the past year. The challenges inherent in the mentoring delays fall into three main categories:
 
-- **Track structure:** Unless tracks have a smooth progression pathway with a set core exercises that teach one topic each and are relatively easily to give feedback on, mentoring-time per exercise rockets, and tensions increase dramatically between mentors and students.
-- **Mentoring must be rewarding:** Mentoring is interesting when feedback is personal, and conversations are bespoke to a student's understanding, and as a consequence it is boring when giving the same feedback over and over.
-- **A lack of sense of community:** The tracks that have had the best mentor engagement and retention almost always have a handful of key mentors who have supported and encouraged each other through our Slack Workspace. Without that community, mentoring can be lonely and the drop-off rate is substantial. Relationships between students and mentors is also key to this sense of community - having respectful and personalised interactions between people make this feel like a sense of humans helping humans, not purely an education website.
+- **Track structure:** It is challenging to create a set of core exercises that build on each other. When tracks don't have a smooth progression pathway, mentoring becomes much more difficult, mentoring-time per exercise rockets and tensions increase dramatically between mentors and students.
+- **Mentoring must be rewarding:** Giving the same feedback over and over is boring. Mentoring becomes interesting when feedback is personal, and conversations are bespoke to a student's understanding.
+- **A lack of sense of community:** When mentoring becomes lonely, the drop-off rate is substantial. In some tracks there's a handful of key mentors who support and encourage each other through our Slack workspace. In these tracks, mentors tend to stick around. Relationships between students and mentors are also key to this sense of community. Respectful and personalized interactions between people provide a sense of humans helping humans, not purely an education website.
 
 ## The next 12 months.
 
 ### Restructure tracks for student enjoyment and ease of mentoring
 
-We have been working on the [Track Anatomy Project](https://exercism.io/blog/track-anatomy-project) for the last few months. That has been critical in fixing some of the immediate problems of Tracks on Exercism. It's also become clear to us that lots of different maintainers and mentors have different ideas on how Tracks on Exercism should look and what it means to learn a new language. Over the next 12 months, we intend to focus significantly on questions like "What does it mean to gain fluency in a specific programming language?" and "How does my existing background effect what I need to learn/unlearn to program in X?" We want to explore how Exercism can evolve to better focus on our goal of teaching fluency, and we want to ensure that we apply proper product-work to tracks on Exercism.
+The [Track Anatomy Project](https://exercism.io/blog/track-anatomy-project) has been critical in fixing some of the immediate problems of tracks on Exercism. Over the next 12 months, we will explore more in-depth questions about fluency, learning, and unlearning, and dig into what is unique or particularly challenging about different languages.
 
 ### Automate the automatable
 
-We are now automatically approving solutions and providing feedback in 10 languages. Over the next few months we intend to expand this both in terms of languages and exercises and also in terms of functionality - providing feedback when we don't approve solutions, and better incorporating automated analysis into students' and mentors' experience on Exercism. We will also be adding the automated running of tests in the next quarter - an important step in speeding up analysis development and giving mentors a clearer understanding of a student's submission. We believe this will have the following benefits:
+We are automatically approving solutions in ten tracks. For these solutions we also provide automated tips for improvement.
 
-- **Reduce student frustration:** We want to give students a quick feedback loop. If a solution is optimal, let them continue. If it fails in an anticipated way, tell them and let them improve it. This prevents students from becoming frustrated waiting for their perfectly-fine solutions to be approved, reducing the perception of mentors being slow, which causes a less enjoyable interaction.
+We will expand existing analyzers to handle more exercises, and add analyzers for other languages. We also want to better incorporate the analysis into the students' and mentors' experience on the site, in particular by identifying common problems that prevent automated approval.
+
+We will start running the test suites against submitted solutions.
+
+We believe this additional automation will have the following benefits:
+
+- **Reduce student frustration:** We want to give students a quick feedback loop. If a solution is optimal, let them continue. If it fails predictably, tell them so they can improve it.
 
 - **Dramatically reduce the size of the queue:** Our prototyping has shown that for simple exercises (e.g. TwoFer) we will be able to provide automated mentoring in 90%+ of cases. For more complex exercises, the percentage will be smaller but we expect to be able to provide automated mentoring on 50% of exercises, and on all optimal, or close-to-optimal, solutions.
 
@@ -60,7 +66,7 @@ In designing v2, we made a very deliberate decision to keep Exercism centered ar
 
 Mentors burn out after a while. Things become repetitive - they have their fair share of difficult students, and they take a break. Sometimes permanently.
 
-Those who stay the most active are those who get new challenges. People who maintain, mentor, contribute on Slack, do the Track Anatomy project, build an analyzer, write a blog post etc. Those people are consistently finding new ways to keep Exercism interesting for them. If you don't actively go out seeking things to do (which has generally meant befriending one of the core team on Slack) there is no progression or newness for people. There is nothing to unlock, no structures to move through. For all the work we put into adding a sense of progression and unexpected reward for students, we have nothing similar for mentors, and I think this is a real loss.
+Those who stay the most active are those who get new challenges. People who maintain, mentor, contribute on Slack, do the Track Anatomy project, build an analyzer, write a blog post etc. Those people are consistently finding new ways to keep Exercism interesting for them. If you don't actively go out seeking thing to do (which has generally meant befriending one of the core team on Slack) there is no progression or newness for people. There is nothing to unlock, no structures to move through. For all the work we put into adding a sense of progression and unexpected reward for students, we have nothing similar for mentors, and I think this is a real loss.
 
 Those people who are amazing get no recognition for it. If you get mentored by a seasoned well-respected mentor, you should know it. If you are that mentor, and you've done amazing things for Exercism, right now no-one knows and you can't use that in your "real-world" life.
 
@@ -76,7 +82,6 @@ We have started doing small bits of this just by being more accurate on social m
 
 ## In conclusion
 
-We are **really** excited by the next twelve months, about how we can help Exercism take the next steps to reaching its potential, and about how we can better serve and connect our community. I want to finish by saying a huge thank you to everyone that's contributed over the last year, whether as a maintainer, mentor, student, or in some other way. Thank you for your excitement, ideas, contributions and patience as we continue to improve things.
+We are **really** excited by the next twelve months, about how we can help Exercism take the next steps to reaching its potential, and about how we can better serve and connect our community. I want to finish by saying a huge thank you to everyone that's contributed ove the last year, whether as a maintainer, mentor, student, or in some other way. Thank you for your excitement, ideas, contributions and patience as we continue to improve things.
 
 _Note that Exercism has a [strategy document](https://exercism.io/strategy) which we keep updated with our plan for how to take Exercism forward, and which you might like to keep an eye on in the future._
-

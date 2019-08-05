@@ -1,6 +1,6 @@
 Just over 12 months ago, we launched the new version of Exercism. It was a radical change, rethinking the product from the ground up, and introducing the concepts of progression and formal mentoring.
 
-Immediately after the launch, we spent a short, hectic time fixing things that were broken and missing. Then we slowed down intending to watch and learn how everyone used the new version. This post outlines what the past twelve months have taught us—the good and the painful. It also lays out what we hope to achieve in the next few months.
+Since the launch, we've fixed anything that was broken and added some things that we had conceptually missed, but have mainly watched and learnt how everyone has used the new version. This post outlines what the past twelve months have taught us — the good and the painful. It also lays out what we hope to achieve in the next few months.
 
 ## The Good
 

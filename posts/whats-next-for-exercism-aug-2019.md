@@ -88,6 +88,6 @@ We have started doing small bits of this just by being more accurate on social m
 
 ## In conclusion
 
-We are **really** excited by the next twelve months, about how we can help Exercism take the next steps to reaching its potential, and about how we can better serve and connect our community. I want to finish by saying a huge thank you to everyone that's contributed ove the last year, whether as a maintainer, mentor, student, or in some other way. Thank you for your excitement, ideas, contributions and patience as we continue to improve things.
+We are **really** excited by the next twelve months, about how we can help Exercism take the next steps to reaching its potential, and about how we can better serve and connect our community. I want to finish by saying a huge thank you to everyone that's contributed over the last year, whether as a maintainer, mentor, student, or in some other way. Thank you for your excitement, ideas, contributions and patience as we continue to improve things.
 
 _Note that Exercism has a [strategy document](https://exercism.io/strategy) which we keep updated with our plan for how to take Exercism forward, and which you might like to keep an eye on in the future._

@@ -26,7 +26,7 @@ Our work for the next 12 months is broken into several sections. This list is no
 
 ### Restructure tracks for student enjoyment and ease of mentoring
 
-The [Track Anatomy Project](https://exercism.io/blog/track-anatomy-project) has been critical in fixing some of the immediate problems of tracks on Exercism. Over the next 12 months, we will explore more in-depth questions about fluency, learning, and unlearning, and dig into what is unique or particularly challenging about different languages.
+The [Track Anatomy Project](https://exercism.io/blog/track-anatomy-project) has been crucial in fixing some of the immediate problems of tracks on Exercism. Over the next 12 months, we will explore more in-depth questions about fluency, learning, and unlearning, and dig into what is unique or particularly challenging about different languages.
 
 ### Automate the automatable
 

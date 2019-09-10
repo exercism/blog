@@ -1,6 +1,6 @@
 As we discussed in our [blog post last month](https://exercism.io/blog/whats-next-for-exercism-aug-2019), one of our key goals for the next year is to restructure tracks for both student enjoyment and ease of mentoring. Over the last two months, we've been thinking and discussing lots amongst the leadership team as to how we should approach this, and what needs to happen to bring our tracks into the necessary state to offer idiomatic learning of different languages in a timely manner.
 
-Today, I'm really excited to announce that we are launching a project in association with the James Evans and Gary Lupyan from The University of Chicago, sponsored by the Sloan Foundation, which will allow us to put some serious focus and energy into rethinking Exercism's tracks from the ground up, and executing those changes in a number of languages. In addition, I'm delighted to announce that we've hired [Erik Schierboom](https://www.erikschierboom.com/about/) to lead the project.
+Today, I'm really excited to announce that we are launching a project in association with James Evans and Gary Lupyan from The University of Chicago, sponsored by the Sloan Foundation, which will allow us to put some serious focus and energy into rethinking Exercism's tracks from the ground up, and executing those changes in a number of languages. In addition, I'm delighted to announce that we've hired [Erik Schierboom](https://www.erikschierboom.com/about/) to lead the project.
 
 ### Background
 

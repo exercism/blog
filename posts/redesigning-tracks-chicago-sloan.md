@@ -1,4 +1,4 @@
-As we discussed in our [blog post last month](https://exercism.io/blog/whats-next-for-exercism-aug-2019), one of our key goals for the next year is to restructure tracks for both student enjoyment and ease of mentoring. Over the last two months, we've been thinking and discussing lots amongst the leadership team as to how we should approach this, and what needs to happen to bring our tracks into the necessary state to offer idiomatic learning of different languages in a timely manner.
+As we discussed in our [blog post last month](https://exercism.io/blog/whats-next-for-exercism-aug-2019), one of our key goals for the next year is to restructure tracks for both student enjoyment and ease of mentoring. We've made huge progress with this over the last year with the Track Anatomy project spearheaded by Maud de Vries, and out of this we've identified some fundamental problems with how tracks are structured, which we believe need addressing as a priority. Over the last two months, the leadership team have been discussing how we should approach this, and what needs to happen to bring our tracks into the necessary state to offer idiomatic learning of different languages in a timely manner.
 
 Today, I'm really excited to announce that we are launching a project in association with James Evans and Gary Lupyan from The University of Chicago, sponsored by the Sloan Foundation, which will allow us to put some serious focus and energy into rethinking Exercism's tracks from the ground up, and executing those changes in a number of languages. In addition, I'm delighted to announce that we've hired [Erik Schierboom](https://www.erikschierboom.com/about/) to lead the project.
 
@@ -31,3 +31,7 @@ It will also allow us to hire Erik to lead on the "curriculum" side of the proje
 We will be putting together a specific team to help with this project. This team will be responsible for defining the idioms across tracks, designing new core exercises, helping us design frameworks and standards for analyzers, and thinking through how incumbent knowledge effects learning.  Although, as with the rest of Exercism, this will mainly be volunteer work, we do hope to have some funding left over to pay people to work on sprints for certain areas of this project that are not normally done by volunteers.
 
 If you are an experienced mentor **and** maintainer and you'd like to get involved, we would love to hear from you. Please reach out to me on Slack.
+
+### Conclusion
+
+We're really excited for this next phase. We believe it will help Exercism take huge steps forward and better serve both our students and mentors. We're extremely grateful to James, Gary, and the Sloan Foundation for their support

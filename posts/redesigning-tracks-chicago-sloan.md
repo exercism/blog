@@ -28,7 +28,7 @@ It will also allow us to hire Erik to lead on the "curriculum" side of the proje
 
 ### Getting involved
 
-We will be putting together a specific team to help with this project. This team will be responsible for defining the idioms across tracks, designing new core exercises, helping us design frameworks and standards for analyzers, and thinking through how incumbent knowledge effects learning.  Although, as with the rest of Exercism, this will mainly be volunteer work, we do hope to have some funding left over to pay people to work on sprints for certain areas of this project that are not normally done by volunteers.
+We will be putting together a specific team to help with this project. This team will be responsible for defining the idioms across tracks, designing new core exercises, helping us design frameworks and standards for analyzers, and thinking through how incumbent knowledge affects learning.  Although, as with the rest of Exercism, this will mainly be volunteer work, we do hope to have some funding left over to pay people to work on sprints for certain areas of this project that are not normally done by volunteers.
 
 If you are an experienced mentor **and** maintainer and you'd like to get involved, we would love to hear from you. Please reach out to me on Slack.
 

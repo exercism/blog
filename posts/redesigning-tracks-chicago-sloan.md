@@ -24,7 +24,7 @@ We will be blogging much more about this in the coming weeks and months, but I w
 
 The funding we are receiving from The Sloan Foundation via James and Gary will allow Jeremy, Nicole, Charles and Karlo to invest most of their time for the next 12 months into the product work, development work, and architecture required to achieve the aims above.
 
-It will also allow us to hire Erik to lead on the "curriculum" side of the project. Erik has been a significant contributor to Exercism since 2016, maintaining the C#, F# and Scala tracks, building analysers, designing exercises, contributing to project-specifications and mentoring. He is also passionate about programming languages and has completed the majority of tracks on Exercism. He is also crucially someone who is universally liked and respected amongst the Exercism community, and therefore perfectly positioned to help navigate us through understanding how we can design tracks and systems that allow the differences and similarities of 50 different programming languages shine through.
+It will also allow us to hire Erik to lead on the "curriculum" side of the project. Erik has been a significant contributor to Exercism since 2016, maintaining the C#, F# and Scala tracks, building analysers, designing exercises, contributing to project-specifications and mentoring. He is also passionate about programming languages and has completed the majority of tracks on Exercism. He is also crucially someone who is universally liked and respected amongst the Exercism community, and therefore perfectly positioned to help navigate us through understanding how we can design tracks and systems that allow the differences and similarities of 50 different programming languages to shine through.
 
 ### Getting involved
 

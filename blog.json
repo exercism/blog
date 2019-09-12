@@ -174,5 +174,16 @@
     "title": "What's next for Exercism?",
     "author_handle": "iHiD",
     "marketing_copy": "Where has Exercism got to? What are we focussing on next? Learn about our plans for the next 12 months and where we'll be focussing our energy."
+  },
+  {
+    "uuid": "f652c6ec-1edc-4c75-ac4f-df236bffe24f",
+    "slug": "redesigning-tracks-in-partnership-with-chicago-university-and-sloan-foundation",
+    "category": "updates",
+    "published_at": "2019-09-12 01:00",
+    "content_repository": "blog",
+    "content_filepath": "posts/redesigning-tracks-chicago-sloan.md",
+    "title": "Redesigning tracks in partnership wtih Chicago University and The Sloan Foundation",
+    "author_handle": "iHiD",
+    "marketing_copy": "We're excited to announce a project in partnership with the University of Chicago, funded by the Sloan Foundation, in which we're going to be rethinking Exercism's tracks from the ground up."
   }
 ]

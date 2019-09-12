@@ -34,4 +34,4 @@ If you are an experienced mentor **and** maintainer and you'd like to get involv
 
 ### Conclusion
 
-We're really excited for this next phase. We believe it will help Exercism take huge steps forward and better serve both our students and mentors. We're extremely grateful to James, Gary, and the Sloan Foundation for their support
+We're really excited for this next phase. We believe it will help Exercism take huge steps forward and better serve both our students and mentors. We're extremely grateful to James, Gary, and the Sloan Foundation for their support.

@@ -4,7 +4,7 @@ Today, I'm really excited to announce that we are launching a project in associa
 
 ### Background
 
-For the last two years, James and Gary have been investigating how the languages that a programmer uses affects their efficiency, creativity, and collaboration. Supported by [a grant from the Sloan Foundation](https://sloan.org/grant-detail/8001) they have determined that a crucial part of this research is understanding how programmers learn different languages, and how one's existing knowledge helps or hinders new learning. This is the exact question that we have been asking ourselves with regards to language tracks on Exercism. How does someone's previous experience affect the pathways they need in our tracks and the style and substance of mentoring they respond best to?
+For the last two years, James and Gary have been investigating how the languages that a programmer uses affect their efficiency, creativity, and collaboration. Supported by [a grant from the Sloan Foundation](https://sloan.org/grant-detail/8001) they have determined that a crucial part of this research is understanding how programmers learn different languages, and how one's existing knowledge helps or hinders new learning. This is the exact question that we have been asking ourselves regarding language tracks on Exercism. How does someone's previous experience affect the pathways they need in our tracks and the style and substance of mentoring they respond best to?
 
 James, Gary, and The Sloan Foundation have decided to invest some of their resources into enabling Exercism to focus energy into redesigning our tracks to become more focused on a language's uniquenesses and to become more personalised based on the student's existing experience.
 

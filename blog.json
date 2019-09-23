@@ -87,7 +87,7 @@
     "content_filepath": "posts/automated-mentoring-support-project.md",
     "title": "The Automated Mentoring Support Project",
     "author_handle": "iHiD",
-    "marketing_copy": "Over the next few months we are gong to be developing a framework that uses static analysis to automatically analysis users' solutions, automatically approve solutions that are idiomatic, and provide feedback for commonly-seen improvements. Read on to learn about the project."
+    "marketing_copy": "Over the next few months we are going to be developing a framework that uses static analysis to automatically analysis users' solutions, automatically approve solutions that are idiomatic, and provide feedback for commonly-seen improvements. Read on to learn about the project."
   },
   {
     "uuid": "7ddec526-4613-46f9-8804-95f508060fa2",
@@ -185,6 +185,17 @@
     "title": "Redesigning tracks in partnership with The University of Chicago and The Sloan Foundation",
     "author_handle": "iHiD",
     "marketing_copy": "We're excited to announce a project in partnership with The University of Chicago, funded by The Sloan Foundation, in which we're going to be rethinking Exercism's tracks from the ground up."
+  },
+  {
+    "uuid": "f96494b4-2b75-4dd1-8bb7-7663d3162bd1",
+    "slug": "independent-mode-becomes-practice-mode",
+    "category": "updates",
+    "published_at": "2019-09-23 01:00",
+    "content_repository": "blog",
+    "content_filepath": "posts/independent-mode-becomes-practice-mode.md",
+    "title": "Independent Mode has been renamed to Practice Mode",
+    "author_handle": "iHiD",
+    "marketing_copy": "We've renamed Independent Mode to Practice Mode. Learn more about why in this post."
   },
   {
     "uuid": "ae3df2e7-a570-422a-aa79-3f2e18453bf4",

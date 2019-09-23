@@ -185,5 +185,16 @@
     "title": "Redesigning tracks in partnership with The University of Chicago and The Sloan Foundation",
     "author_handle": "iHiD",
     "marketing_copy": "We're excited to announce a project in partnership with The University of Chicago, funded by The Sloan Foundation, in which we're going to be rethinking Exercism's tracks from the ground up."
+  },
+  {
+    "uuid": "f96494b4-2b75-4dd1-8bb7-7663d3162bd1",
+    "slug": "independent-mode-becomes-practice-mode",
+    "category": "updates",
+    "published_at": "2019-09-23 01:00",
+    "content_repository": "blog",
+    "content_filepath": "posts/independent-mode-becomes-practice-mode.md",
+    "title": "Independent Mode has been renamed to Practice Mode",
+    "author_handle": "iHiD",
+    "marketing_copy": "We've renamed Independent Mode to Practice Mode. Learn more about why in this post."
   }
 ]

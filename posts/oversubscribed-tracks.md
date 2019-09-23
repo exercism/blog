@@ -1,4 +1,4 @@
-One of the biggest challenges we face is tracks getting too popular for our mentors to keep up. The wait time for students increases, and mentors have the very unsatisfying experience of seeing queues keep growing despite putting a huge amount of work in to try and keep on top.
+One of the biggest challenges we face is tracks getting too popular and our mentors being unable to cope with the volume of submissions. The wait time for students increases, and mentors have the very unsatisfying experience of seeing queues keep growing despite putting a huge amount of work in to try and keep on top.
 
 Solving this is far from trivial, but we believe we have some good solutions that will make things better (see our [recent blog post](https://exercism.io/blog/whats-next-for-exercism-aug-2019) for details). However, these will all take time to implement, and there is a very real problem today.
 

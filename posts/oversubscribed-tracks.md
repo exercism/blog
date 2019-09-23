@@ -2,7 +2,7 @@ One of the biggest challenges we face is tracks getting too popular and our ment
 
 Solving this is far from trivial, but we believe we have some good solutions that will make things better (see our [recent blog post](https://exercism.io/blog/whats-next-for-exercism-aug-2019) for details). However, these will all take time to implement, and there is a very real problem today.
 
-We've therefore decided to add an "Oversubscribed" mode to tracks, where when the median wait time for core exercises becomes too long, we:
+We've therefore decided to add an "Oversubscribed" status to tracks, where when the median wait time for core exercises becomes too long, we:
 - Only allow students joining a track to use Practice Mode, not Mentored Mode
 - Stop students in Practice Mode from requesting mentoring on their solutions (they can continue to use Practice Mode independently)
 

@@ -185,5 +185,16 @@
     "title": "Redesigning tracks in partnership with The University of Chicago and The Sloan Foundation",
     "author_handle": "iHiD",
     "marketing_copy": "We're excited to announce a project in partnership with The University of Chicago, funded by The Sloan Foundation, in which we're going to be rethinking Exercism's tracks from the ground up."
+  },
+  {
+    "uuid": "ae3df2e7-a570-422a-aa79-3f2e18453bf4",
+    "slug": "oversubscribed-tracks",
+    "category": "updates",
+    "published_at": "2019-09-23 02:00",
+    "content_repository": "blog",
+    "content_filepath": "posts/oversubscribed-tracks.md",
+    "title": "Dealing with oversubscribed tracks",
+    "author_handle": "iHiD",
+    "marketing_copy": "Oversubscribed tracks is a big problem for Exercism. This blog post outlines some short-term fixes we're putting in place to try and help with the problem."
   }
 ]

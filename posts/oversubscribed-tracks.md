@@ -6,7 +6,7 @@ We've therefore decided to add an "Oversubscribed" mode to tracks, where when th
 - Restrict all new students joining a track to use Practice Mode
 - Disallow any new submissions in Practice Mode
 
-Once a track gets it's median wait time back under control, the system will automatically allow new students to join Mentored Mode, and allow Practice Mode students to submit.
+Once a track gets its median wait time back under control, the system will automatically allow new students to join Mentored Mode, and allow Practice Mode students to submit.
 
 There are lots of extra bits of functionality we could add to this (e.g. queues to join, notifications when tracks unlock), but for now we're just taking a somewhat brute-force approach to fix the main pain point.
 

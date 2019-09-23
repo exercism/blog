@@ -196,5 +196,16 @@
     "title": "Independent Mode has been renamed to Practice Mode",
     "author_handle": "iHiD",
     "marketing_copy": "We've renamed Independent Mode to Practice Mode. Learn more about why in this post."
+  },
+  {
+    "uuid": "ae3df2e7-a570-422a-aa79-3f2e18453bf4",
+    "slug": "oversubscribed-tracks",
+    "category": "updates",
+    "published_at": "2019-09-23 02:00",
+    "content_repository": "blog",
+    "content_filepath": "posts/oversubscribed-tracks.md",
+    "title": "Dealing with oversubscribed tracks",
+    "author_handle": "iHiD",
+    "marketing_copy": "Oversubscribed tracks is a big problem for Exercism. This blog post outlines some short-term fixes we're putting in place to try and help with the problem."
   }
 ]

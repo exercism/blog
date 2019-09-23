@@ -4,7 +4,7 @@ Solving this is far from trivial, but we believe we have some good solutions tha
 
 We've therefore decided to add an "Oversubscribed" mode to tracks, where when the median wait time for core exercises becomes too long, we:
 - Only allow students joining a track to use Practice Mode, not Mentored Mode
-- Disallow any new submissions in Practice Mode
+- Stop students in Practice Mode from requesting mentoring on their solutions (they can continue to use Practice Mode independently)
 
 Once a track gets its median wait time back under control, the system will automatically allow new students to join Mentored Mode, and allow Practice Mode students to submit solutions for mentoring.
 

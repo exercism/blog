@@ -207,5 +207,16 @@
     "title": "Dealing with oversubscribed tracks",
     "author_handle": "iHiD",
     "marketing_copy": "Oversubscribed tracks is a big problem for Exercism. This blog post outlines some short-term fixes we're putting in place to try and help with the problem."
+  },
+  {
+    "uuid": "024f056c-3654-4291-b60e-078d830df8ca",
+    "slug": "announcing-exercism-research",
+    "category": "updates",
+    "published_at": "2019-11-21 01:00",
+    "content_repository": "blog",
+    "content_filepath": "posts/announcing-exercism-research.md",
+    "title": "Announcing Exercism Research",
+    "author_handle": "iHiD",
+    "marketing_copy": "We're launching Exercism Research - a new space to host experiments to help us understand how people learn new programming languages."
   }
 ]

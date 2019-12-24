@@ -15,7 +15,7 @@ V2: 188,844 (48% of new visitors sign up)
 
 This first change was substantial. Our V2 landing page converts at 48% as opposed to 17% for V1. That's pretty much purely down to brand and clarity over what we do and who we are. So I strongly believe that the effort that went into rebranding Exercism was worth the effort.
 
-One caveat is that V2 probably encourages people to sign up who aren't yet ready for Exercism as it stands. V2 isn't set up for total beginners, yet the landing page for V2 is much more welcoming for total beginners, so we probably get a lot of users who aren't yet ready for Exercism. One way to account for this would be to not show only visitors signing up, but rather how many visitors signed up _and_ managed to submit a solution. For this we see:
+One caveat is that V2 probably encourages people to sign up who aren't yet ready for Exercism as it stands. V2 isn't set up for total beginners, yet the landing page for V2 is much more welcoming for total beginners, so we probably get a lot of users who aren't yet ready for Exercism. One way to account for this would be to consider not only the number of visitors signing up, but rather how many visitors signed up _and_ managed to submit a solution. For this we see:
 
 V1: 26,194 (7% new visitors sign up and submit)
 V2: 52,533 (13.9% new visitors sign up and submit)

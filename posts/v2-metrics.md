@@ -26,7 +26,7 @@ So from this we can say that the branding has accounted for approximately a doub
 
 The second thing we wanted to improve was the amount of mentoring per solution. In V1 it was a bit of a lottery - you might get comments or you might not, purely dependent on whether someone noticed your submission. A big part of the formal mentoring of V2 was about making this fairer, consistent and reliable.
 
-The metric I've used here is _comments per solution_.
+The metric I've used here is percentage of solutions that receive a comment.
 
 V1: 3.5% of all solutions
 V2: 64% of solutions where mentoring has been requested (26% of all solutions)

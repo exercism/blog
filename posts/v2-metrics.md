@@ -6,16 +6,16 @@ Two notes. Firstly, the metrics below are roughly ordered by the flow of the sit
 
 ### Visitors signing up (Branding)
 
-One of our aims was to make Exercism feel more welcoming to people who might have been put off by the original (red + devil) branding. To many, this seemed like a minor change, because they **weren't** put off by the branding so the effort seemed like a waste of time. However, we believed that Exercism didn't say "welcoming inclusive community" in V1, and it was important for us to put that right.
+One of our aims was to make Exercism feel more welcoming to people who might have been put off by the original (red + devil) branding. To many, this seemed like a minor change, because they **weren't** put off by the branding and so the effort seemed like a waste of time. However, we believed that Exercism didn't exude "welcoming inclusive community" in V1, and it was important for us to put that right.
 
-So how many people signed up to Exercism over the periods, and what was this as a percentage of new visitors?
+How many people signed up to Exercism over the periods, and what was this as a percentage of new visitors?
 
 V1: 62,618 (17% of new visitors sign up)
 V2: 188,844 (48% of new visitors sign up)
 
-So this first change was substantial. Our V2 landing page converts at 48% as opposed to 17% for V1. That's pretty much purely down to brand and clarity over what we do and who we are. So I strongly believe that the effort that went into rebranding Exercism was worth the effort.
+This first change was substantial. Our V2 landing page converts at 48% as opposed to 17% for V1. That's pretty much purely down to brand and clarity over what we do and who we are. So I strongly believe that the effort that went into rebranding Exercism was worth the effort.
 
-One caveat is that V2 probably encourages people to sign up who aren't yet ready for Exercism as it stands. V2 isn't set up for total beginners, yet the landing page for V2 is much more welcoming for total beginners, so we probably get a lot of users who aren't yet ready for Exercism. One way to account for this would be to say rather than visitors signing up, how many visitors signed up and managed to submit a solution. For this we see:
+One caveat is that V2 probably encourages people to sign up who aren't yet ready for Exercism as it stands. V2 isn't set up for total beginners, yet the landing page for V2 is much more welcoming for total beginners, so we probably get a lot of users who aren't yet ready for Exercism. One way to account for this would be to not show only visitors signing up, but rather how many visitors signed up _and_ managed to submit a solution. For this we see:
 
 V1: 26,194 (7% new visitors sign up and submit)
 V2: 52,533 (13.9% new visitors sign up and submit)
@@ -26,7 +26,7 @@ So from this we can say that the branding has accounted for approximately a doub
 
 The second thing we wanted to improve was the amount of mentoring per solution. In V1 it was a bit of a lottery - you might get comments or you might not, purely dependent on whether someone noticed your submission. A big part of the formal mentoring of V2 was about making this fairer, consistent and reliable.
 
-The metric I've used here is what per of solutions received a comment.
+The metric I've used here is _comments per solution_.
 
 V1: 3.5% of all solutions
 V2: 64% of solutions where mentoring has been requested (26% of all solutions)
@@ -45,10 +45,10 @@ V2: 8.2 solutions / person
 
 Both held pretty much steady. This is one area where I hoped we'd see a big increase in V2 and we didn't. The wait times for mentoring, and the blocking mechanisms that stop progression without mentoring both made V2 a very slow experience. For someone wanting to get stuck into a language, with the huge mentor queues we often saw, it became difficult to learn at a reasonable rate. The experience here will be very track-dependent. For tracks with wait times longer than a day, the dropout rate is noticeable. For those with longer wait times (e.g. Rust, Python), the dropout rate is substantial.
 
-The changes in V3 are largely aimed at fixing this problem - making Exercism a place where you can quickly learn or practice a language, but where you can also have asycronous helpful conversations with mentors without having your progress blocked.
+The changes in V3 are largely aimed at fixing this problem - making Exercism a place where you can quickly learn or practice a language, but where you can also have asynchronous helpful conversations with mentors without having your progress blocked.
 
 ## Moving towards V3.
 
-For V3 I hope to see all three of these metrics continue to rise. My aim is that people hear about Exercism and sign up, that they manage to submit solutions and get deep into tracks without feeling frustrated, and that when they want mentoring they receive it. 
+For V3 I hope to see all three of these metrics continue to rise. My aim is that people hear about Exercism and sign up, that they manage to submit solutions and get deep into tracks without feeling frustrated, and that when they want mentoring they receive it.
 
-I hope that the stats above demonstrate that we're moving in the right direction and that the work everyone has put into V2 has been worthwhile. There's going to be a lot of effort needed from the community to get us to V3, but I'm confident that when we take stock of Exercism in 24 months from now, we'll be seeing similar increases and that all of the next phase of work will prove worthwhile. Exercism **is** our community - thank you all for everything you do.
+I hope that the statistics above demonstrate that we're moving in the right direction and that the work everyone has put into V2 has been worthwhile. There's going to be a lot of effort needed from the community to get us to V3, but I'm confident that when we take stock of Exercism 24 months from now, we will be seeing similar increases and that all of the next phase of work will prove worthwhile. Exercism **is** our community - thank you all for everything you do.

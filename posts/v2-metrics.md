@@ -35,7 +35,7 @@ This is the phenomenal statistic in my eyes and the big indicator that V2 took u
 
 ### Stickiness
 
-Finally, we wanted to improve "stickiness" - the amount of usage of the site. If people are enjoying Exercism and finding it useful, they'll do more with it. There are two sides to this, the amount of times someone comes back to the site and the number of solutions someone uploads.
+Finally, we wanted to improve "stickiness" - the amount of usage of the site. If people are enjoying Exercism and finding it useful, they'll do more with it. There are two sides to this, the number of times someone comes back to the site and the number of solutions someone uploads.
 
 V1: 4.79 sessions / person
 V2: 5.42 sessions / person

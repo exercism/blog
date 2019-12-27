@@ -43,7 +43,7 @@ V2: 5.42 sessions / person
 V1: 8.0 solutions / person
 V2: 8.2 solutions / person
 
-Both held pretty much steady. This is one area where I hoped we'd see a big increase in V2, and we didn't. The wait times for mentoring, and the blocking mechanisms that stop progression without mentoring both made V2 a very slow experience. For someone wanting to get stuck into a language, with the huge mentor queues we often saw, it became difficult to learn at a reasonable rate. The experience here will be very track-dependent. For tracks with wait times longer than a day, the dropout rate is noticeable. For those with longer wait times (e.g., Rust, Python), the dropout rate is substantial.
+Both held pretty much steady. This is one area where I hoped we'd see a big increase in V2, and we didn't. The wait times for mentoring, and the blocking mechanisms that stop progression without mentoring both made V2 a very slow experience. For someone wanting to quickly progress through a language, the huge mentor queues made it very difficult to learn at a reasonable enough rate. The experience here will be very track-dependent. For tracks with wait times longer than a day, the dropout rate is noticeable. For those with longer wait times (e.g., Rust, Python), the dropout rate is substantial.
 
 The changes in V3 are largely aimed at fixing this problem - making Exercism a place where you can quickly learn or practice a language, but where you can also have helpful asynchronous conversations with mentors without having your progress blocked.
 

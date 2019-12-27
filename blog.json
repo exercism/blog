@@ -218,5 +218,16 @@
     "title": "Announcing Exercism Research",
     "author_handle": "iHiD",
     "marketing_copy": "We're launching Exercism Research - a new space to host experiments to help us understand how people learn new programming languages."
+  },
+  {
+    "uuid": "fbccb326-5015-4a4b-821e-9020e58c5f16",
+    "slug": "v2-metrics",
+    "category": "updates",
+    "published_at": "2019-12-27 01:00",
+    "content_repository": "blog",
+    "content_filepath": "posts/v2-metrics",
+    "title": "Was V2 worth the effort?",
+    "author_handle": "iHiD",
+    "marketing_copy": "As we move towards Exercism V3, I wanted to expore the impact that V2 had and analyse whether it was worth the effort that the community put in."
   }
 ]

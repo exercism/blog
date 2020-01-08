@@ -2,7 +2,7 @@
 
 Exercism is powered by the energy of many volunteers, especially the [track maintainers](https://exercism.io/team/maintainers) who are responsible for creating and managing our Language Tracks.
 
-We're about to start a big push towards version 3 (v3) of Exercism. Getting all the tracks ready for v3 is going to take a big community effort, and we're looking to add a few more maintainers to oversee and manage that task.
+We're about to start a big push towards version 3 (v3) of Exercism. Getting all the tracks ready for v3 is going to be a big community effort, and we're looking to add more maintainers to oversee and manage that task.
 
 In the push to v3, our maintainers will be responsible for:
 - **Designing the track:** Working out what someone needs to learn to become fluent in a language, and mapping this out as a pathway.

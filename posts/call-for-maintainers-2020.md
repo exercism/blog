@@ -6,7 +6,7 @@ We're about to start a big push towards version 3 (v3) of Exercism. Getting all 
 
 In the push to v3, our maintainers will be responsible for:
 - **Designing the track:** Working out what someone needs to learn to become fluent in a language, and mapping this out as a pathway.
-- **Decision making:** Making design decisions around the tooling the track uses, the standards it conforms, the defaults it uses, etc.
+- **Decision making:** Making design decisions around the tooling the track uses, the standards it conforms to, the defaults it uses, etc.
 - **Encouraging and supporting contributions:** Providing a welcoming environment for people that want to help out, answering their questions, etc
 - **Reviewing PRs:** A lot of the acutal work of building out v3 tracks will be done by the community. Maintainers act as gatekeepers, reviewing the work that the community does and ensuring the track's standards are enforced.
 

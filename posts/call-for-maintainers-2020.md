@@ -12,6 +12,6 @@ In the push to v3, our maintainers will be responsible for:
 
 This might all sound a bit daunting but our more experienced team will help you get started and hold your hand as you learn the ropes. Ideally you can commit 3hrs per week (preferably spread over a week) for about 6 months, although obviously life ebs and flows, and some weeks might work better than others. You'll also preferably have some experience of Exercism - either as a mentor or having contributed to the codebase. This isn't strictly a requirement, but it's nice to know you've cared about Exercism for a while.
 
-Maintainers are volunteers so don't get paid. The key motiviation will ideally be you wanting to help a non-for-profit organisation, but being an Exercism maintainer also looks pretty good on a Resume if that's something that matters to you.
+Maintainers are volunteers so don't get paid. The key motivation will ideally be you wanting to help people develop their programming skills, and help a non-for-profit organisation. Being an Exercism maintainer also a great opportunity to work with some fun, smart people, learn a lot of things, and it looks pretty good on a Resume if that's something that matters to you.
 
 If you're interested in becoming a maintainer, we'd love to hear from you. There is an issue on GitHub for each live track, where you can post a comment introducing yourself. You can find a list of the issues [here](....).

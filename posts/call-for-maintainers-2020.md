@@ -10,7 +10,12 @@ In the push to v3, our maintainers will be responsible for:
 - **Encouraging and supporting contributions:** Providing a welcoming environment for people that want to help out, answering their questions, etc.
 - **Reviewing PRs:** A lot of the actual work of building out v3 tracks will be done by the community. Maintainers act as gatekeepers, reviewing the work that the community does and ensuring the track's standards are enforced.
 
-This might all sound a bit daunting but our more experienced team will help you get started and hold your hand as you learn the ropes. Ideally you can commit 3hrs per week (preferably spread over a week) for about 6 months, although obviously life ebs and flows, and some weeks might work better than others. You'll also preferably have some experience of Exercism - either as a mentor or having contributed to the codebase. This isn't strictly a requirement, but it's nice to know you've cared about Exercism for a while.
+This might all sound a bit daunting but with the work spread between a team of maintainers, individuals can do the bits that they feel best equipped for. Our more experienced maintainers will also help you get started and hold your hand as you learn the ropes. 
+
+To be able to do the role you will:
+- Be able to commit an average of 3 hours per week (preferably spread over the week) for about 6 months. We know that life ebs and flows though so fully understand that some weeks might work better than others for you to contribute. 
+- Have used Exercism.
+- Preferably have contributed to Exercism - either as a mentor or having contributed to the codebase. While this isn't an absolute requirement, if too many people want to maintain a track, we will give priority to people who have shown a desire to help over the longer term.
 
 Maintainers are volunteers so don't get paid. The key motivation will ideally be you wanting to help people develop their programming skills, and help a non-for-profit organisation. Being an Exercism maintainer also a great opportunity to work with some fun, smart people, learn a lot of things, and it looks pretty good on a Resume if that's something that matters to you.
 

@@ -13,7 +13,7 @@ In the push to v3, our maintainers will be responsible for:
 This might all sound a bit daunting but with the work spread between a team of maintainers, individuals can do the bits that they feel best equipped for. Our more experienced maintainers will also help you get started and hold your hand as you learn the ropes. 
 
 To be able to do the role you will:
-- Be able to commit an average of 3 hours per week (preferably spread over the week) for about 6 months. We know that life ebs and flows though so fully understand that some weeks might work better than others for you to contribute. 
+- Be able to commit an average of 3 hours per week (preferably spread over the week) for about 6 months. We know that life ebbs and flows though so fully understand that some weeks might work better than others for you to contribute. 
 - Have used Exercism.
 - Preferably have contributed to Exercism - either as a mentor or having contributed to the codebase. While this isn't an absolute requirement, we find our maintainers enjoy the process more if they have some existing experience with Exercism.
 

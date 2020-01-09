@@ -15,8 +15,8 @@ This might all sound a bit daunting but with the work spread between a team of m
 To be able to do the role you will:
 - Be able to commit an average of 3 hours per week (preferably spread over the week) for about 6 months. We know that life ebs and flows though so fully understand that some weeks might work better than others for you to contribute. 
 - Have used Exercism.
-- Preferably have contributed to Exercism - either as a mentor or having contributed to the codebase. While this isn't an absolute requirement, if too many people want to maintain a track, we will give priority to people who have shown a desire to help over the longer term.
+- Preferably have contributed to Exercism - either as a mentor or having contributed to the codebase. While this isn't an absolute requirement, we find our maintainers enjoy the process more if they have some existing experience with Exercism.
 
 Maintainers are volunteers so don't get paid. The key motivation will ideally be you wanting to help people develop their programming skills, and help a non-for-profit organisation. Being an Exercism maintainer is also a great opportunity to work with some other smart people, learn more about your language of choice, and gain skills and experience that are useful for growing your career in the technical leadership direction. It also looks pretty good on a resume.
 
-If you're interested in becoming a maintainer, we'd love to hear from you. There is an issue on GitHub for each live track, where you can post a comment introducing yourself. You can find a list of the issues [here](....).
+If you're interested in becoming a maintainer, we'd love to hear from you. There is an issue on GitHub for each live track, where you can post a comment introducing yourself. You can find a [list of the issues here](https://github.com/exercism/exercism/issues/5161).

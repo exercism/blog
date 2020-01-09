@@ -17,6 +17,6 @@ To be able to do the role you will:
 - Have used Exercism.
 - Preferably have contributed to Exercism - either as a mentor or having contributed to the codebase. While this isn't an absolute requirement, if too many people want to maintain a track, we will give priority to people who have shown a desire to help over the longer term.
 
-Maintainers are volunteers so don't get paid. The key motivation will ideally be you wanting to help people develop their programming skills, and help a non-for-profit organisation. Being an Exercism maintainer is also a great opportunity to work with some other smart people, learn more about your language of choice, and gain useful skills and experience that are useful for growing your career in the technical leadership direction. It also looks pretty good on a resume.
+Maintainers are volunteers so don't get paid. The key motivation will ideally be you wanting to help people develop their programming skills, and help a non-for-profit organisation. Being an Exercism maintainer is also a great opportunity to work with some other smart people, learn more about your language of choice, and gain skills and experience that are useful for growing your career in the technical leadership direction. It also looks pretty good on a resume.
 
 If you're interested in becoming a maintainer, we'd love to hear from you. There is an issue on GitHub for each live track, where you can post a comment introducing yourself. You can find a list of the issues [here](....).

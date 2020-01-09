@@ -229,5 +229,16 @@
     "title": "Was V2 worth the effort?",
     "author_handle": "iHiD",
     "marketing_copy": "As we move towards Exercism V3, I wanted to expore the impact that V2 had and analyse whether it was worth the effort that the community put in."
+  },
+  {
+    "uuid": "69a495d3-58f0-45c6-b8df-6398064b82b6",
+    "slug": "call-for-maintainers-2020",
+    "category": "updates",
+    "published_at": "2020-01-09 01:00",
+    "content_repository": "blog",
+    "content_filepath": "posts/call-for-maintainers-2020.md",
+    "title": "Call for Track Maintainers",
+    "author_handle": "iHiD",
+    "marketing_copy": "We're looking for some new Track Maintainers to help us on our journey to Exercism version 3. If you're interested in helping out, please read on!"
   }
 ]

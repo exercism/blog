@@ -28,8 +28,8 @@ The second thing we wanted to improve was the amount of mentoring per solution. 
 
 The metric I've used here is the percentage of solutions that receive a comment.
 
-V1: 3.5% of all solutions
-V2: 64% of solutions where mentoring has been requested (26% of all solutions)
+- V1: 3.5% of all solutions
+- V2: 64% of solutions where mentoring has been requested (26% of all solutions)
 
 This is the phenomenal statistic in my eyes and the big indicator that V2 took us in the right direction. You're now 18x more likely to receive feedback on your solution in V2 than in V1. There's a lot we got wrong with mentoring in V2 (see the next section!), but I feel hugely proud and grateful to our mentors for the fact that Exercism offers a place where if you want mentoring, you'll more likely than not receive it.
 

@@ -240,5 +240,16 @@
     "title": "Call for Track Maintainers",
     "author_handle": "iHiD",
     "marketing_copy": "We're looking for some new Track Maintainers to help us on our journey to Exercism version 3. If you're interested in helping out, please read on!"
+  },
+  {
+    "uuid": "d925ec36-92dd-4bf6-be1d-969d192a4034",
+    "slug": "sorry-for-the-wat",
+    "category": "updates",
+    "published_at": "2020-04-20 01:00",
+    "content_repository": "blog",
+    "content_filepath": "posts/sorry-for-the-wait.md",
+    "title": "Sorry for the wait",
+    "author_handle": "iHiD",
+    "marketing_copy": "Our community is hard at work building Exercism v3, which means mentorng is quite a bit slower than normal. Read to learn more"
   }
 ]

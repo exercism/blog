@@ -1,6 +1,6 @@
 # Exercism has moved to exercism.org
 
-Exercism has a new home at exercism.org!
+## Exercism has a new home at exercism.org!
 
 For the last 8 years Exercism has lived at exercism.io and we decided it was time for a change!
 

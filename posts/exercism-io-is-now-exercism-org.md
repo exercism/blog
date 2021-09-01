@@ -4,7 +4,7 @@ Exercism has a new home at exercism.org!
 
 For the last 8 years Exercism has lived at exercism.io and we decided it was time for a change!
 
-If you're interested, here are a few of the reasons we made the decision.
+If you're interested, here are a few of the reasons why we made this decision.
 
 Primarily, we feel that the `.org` domain better represents what Exercism is. 
 Most startups begin with finding whatever domain is available, and `.io` was a nice fit as it's often associated with I/O.

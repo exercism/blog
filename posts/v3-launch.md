@@ -1,5 +1,5 @@
 After two years, we're finally launched.
-Take a watch of the video above to hear by thoughts on everything and explore a little about where we're going next.
+Watch the video above to hear our thoughts on everything and explore a little about where we're going next.
 
 We've been working on this for a long time and the big challenge for us has been when to launch. 
 What does ready look like?
@@ -16,14 +16,14 @@ Here are a few answers to questions I've been asked:
   So keep checking back to see if you get awarded anything!
 - **Reputation:** All reputation has so far been automated generated.
   Some people are owed reputation for things that aren't automated.
-  I will sort this in the next couple of weeks.
+  We will sort this in the next couple of weeks.
 - All data has been carried over from v2 to v3.
-  We've done lots of reshaping and migrating, and we (I) might have made mistakes.
+  We've done lots of reshaping and migrating, and we might have made mistakes.
   If something is wrong, please open an issue on [GitHub](https://github.com/exercism/exercism).
 - **Exercism Teams:** Teams is offline for the rest of 2021.
   We're going to take some time to rebuild it properly, and have a whole load of really exciting features in stored.
   Watch this space in early 2022.
-- **Exercism Research:** The Research subsite is now offline, but we are still working with the researchers in Chicago, and will be adding in more experients into the site in the coming months.
+- **Exercism Research:** The Research subsite is now offline, but we are still working with the researchers in Chicago, and will be adding in more experiments into the site in the coming months.
   Look out for more information in a vlog soon.
 - **Mentoring:** All your mentoring discussions should be available for you to see.
   In v2, mentoring was automatically requested on submission.

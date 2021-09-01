@@ -220,6 +220,15 @@
       "author_handle": "iHiD",
       "marketing_copy": "Exercism has a new home! With the launch of v3 we've moved from exercism.io to exercism.org. Read on to learn more!",
       "image_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/blog/io-org.svg"
+    },
+    {
+      "uuid": "f2a0a704-83a7-486a-a7b3-f30e4e4b6711",
+      "slug": "exercism-v3-has-launched",
+      "category": "updates",
+      "published_at": "2021-09-01 11:00",
+      "title": "Exercism v3 has launched",
+      "author_handle": "iHiD",
+      "marketing_copy": "The brand new version of Exercism has launched. Here our co-founders thoughts and check some FAQs inside."
     }
   ]
 }

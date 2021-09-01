@@ -7,7 +7,7 @@ For the last 8 years Exercism has lived at exercism.io and we decided it was tim
 If you're interested, here are a few of the reasons why we made this decision.
 
 Primarily, we feel that the `.org` domain better represents what Exercism is. 
-Most startups begin with finding whatever domain is available, and `.io` was a nice fit as it's often associated with I/O.
+Most new projects begin with finding whatever domain is available, and `.io` was a nice fit as it's often associated with I/O.
 But as we've grown, evolved, and become a larger platform, we've felt for a while that it was time for a more "official" seeming domain.
 We own `exercism.com`, `exercism.net`, and a few others, but we feel that `exercism.org` best represents our not-for-profit mission and gives the best first impression.
 As we also look to raise donations from both our community and from organisations, we felt that the more professional `.org` also offers more trust, especially as our name can sometimes give a slightly jarring first impression…

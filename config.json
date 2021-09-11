@@ -231,6 +231,17 @@
       "youtube_id": "6eMQoDWmu_0",
       "marketing_copy": "The brand new version of Exercism has launched. Hear our co-founders' thoughts and check some FAQs inside.",
       "image_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/blog/vlog-launching-v3.png"
+    },
+    {
+      "uuid": "f499ed63-f033-424b-97a7-fd806c428e30",
+      "slug": "whats-new-in-v3-with-angelika",
+      "category": "updates",
+      "published_at": "2021-09-11 11:00",
+      "title": "Analyzers, Representers & Syllabuses - What's new in Exercism?",
+      "author_handle": "angelikatyborska",
+      "youtube_id": "ijQof_ASicw",
+      "marketing_copy": "Angelika looks at the big changes to Exercism in version 3 and what they were designed to fix. She takes a walk through the problems in v2 and new features and technology, including analyzers, respresenters, the new Learning Exercises and syllabuses.",
+      "image_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/blog/whats-new-in-v3-with-angelika.png"
     }
   ]
 }

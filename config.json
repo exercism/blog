@@ -242,6 +242,18 @@
       "youtube_id": "ijQof_ASicw",
       "marketing_copy": "Angelika looks at the big changes to Exercism in version 3 and what they were designed to fix. She takes a walk through the problems in v2 and new features and technology, including analyzers, respresenters, the new Learning Exercises and syllabuses.",
       "image_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/blog/whats-new-in-v3-with-angelika.png"
+    },
+    {
+      "uuid": "9df19edd-d984-4672-84a1-068ee313f20c",
+      "slug": "exercism-is-the-official-go-mentoring-platform",
+      "category": "updates",
+      "published_at": "2021-10-03 11:00",
+      "title": "Exercism is now the official Go Mentoring Platform",
+      "author_handle": "iHiD",
+      "youtube_id": "_HvwIcAe88A",
+      "marketing_copy": "Exercism is now the official Go Mentoring Platform for the Go Developer Network and GoBridge. We're really excited to help more developers fall in love with Go and proud to be in partnership with The Bridge Foundary",
+      "image_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/blog/gobridge.png"
     }
+
   ]
 }

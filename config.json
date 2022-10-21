@@ -254,6 +254,20 @@
       "marketing_copy": "Exercism is now the official Go Mentoring Platform for the Go Developer Network and GoBridge. We're really excited to help more developers fall in love with Go and proud to be in partnership with The Bridge Foundary",
       "image_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/blog/gobridge.png"
     }
-
+  ],
+  "stories": [
+    {
+      "uuid": "e64c98c2-64a7-42ac-80ec-647561bbee7f",
+      "slug": "learning-to-code-by-telling-the-story-of-a-program-rlmark",
+      "title": "Learning to code by telling the story of a program",
+      "blurb": "Rebecca Mark works for Unison Computing, where her mission is to make learning the Unison programming language as fun and accessible as can be. She started programming after a career in education; her favorite question from a student has been, “Is Rebecca a real grown-up?” to which her answer is another question: “Does that exist?” She started studying web development between sandwich bites on her lunch break. Later, she was a member of the second cohort of the Ada Developers Academy, where she learned the importance of holding the door open for others when it comes to entering the tech industry. Since that time she’s worked on software projects big and small, and has come to love functional programming and creating tech communities. Every day she wakes up and learns something new from her brainy coworkers and the stellar Unison community.Her degree was in English Literature, and yes, she does think it is relevant to programming. In a different world she might have gone on to study poetics and convince future reluctant readers that it’s worth it to struggle through a poem. Roll the dice again and in that universe she might have stayed in education, working with a focus on social justice. In this world, she’s grateful she gets to convince future Unison programers that there is a lot of joy to be found in learning a new programming language ecosystem or contending with a new functional effect management system.If you aren’t careful she’ll tell you all about her favorite poetic form (the sestina), her dogs (Kirby and Picasso), and her love of making pottery (you should go touch mud)!",
+      "published_at": "2022-10-24 12:01",
+      "length_in_minutes": 90,
+      "thumbnail_url": "https://test.org/thumbnail.png",
+      "image_url": "https://test.org/image.png",
+      "interviewer_handle": "jonathandmiddleton",
+      "interviewee_handle": "rlmark",
+      "youtube_id": "YoZ_aEw3Ep9"
+    }
   ]
 }

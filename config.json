@@ -254,6 +254,46 @@
       "marketing_copy": "Exercism is now the official Go Mentoring Platform for the Go Developer Network and GoBridge. We're really excited to help more developers fall in love with Go and proud to be in partnership with The Bridge Foundary",
       "image_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/blog/gobridge.png"
     }
-
+  ],
+  "stories": [
+    {
+      "uuid": "260cf1aa-6f3f-4d71-beba-98ff6c69a86d",
+      "slug": "learn-to-code-by-telling-the-story-of-a-program",
+      "title": "Learn to code by telling the story of a program",
+      "blurb": "Rebecca Mark works for Unison Computing, where her mission is to make learning the Unison programming language as fun and accessible as can be.",
+      "published_at": "2022-11-24 12:01",
+      "length_in_minutes": 39,
+      "thumbnail_url": "https://test.org/thumbnail.png",
+      "image_url": "https://test.org/image.png",
+      "interviewer_handle": "jonathandmiddleton",
+      "interviewee_handle": "rlmark",
+      "youtube_id": "HIdTAAW_1Q"
+    },
+    {
+      "uuid": "d454f418-8d13-4fff-90c1-fc206c272e75",
+      "slug": "abap-and-abap",
+      "title": "ABAP & ABAP",
+      "blurb": "Lars Hvam lives in Copenhagen, Denmark and loves the ABAP programming language. Having put together the ABAP track on Exercism, we caught up with Lars and had a chilled chat about how he ended up in tech.",
+      "published_at": "2022-11-30 12:01",
+      "length_in_minutes": 31,
+      "thumbnail_url": "https://test.org/thumbnail.png",
+      "image_url": "https://test.org/image.png",
+      "interviewer_handle": "jonathandmiddleton",
+      "interviewee_handle": "larshp",
+      "youtube_id": "dIVSceUm69s"
+    },
+    {
+      "uuid": "64a54fe7-7782-4620-8b34-ccaa4553ebea",
+      "slug": "problem-solving-your-way-into-being-a-tech-lead",
+      "title": "Problem Solving Your Way into being a Tech Lead",
+      "blurb": "Gabriel Nelle is living in South Germany near Baden-Baden. He’s sharing the apartment with his girlfriend and two cats. He studied to be a teacher for mathematics and German at university in Siegen which he finished in 2008",
+      "published_at": "2022-11-30 12:01",
+      "length_in_minutes": 52,
+      "thumbnail_url": "https://test.org/thumbnail.png",
+      "image_url": "https://test.org/image.png",
+      "interviewer_handle": "jonathandmiddleton",
+      "interviewee_handle": "tehsphinx",
+      "youtube_id": "-5Kg3gyfQuM"
+    }
   ]
 }

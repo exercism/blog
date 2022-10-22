@@ -35,7 +35,7 @@ And I think that's the first time I got really involved with the community and s
 
 **Lars:** And eventually going to university, doing a master in computer science and doing whatever programming and randomly getting a small job as I Yeah.
 Need money to pay my rent. And doing other programming. that has been sticking with me for the last around 15 years of SAP ABA custom code development.
-And, yeah. So next, next question. Why? Why did it stick around? Because ABBA is not a very modern program now. It is much like Cobo, but it's also a very interesting programming language because it's very wide, has a lot of different statements and a lot of different things can go wrong.
+And, yeah. So next, next question. Why? Why did it stick around? Because ABAP is not a very modern program now. It is much like Cobo, but it's also a very interesting programming language because it's very wide, has a lot of different statements and a lot of different things can go wrong.
 
 **Jonathan:** Okay. So there's a lot of pro problem solving and a lot of kinds of debugging. Is that the nature of it?
 
@@ -81,7 +81,7 @@ And also running on this kind of infrastructure would be impossible with ex, I d
 **Jonathan:** ? No. No. Sure.
 
 **Lars:** So we needed a different approach and luckily I had been working on my static analysis stuff. Started some years ago and it has abstract SY trees. So we actually take this code and make it into JavaScript code and then run it on Node and give the feedback on onm.
-So we say that it is not the official language that we support as abba and also ABBA is a bit special as I knowed a few times before. that there is no real nice official description of the ABBA language as such. Not like other languages that have been designed. I think ABBA has mainly evolved into what it is from the seventies or whenever it was started.
+So we say that it is not the official language that we support as ABAP and also ABAP is a bit special as I knowed a few times before. that there is no real nice official description of the ABAP language as such. Not like other languages that have been designed. I think ABAP has mainly evolved into what it is from the seventies or whenever it was started.
 So we make it up as we go.
 
 **Jonathan:** So what challenges does that kind of create on a day to day work thing for you? I guess because you have to be able to look at a problem with fresh eyes every day and try and get into the mind of the person who developed it because you have very little, is it right in saying that you have very little documentation to refer to, so you
@@ -176,8 +176,8 @@ Sensitively compared that in, in aba. We have a lot of library things as part of
 
 **Jonathan:** Okay, so that's
 
-**Lars:** plan, right? He goes, It has to be fun to make it work day to day, in my opinion. It will probably still be Abba on the menu in 10 years, I think.
-And it comes down a bit to that. I'm quite picky when it comes to program languages and technology. So I do Abba and I do JavaScript slash type groups, and then I try not to get into any other language.
+**Lars:** plan, right? He goes, It has to be fun to make it work day to day, in my opinion. It will probably still be ABAP on the menu in 10 years, I think.
+And it comes down a bit to that. I'm quite picky when it comes to program languages and technology. So I do ABAP and I do JavaScript slash type groups, and then I try not to get into any other language.
 
 **Jonathan:** Yeah. Okay. But if I was to say, Okay, Lars, you have to drop an app and JavaScript now and you have to pick up another programming language. Do you have any idea which one you would like? Yeah, I'll do that.
 

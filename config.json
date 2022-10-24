@@ -253,6 +253,17 @@
       "youtube_id": "_HvwIcAe88A",
       "marketing_copy": "Exercism is now the official Go Mentoring Platform for the Go Developer Network and GoBridge. We're really excited to help more developers fall in love with Go and proud to be in partnership with The Bridge Foundary",
       "image_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/blog/gobridge.png"
+    },
+    {
+      "uuid": "050f587b-9a4c-47de-b40d-471e72c7f680",
+      "slug": "community-tab",
+      "category": "updates",
+      "published_at": "2022-10-24 12:01",
+      "title": "Introducing the \"Community\" tab",
+      "author_handle": "iHiD",
+      "youtube_id": "Oib6eB6968Y",
+      "marketing_copy": "We're introducing forums, swag, community stories and a whole Dig Deeper section to exercises. Read to learn more!",
+      "image_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/blog/community-tab.jpg"
     }
   ],
   "stories": [
@@ -263,7 +274,7 @@
       "blurb": "Rebecca Mark works for Unison Computing, where her mission is to make learning the Unison programming language as fun and accessible as can be.",
       "published_at": "2022-11-24 12:01",
       "length_in_minutes": 39,
-      "thumbnail_url": "https://test.org/thumbnail.png",
+      "thumbnail_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/blog/story-rebecca-mark.jpg",
       "image_url": "https://test.org/image.png",
       "interviewer_handle": "jonathandmiddleton",
       "interviewee_handle": "rlmark",
@@ -276,7 +287,7 @@
       "blurb": "Lars Hvam lives in Copenhagen, Denmark and loves the ABAP programming language. Having put together the ABAP track on Exercism, we caught up with Lars and had a chilled chat about how he ended up in tech.",
       "published_at": "2022-11-30 12:01",
       "length_in_minutes": 31,
-      "thumbnail_url": "https://test.org/thumbnail.png",
+      "thumbnail_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/blog/story-lars.jpg",
       "image_url": "https://test.org/image.png",
       "interviewer_handle": "jonathandmiddleton",
       "interviewee_handle": "larshp",
@@ -289,7 +300,7 @@
       "blurb": "Gabriel Nelle is living in South Germany near Baden-Baden. He’s sharing the apartment with his girlfriend and two cats. He studied to be a teacher for mathematics and German at university in Siegen which he finished in 2008",
       "published_at": "2022-11-30 12:01",
       "length_in_minutes": 52,
-      "thumbnail_url": "https://test.org/thumbnail.png",
+      "thumbnail_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/blog/story-tehsphinx.jpg",
       "image_url": "https://test.org/image.png",
       "interviewer_handle": "jonathandmiddleton",
       "interviewee_handle": "tehsphinx",

@@ -253,6 +253,17 @@
       "youtube_id": "_HvwIcAe88A",
       "marketing_copy": "Exercism is now the official Go Mentoring Platform for the Go Developer Network and GoBridge. We're really excited to help more developers fall in love with Go and proud to be in partnership with The Bridge Foundary",
       "image_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/blog/gobridge.png"
+    },
+    {
+      "uuid": "050f587b-9a4c-47de-b40d-471e72c7f680",
+      "slug": "community-tab",
+      "category": "updates",
+      "published_at": "2022-10-24 12:01",
+      "title": "Introducing the \"Community\" tab",
+      "author_handle": "iHiD",
+      "youtube_id": "",
+      "marketing_copy": "We're introducing forums, swag, community stories and a whole Dig Deeper section to exercises. Read to learn more!",
+      "image_url": ""
     }
   ],
   "stories": [

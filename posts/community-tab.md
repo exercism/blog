@@ -2,7 +2,7 @@ Exercism is all about community. Without our volunteers, mentors, and everyone t
 
 So from today we're starting to focus more heavily on community, launching various initiatives to help bring our community together better and maximise the value of everything you all create! 
 
-We’ve added four new parts to Exercism - and they all live under the new [Community tab](https://exercism.org/community].
+We’ve added four new parts to Exercism - and they all live under the new [Community tab](https://exercism.org/community).
 
 ## Forum
 

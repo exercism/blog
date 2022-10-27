@@ -286,7 +286,7 @@
       "uuid": "64a54fe7-7782-4620-8b34-ccaa4553ebea",
       "slug": "problem-solving-your-way-into-being-a-tech-lead",
       "title": "Problem Solving Your Way into being a Tech Lead",
-      "blurb": "Gabriel Nelle is living in South Germany near Baden-Baden. He’s sharing the apartment with his girlfriend and two cats. He studied to be a teacher for mathematics and German at university in Siegen which he finished in 2008",
+      "blurb": "Gabriel Nelle is living in South Germany near Baden-Baden. He is sharing the apartment with his girlfriend and two cats. He studied to be a teacher for mathematics and German at university in Siegen which he finished in 2008",
       "published_at": "2022-11-30 12:01",
       "length_in_minutes": 52,
       "thumbnail_url": "https://test.org/thumbnail.png",
@@ -294,6 +294,71 @@
       "interviewer_handle": "jonathandmiddleton",
       "interviewee_handle": "tehsphinx",
       "youtube_id": "-5Kg3gyfQuM"
+    },
+    {
+      "uuid": "b2883a1f-98f1-4ae7-a185-d10e831e1336",
+      "slug": "dont-be-too-productive",
+      "title": "Don't Be Too Productive!",
+      "blurb": "Franziska lives in Germany and has a full-remote position as a Senior Software Engineer at Atlassian (the company behind Jira, Confluence and Trello). She works on Go services for a new product called 'Jira Product Discovery'. It aims to support product managers with their work and is currently in public beta.",
+      "published_at": "2022-11-30 12:01",
+      "length_in_minutes": 50,
+      "thumbnail_url": "https://test.org/thumbnail.png",
+      "image_url": "https://test.org/image.png",
+      "interviewer_handle": "jonathandmiddleton",
+      "interviewee_handle": "junedev",
+      "youtube_id": "0k2MOVU8ZtI"
+    },
+    {
+      "uuid": "a27d6a77-e3ea-49b7-b8f5-733c4f4f84e0",
+      "slug": "expeditions-elixir-and-exercism",
+      "title": "Expeditions, Elixir, and Exercism",
+      "blurb": "Brian Underwood is an Elixir consultant for Erlang Solutions living in Stockholm, Sweden. He likes to learn, understand, and play.",
+      "published_at": "2022-11-30 12:01",
+      "length_in_minutes": 45,
+      "thumbnail_url": "https://test.org/thumbnail.png",
+      "image_url": "https://test.org/image.png",
+      "interviewer_handle": "jonathandmiddleton",
+      "interviewee_handle": "cheerfulstoic",
+      "youtube_id": "X_oTsaLzSck"
+    },
+    {
+      "uuid": "844bdeca-e33a-44c3-b71f-7ef24158c480",
+      "slug": "entrepreneurial-by-design",
+      "title": "Entrepreneurial By Design",
+      "blurb": "Taiyab Raja is the principal UI/UX designer behind Exercism v3. If you think Exercism looks and feels awesome, he is the man to thank.",
+      "published_at": "2022-11-30 12:01",
+      "length_in_minutes": 51,
+      "thumbnail_url": "https://test.org/thumbnail.png",
+      "image_url": "https://test.org/image.png",
+      "interviewer_handle": "jonathandmiddleton",
+      "interviewee_handle": "taiyab",
+      "youtube_id": "HBZpD1K9saE"
+    },
+    {
+      "uuid": "3ce71278-61b3-4ddb-9770-82aad2934249",
+      "slug": "beating-paralysis-3d-printing-a-one-handed-keyboard",
+      "title": "Beating paralysis: 3D printing a one handed keyboard",
+      "blurb": "Today we are catching up with Bobbi Towers, the self-proclaimed 'Child of Exercism', who began their journey of contributing to open-source software right here with us. They joined the community in 2018 as a student on the Clojure track and went on to become a mentor.",
+      "published_at": "2022-11-30 12:01",
+      "length_in_minutes": 64,
+      "thumbnail_url": "https://test.org/thumbnail.png",
+      "image_url": "https://test.org/image.png",
+      "interviewer_handle": "jonathandmiddleton",
+      "interviewee_handle": "porkostomus",
+      "youtube_id": "IlEDKBPax_g"
+    },
+    {
+      "uuid": "62c18867-25c4-4eb1-b983-2e46952425df",
+      "slug": "prolific-mentor-and-system-automator",
+      "title": "Prolific Mentor and System Automator",
+      "blurb": "We caught up with Isaac who is involved with Exercism, specifically in mentoring learners across numerous different programming languages.  A self-proclaimed techie. Jack of all trades. Coffee hobbyist. Enjoying motorcycles, bicycles, woodworking, welding, DIY, fantasy novels, gardening...amongst other things.",
+      "published_at": "2022-11-30 12:01",
+      "length_in_minutes": 37,
+      "thumbnail_url": "https://test.org/thumbnail.png",
+      "image_url": "https://test.org/image.png",
+      "interviewer_handle": "jonathandmiddleton",
+      "interviewee_handle": "isaacg",
+      "youtube_id": "mAVkVr3S2AM"
     }
   ]
 }

@@ -1,7 +1,8 @@
-# Transcript: Entrepreneurial By Design - Taiyab Raja
+# Transcript: Entrepreneurial By Design with Taiyab Raja
 
 
-**Jonathan:** Hello and welcome to the Exercism podcast. It's Jonathan here, and I'm joined by Taiyab a, not by, with tie a tie. Taiyab has been an integral part in the whole design of Exercism and another company called Kaido. You can go and check that one out as well. Kaido.org. But Exercism is the one that he's spent a lot of his time recently putting together, especially moving it from V2 to v3. We'll drill into that a little bit later. But Ty, it's super to have you here with us today. Thank you for your time. Thank you for joining us. Tell us where are you currently, what are you doing? And tell us a little bit about yourself.
+**Jonathan:** Hello and welcome to the Exercism podcast. It's Jonathan here, and I'm joined by Taiyab a, not by, with tie a tie. Taiyab has been an integral part in the whole design of Exercism and another company called Kaido. You can go and check that one out as well. Kaido.org. But Exercism is the one that he's spent a lot of his time recently putting together, especially moving it from V2 to v3. We'll drill into that a little bit later. But Ty, it's super to have you here with us today. Thank you for your time. Thank you for joining us. Tell us where are you currently, what are you doing? And tell us
+a little bit about yourself.
 
 **Taiyab:** So first of all Jonathan, thanks for taking the time out to speak. Much appreciated. Ooh, where do I start? I guess right from the beginning, right? Origin stories. This is
 Yeah, so I was gonna say I was born . No. So let's go. Let's start from somewhere a bit relevant.

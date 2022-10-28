@@ -18,29 +18,29 @@ However, out of the most recent 500 solutions that passed the tests, over 350 of
 And even when you normalise things like whitespace and variable names, over half will still be actual unique solutions.
 
 Which makes it utterly fascinating to explore how everyone is solving things. 
+But it's also entirely impractical. There are millions of solutions on Exercism and reading them all would quite literally take a lifetime.
 
-But it's also impractical. There are millions of solutions on Exercism and reading them all would quite literally take a lifetime.
-But having designed the exercises, and mentored hundreds of thousands of people through them, our team have a pretty good idea of the different approaches people take.
-So we've added the new Dig Deeper tab to highlight the different idiomatic ways that an exercise can be solved!
+However! Having designed the exercises, and mentored hundreds of thousands of people through them, our team have a pretty good idea of the different approaches people take.
+So we've added the new Dig Deeper tab to highlight the different idiomatic (or non-idiomatic, but interesting) ways that an exercise can be solved!
 
 ## An example
 
 Let's take an example to show this in action. 
 In C# there are various ways you can reverse a string.
 
-You can use the `Reverse()` method:
+You can use the `Array.Reverse()` method:
 ```csharp
 var chars = input.ToCharArray();
 Array.Reverse(chars);
 return new string(chars);
 ```
 
-And improve it's readability using LINQ:
+Or use a shorter, LINQ-based approach:
 ```csharp
 return new string(input.Reverse().ToArray());
 ```
 
-or use a StringBuilder:
+or use a `StringBuilder`:
 ```
 var chars = new StringBuilder();
 for (var i = input.Length - 1; i >= 0; i--)
@@ -62,7 +62,7 @@ return new string(chars);
 ```
 
 We call each of these an Approach, and each has it's own seperate article explaining it. 
-The Dig Deeper page for this exercise explores brings those altogether, and also comes with an article on performance that explores the tradeoffs!
+The Dig Deeper page for this exercise brings those together, and also comes with an article on performance that explores the tradeoffs!
 
 [👉🏾 Check it out](https://exercism.org/tracks/csharp/exercises/reverse-string/dig_deeper) (you will need to go incognito if you've not solved the exercise yet)
 

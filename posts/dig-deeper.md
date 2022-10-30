@@ -64,7 +64,7 @@ for (var i = 0; i < input.Length; i++)
 return new string(chars);
 ```
 
-We call each of these an Approach, and each has it's own seperate article explaining it. 
+We call each of these an Approach, and each has its own seperate article explaining it. 
 The Dig Deeper page for this exercise brings those together, and also comes with an article on performance that explores the tradeoffs!
 
 [👉🏾 Check it out](https://exercism.org/tracks/csharp/exercises/reverse-string/dig_deeper) (you will need to go incognito if you've not solved the exercise yet)
@@ -78,6 +78,6 @@ We're collating all those exercises and bringing them onto the pages.
 
 Over the next few weeks, you’ll start to see the Dig Deeper tab appearing across exercises around the site.
 
-If you'd like to contribute an Approach, an exercise article, or tell us about your vidoeos so we can add them, get in touch with [jonathan@exercism.org](mailto:jonathan@exercism.org) and he'll help you get started!
+If you'd like to contribute an Approach, an exercise article, or tell us about your videos so we can add them, get in touch with [jonathan@exercism.org](mailto:jonathan@exercism.org) and he'll help you get started!
 
 And finally, tell us what you think and post your ideas and thoughts [in the forum post](https://forum.exercism.org/t/its-time-to-dig-deeper/459)!

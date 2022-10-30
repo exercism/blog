@@ -263,18 +263,18 @@
       "author_handle": "iHiD",
       "youtube_id": "Oib6eB6968Y",
       "marketing_copy": "We're introducing forums, swag, community stories and a whole Dig Deeper section to exercises. Read to learn more!",
-      "image_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/blog/dig-deeper.png"
+      "image_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/blog/community-tab.jpg"
     },
     {
       "uuid": "b4e208fc-82cb-4770-a191-1ba4f22f3eba",
       "slug": "dig-deeper",
       "category": "updates",
-      "published_at": "2022-11-30 20:00",
+      "published_at": "2022-11-30 19:00",
       "title": "It's time to Dig Deeper!",
       "author_handle": "iHiD",
       "youtube_id": "_-qYFe0aYbc",
       "marketing_copy": "Solving an exercise on Exercism is just the start! The real value is unlocked by what comes next - exploring other's solutions, getting mentored, and our new feature - the Dig Deeper tab.",
-      "image_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/blog/community-tab.jpg"
+      "image_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/blog/dig-deeper.png"
     }
   ],
   "stories": [

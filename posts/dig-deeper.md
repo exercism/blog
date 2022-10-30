@@ -1,4 +1,7 @@
-This week we've launched the new "Dig Deeper" tab on exercises - designed as a way to help you go beyond just solving an exercise and explore its nuances and tradeoffs.
+Solving an exercse on Exercism is just the first. 
+The real learning comes next.
+
+This week we've launched the new "Dig Deeper" tab on exercises - designed as a way to help you go beyond the solving stage and explore its nuances and tradeoffs of an exercise, without needing to ask a mentor.
 
 ## Introduction
 

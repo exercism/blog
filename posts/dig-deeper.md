@@ -53,7 +53,7 @@ for (var i = input.Length - 1; i >= 0; i--)
 return chars.ToString();
 ```
 
-or even go slightly less idioamtic (but more performant!) and use `Span<T>`:
+or even go slightly less idiomatic (but more performant!) and use `Span<T>`:
 
 ```csharp
 Span<char> chars = stackalloc[input.Length];

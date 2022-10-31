@@ -80,4 +80,4 @@ Over the next few weeks, you’ll start to see the Dig Deeper tab appearing acro
 
 If you'd like to contribute an Approach, an exercise article, or tell us about your videos so we can add them, get in touch with [jonathan@exercism.org](mailto:jonathan@exercism.org) and he'll help you get started.
 
-And finally, tell us what you think and post your ideas and thoughts [in the forum post](https://forum.exercism.org/t/its-time-to-dig-deeper/459).
+And finally, tell us what you think and post your ideas and thoughts [in the forum post](https://forum.exercism.org/t/its-time-to-dig-deeper/459)!

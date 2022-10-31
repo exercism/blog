@@ -2,7 +2,7 @@ We've now fully launched the second part of our automated feedback strategy - Re
 This post gives a quick overview of how they work and why they're so useful. 
 It's a little more technical than normal, so strap in tight!
 
-## What is a Reprsenter?
+## What is a Representer?
 
 A Representer is a piece of software that takes a student's solution and returning a normalized representation of it. We then use these representations to streamline automated feedback and classification.
 

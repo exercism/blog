@@ -275,6 +275,17 @@
       "youtube_id": "_-qYFe0aYbc",
       "marketing_copy": "Solving an exercise on Exercism is just the start! The real value is unlocked by what comes next - exploring other's solutions, getting mentored, and our new feature - the Dig Deeper tab.",
       "image_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/blog/dig-deeper.jpg"
+    },
+    {
+      "uuid": "1f6b6ae0-3c23-44bc-9543-45958160f9e8",
+      "slug": "introducing-representers",
+      "category": "updates",
+      "published_at": "2022-11-30 20:00",
+      "title": "Introducing Representers",
+      "author_handle": "iHiD",
+      "youtube_id": "OJqN9adA_6Y",
+      "marketing_copy": "Over the last few weeks we've been rolling out the second part our automated feedback strategy - Representers.  Watch to learn what they are, how they work, and why they're useful!",
+      "image_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/blog/introducing-representers.jpg"
     }
   ],
   "stories": [

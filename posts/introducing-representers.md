@@ -33,6 +33,10 @@ By creating these normalised representations, we can ensure that feedback given 
 This means that as a student you're much more likely to get instant, highly-relevant feedback.
 And as a mentor you should now never need to give the same feedback twice to a similar solution - you do it once in the Automation UI and the rest works magically.
 
+We can also use Representers and our existing Analyzers together.
+Analyzers can comment on general points (such as variable names, linting, etc) and representations can focus on the wider changes that should be made.
+There's a huge amount of potential that we're only just scratching the surface of.
+
 ## Who can add feedback?
 
 The ability to add feedback to representations is limited to our super-mentors, about 150 individuals who have mentored hundreds of students and maintained a high mentor rating.

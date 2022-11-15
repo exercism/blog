@@ -1,5 +1,4 @@
-# Transcript: ABAP & ABAP - Lars Hvam
-
+# Transcript: ABAP & ABAP with Lars Hvam
 
 **Jonathan:** Hello and welcome everyone. My name is Jonathan. I'm the host of the Exercism and Podcast, and I'm joined with Lars today. Who is where you are based currently? Lars.
 

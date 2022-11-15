@@ -1,4 +1,4 @@
-# Problem Solving Your Way into being a Tech Lead - Transcript
+# Transcript: Problem Solving Your Way into being a Tech Lead with Gabriel Nelle
 
 
 **Jonathan:** Well, hi everyone. My name is Jonathan. It's a pleasure to be your host this evening. I have a guest that I'm very privileged to have on today's show. I'd like to introduce you to Gabriel Nelle. Gabriel is one of our core contributors at Exercism. He's been involved very much in the Go Track specifically, but I'll let him introduce himself in more detail shortly.
@@ -46,8 +46,7 @@ Created some big waves and the person, the people that gave my father this kinda
 
 **Gabriel:** Yeah.
 
-**Jonathan:** in that sense,
-young age,
+**Jonathan:** in that sense, young age,
 
 **Gabriel:** I could say that. And so macro writing in Word later in Ex Excel, I wrote an Ex Excel based for what do you shop system for a small shop. So it was a small shop for organic foods and so on, and basically they wrote down all the prices and then they calculated them in their head or on paper.
 And that's how that worked in the beginning. And I wrote a system for that with barcode scanning and with a scale where you could put a. Weigh something and you could get the receipt and then scan that when you go to the for to pay and all that kind of, So basically all around that it was Excel based.
@@ -71,8 +70,7 @@ So address, addresses and so on. And then came studying and surprise, I did not 
 
 **Gabriel:** to 13th grade.
 
-**Jonathan:** career path was your, was
-started heading and and what was that, what was that decision based on sort of like,
+**Jonathan:** career path was your, was     started heading and and what was that, what was that decision based on sort of like,
 
 **Gabriel:** Actually I probably would've gone down the road maybe often of programming. But during my civil service I learnt a lot more than just technical stuff, I would say that so I. Responsible or was in a small team that was responsible for an elderly home. You could say there were like 5, 5, 6 rooms in there.
 And there were different people and I was responsible mostly for one. She was maybe 55, 60 and she had Alzheimer's. And that had a big impression on me because If you're confronted at that age with that kind of it, you could say, yeah, she was 60 and it sounded old for a 20 year old, but it was still clear to me that this could happen to, to anyone and it could also happen to me.

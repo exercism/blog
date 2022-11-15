@@ -1,5 +1,4 @@
-# Transcript: Learn to code by telling the story of a program - Rebecca Mark
-
+# Transcript: Learn to code by telling the story of a program with Rebecca Mark
 
 **Jonathan:** Rebecca, welcome to the Exercism podcast. It's fantastic to have you here. I'm very privileged to be able to have a chat with you. What, at 7: 30 in the morning on your side and now it is 4:30 PM on my side. Welcome. Whereabouts exactly are you in the world?
 
@@ -58,10 +57,8 @@ How did you find those obstacles and how did you overcome them?
 
 **Rebecca:** Yeah. Yeah. That's a great question. I think I encountered obstacles all the time. Like I'm definitely, continuously running up against the wall. And the thing that has really helped me, I think in those moments is to draw on a network of people. It's really been community and friendship and mentorship that have helped me.
 When I've encountered hard challenges or even just things that are new. For example, when I did my internship right after my programming school I had a really good friend going through. Through it with me. And she was there to normalize, like if I was ever feeling like, Oh, I don't know this and maybe I should know it, I could go and talk to my friend and be like, Do you know this?
-And she'd be like, No. How would we know that ? The ability to
 
 **Jonathan:** like, Oh yeah, I will.
-Made
 
 **Rebecca:** yeah. I think having people around me helped normalize where I was in my journey and people. Have been really generous with their time and their support. And so my attitude always is to just pay that forward. Because yeah, it's been the community that's really held me afloat through hard times.
 
@@ -110,13 +107,6 @@ How's the
 **Jonathan:** today? I don't know.
 
 **Rebecca:** Today, hopefully I have got a website deployment that I really wanna knock out. So I'm gonna be improving some of our documentation, like our language documentation. And the big goal this week has been I'm. Our distributed ecosystem, some of which might show up on Exercism. So check out our track.
-So my role
-
-**Jonathan:** plug.
-
-**Rebecca:** Yeah.
-
-**Jonathan:** Yeah.
 
 **Rebecca:** My role is to help people learn unison and to feel like they can step into the language and gain working proficiency and feel welcomed. Get the information that they need to realize whatever their goal is. So yeah, and any, that sort of a grab bag of activities is what it ends up being during the week because someone might need troubleshooting, or another person will be like, This link is wrong on the website.
 So it does vary. I think the hardest thing is, working in the context of the pandemic and working remotely, it's really hard to build a community. A lot of the conferences or tech events that might have been happening during this time have really taken a backseat understandably. I think that's something that I do miss is excitement around Oh, I'm gonna go present in Leon France this week, or something like that.
@@ -142,13 +132,7 @@ Together and do more of the planning activities or sort of vision activities tha
 So I'm sure that'll be super fun. Now Rebecca, you've also been highly responsible for the ex for the unison, Exercism track and building that all out. Tell us a little bit about that experience and how you came across Exercism and what your hope is for that track going forward.
 
 **Rebecca:** Yeah. Yeah, no, that has been a really fantastic experience. Exercism was initially serviced to me from my coworkers, St. Who is a big fan of the platform and has used it before. And at Unison, , I didn't have the resources to build out a full learning content management platform.
-We're a pretty small crew and we've got a lot of other objectives and so I was like, how do I get
-
-**Jonathan:** years later, Rebecca's still like
-
-**Rebecca:** Yeah. I'm still making
-
-**Jonathan:** it.
+We're a pretty small crew and we've got a lot of other objectives
 
 **Rebecca:** the platform. Yeah. So we knew we needed to partner with a different organization too. Get the unison language out there for folks to try and, hopefully if there was a browser component, that would be really awesome because people could engage with the language in a really lightweight way.
 And so when we saw what Exercism was offering we were like, Okay this is a great community. It's growing, it's free. That's really cool. Our users would like that. So yeah we just decided, okay, this is gonna be how people can practice. The process itself for building out the track is a little interesting because unison is not a file based language, right?
@@ -167,12 +151,6 @@ Yeah, it ended up working okay. But the fundamental model of unison as a languag
 
 **Jonathan:** What do you do
 
-**Rebecca:** Yeah.
-
-**Jonathan:** You, where
-
-**Rebecca:** Where
-
 **Jonathan:** So that, So does that mean a student has to start, Technically would have to start at the beginning of every, like at the beginning of the curriculum. Pretty much every time. Because that's where my mind went was like, Oh, no saving. But then maybe that's just the silly way that my brain processes.
 But I was like, Oh, wow, I have to start again. at
 
@@ -184,9 +162,6 @@ Okay. So now you're at Unison. I think now would be a good opportunity to ask yo
 I would fight if we don't use the word fight necessarily at Exam. It's more what would you wholeheartedly put yourself behind and say, This is a, this is something that I really wanna stand by. What, what thought? Or it could be like, put your functions before your css. I don't know. I'm just making something up, but it, I dunno what it could be.
 
 **Rebecca:** Yeah. My, my hill that I will die on is that I think, ha, I think tech too long has accepted toxic personalities at the cost of, cuz they're technically brilliant. And I think that. Should be inverted. . I would much rather
-
-**Jonathan:** it. I love it.
-Yeah.
 
 **Rebecca:** would much rather work with 50 really competent, hard working people than one genius jerk.
 I, I don't, I have never really understood. The acceptance of like really toxic behavior. Just cuz someone is super smart that has always
@@ -226,9 +201,7 @@ But I think the first point is really what I would tell them is to see everyone 
 
 **Jonathan:** You think I love you? Yeah. No, cuz I, That's a really interesting point. So we ran these cohorts just recently. I dunno if you know that we ran two 30 day learning experiences in the Alexa Track and in the go track.
 So we've done and we had 300, no more than three, 700 people sign up for the Go track.
-And we had about a hundred on the Alexa track. And it was so interesting because we were, we really wanted to do some experiments about how people would learn together. Because we realized that learning together is one of the most key aspects in terms of accelerating people's learning towards or, and achieving a goal. So the fact that you said, I really like that and I think I'm gonna have to talk to you more about that at some point about making each other succeed on their own, because I think, if I'm honest, that is such a powerful tool in, in, in terms of learning. We
-often operate, As individuals isolated. And actually one of the things we really feel is the acceleration comes from the community from getting another person's perspective. And actually I think I'm gonna have to poach that line
-and maybe ask you for it generally to make others a success,
+And we had about a hundred on the Alexa track. And it was so interesting because we were, we really wanted to do some experiments about how people would learn together. Because we realized that learning together is one of the most key aspects in terms of accelerating people's learning towards or, and achieving a goal. So the fact that you said, I really like that and I think I'm gonna have to talk to you more about that at some point about making each other succeed on their own, because I think, if I'm honest, that is such a powerful tool in, in, in terms of learning. We often operate, As individuals isolated. And actually one of the things we really feel is the acceleration comes from the community from getting another person's perspective. And actually I think I'm gonna have to poach that line and maybe ask you for it generally to make others a success,
 
 **Rebecca:** Please
 

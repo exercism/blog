@@ -1,0 +1,233 @@
+# Transcript: Expeditions, Elixir and Exercism wtih Brian Underwood
+
+**Jonathan:** Well, good evening everyone, and welcome to the Exercism Podcast. I'm privileged to be joined by Brian Underwood. Brian, where are you living at this point in time? And tell us a little bit about your story and how you ended up where you are now.
+
+**Brian:** Yeah for sure. Thanks for having me. Yeah, so I'm in Stockholm, Sweden. But originally I'm from the US, like I was born in, in Ohio. So a bit of a journey from there. Yeah, and the, I guess my, you wanted to know like where I, where I am from, like my, sort of, my journey in between, I guess.
+
+**Jonathan:** absolutely. How did you end up going from the middle of the US to Sweden? Scandinavia? You know, that's quite a leap.
+
+**Brian:** sure. Yeah. Yeah, of course. It's in the middle of the US. I, I don't, I don't blame you for covering like nobody really knows where Ohio is, so That's, that's totally fine. Yeah, so I, I. You know, I went to Ohio State for college, and that was like computer science education. And that was fun.
+I enjoyed that. And I was sort of doing tech support at, in the College of Humanities the whole time that I was there, I, I got, was fortunate enough to get a job there when I started. And I kind of continued on for a couple of years after. Graduated. But then I sort of I think I got a little bored of just where I was at and what I was doing.
+And also my girlfriend broke up with me, so let's not, let's not
+
+**Jonathan:** Not happy memories. fully, you
+
+**Brian:** Yeah. I mean, it was, it was, it was all, all fine in retrospect, but yeah, but it's sort of like, okay, I've, I've had an opportunity here, I think, and so I decided to take a few weeks traveling Europe. Which is the first time I'd ever sort of Really got out of the US for, for any, any extended period of time.
+And that was fun to travel through Europe. And then I decided, before I did that I decided I was gonna move and I had sort of settled on Boston as a place that I was gonna move. . And so I got I guess, I dunno if I got lucky in a way, but I had a couple of opportunities where like, you know, I'd always done like Mac support was like, a big thing that I'd done.
+So that was like one job that I had sort of had the opportunity to, to take was like a tech support Mac job in, in Boston. And another one was this small. That did software for cell phone companies and, and the like, how they like to lay out their merchandising in their stores. And the. You know, I, I, I think I really wanted to transition to being a programmer, but this other job was like, Oh, that's the thing I'd done for a long time.
+But I think I was, I was leading on the side of like, Okay, I'm gonna like to take on this new life, this, this, this career that I want. So, but I think I was also a little bit lucky in getting the job because I think they really needed someone.
+
+And so they just kind of took me on and that turned out to be a, a sort of a big job that I had for a number of years.
+But yeah. And then that was, that was sort of like the beginnings. I, I, in short sort of from there, I met my now wife and we, we moved down to Providence. We got married there. Then we moved to California. I think my wife got a job in San Francisco, and I was like, Yep, I can, I'm a software developer.
+
+I can find a job in San Francisco. No, no, no worries. . So that was great. We, it was, we, we lived in Oakland and, and worked in San Francisco for, for a couple of years. But then we decided we wanted to travel around for a couple of years. And so we ended up traveling around the world for, for two years with our, at the time we by that time we had a two and a half year old son.
+And so we traveled with him for a couple of years and. And then, yeah, came back the states a couple of years and and then we sort of decided like, oh, you know, we, we'd passed through Stockholm in our travels and we were like, we, we either like Stockholm, so we were like, Okay, we're gonna, we're gonna come back.
+And that's, that's where we've been for the last four years or so.
+
+**Jonathan:** Is, is your wife Swedish or is it just that you like Stockholm or, or like how did What's the story?
+
+**Brian:** Yeah, no, that's a, that's a good question. It's, it's, it's the question a lot of people ask. But no, we're, we're both American all three of us are American. My son included. Although he speaks way better Swedish than either of us. We're working on it, but yeah, no, we, we just, we just really liked it.
+I think there were a few places that we had traveled to that we were like, Oh, maybe we, maybe we might live here if we wanted to move somewhere. I think one of them was that Auckland was a place that we traveled through and we really liked that.
+
+**Jonathan:** Auckland, New Zealand,
+
+**Brian:** New Zealand. Exactly. Mm-hmm. . Exactly. But that was a bit far.
+That would've been like, if we wanted to travel back to Ohio to visit family, that would've been a trek. It's still a bit of a trek from Sweden, obviously, but Yeah. Yeah. Yeah.
+
+**Jonathan:** Okay. And so, so now you, you mentioned, like, you, you, you made a comment about programming versus or computer sciences, excuse me. And, programming, like what, what was the difference? Because in my mind, computer science is kind of but Clearly not. Or maybe yes, I don't know.
+So what, what, what did you mean by that specifically?
+
+**Brian:** Yeah. You know, I don't know if I know like the difference, I mean, I got a computer science degree, and I think it was, it was programming, but it wasn't like, you know, maybe, maybe you've heard or other people have heard, like that, you know, you don't always learn in like a, with a university degree. What the, the sort of real life things that you might learn and do in a, in a.
+And probably that's changed some since I went to college. I think that there's, there's probably been a move towards more practical education, but like I remember you know, we would learn I think like C and Java where the, to some of the two main languages that we learned at the time. And in particular, I remember that we were learning this thing in Java.
+In this one class where they were very, it was this, I think it was a teaching method or some sort of way of approaching things where you would very thoroughly comment each of your functions to say it was like a, it's called designed by contract, where you would say like, what is it that you know in, in a legal contract?
+You know, sort of say like, Okay, what, what are your responsibilities? What is my responsi. And so designing a function by contract means, you know, okay, if you provide me these values in the variables and you know, you never provide me a negative number for this one, and you always make sure that this string is never empty or whatever, right?
+These are the things that you're responsible for. And then if you do that, I promise to.
+
+**Jonathan:** Mm-hmm.
+
+**Brian:** To do this right and, and make this happen. And so they, there was this comment structure that I, I remember being very confused, thinking that somehow the comments were executed and, and part of the program. And it was, I would, you know, I think I spent a couple of days like, like, what, what am I supposed to do here?
+And I eventually sort of caught on to that. It was just this sort of very formal method that And I, it, I think it was, it was good in a sense that like, that, that thinking sometimes shapes my mind and, and think it's good to think about like, you know, not having a function be able to deal with every single thing that can possibly happen because that will just lead to madness.
+Yeah.
+
+**Jonathan:** So, so now you, you went to university with computer science as king of the main degree that you were looking at doing, and how did. Decide to do that? Was it just that you had a natural kind of gravity towards the sort of more scientific subject matter at school or high school, or was there a moment where you were like, Actually, this fits me really well?
+What was the kind of lead up to deciding that actually computer science was a degree that you would want to do?
+
+**Brian:** Yeah. I was probably pretty lucky, in just kind of being naturally drawn to it. I think I, I don't know, like I, I remember having sort of a choice in programs at one point that where I could go into the The arts and sciences program computer science track, or the engineering computer sciences track.
+And one of them would involve taking a language course or like Spanish was the one I was sort of on track for from high school. But the other one was like, Oh, you don't have to do foreign language, but you have to do more physics and math. And I was like, Okay, sign me up for that. So I guess that I was kinda, I think I was drawn to that.
+I think that it's like, although like one thing that I. I think about a lot is that, and maybe, maybe this is like sort of a a, an scientific or mathematical interest privilege that I have, but you know, I, I feel like probably
+math, like doing math, a lot of people are sort of like, Oh, math, like I get nervous about math, or it's stressful, or whatever. And that's, I, I, I understand that, that, that that could totally be the case, but I wonder if maybe sometimes, people, some people just for whatever reason, like to find fun in math and they're able to sort of like, get excited about it.
+And it's like, it's the same amount of work and figuring things out, but it just doesn't feel like it. Cuz when we're having fun, we don't, it doesn't feel like as much work. It's probably not exactly that, that, that's just like a pet theory that I have. That's probably only half right.
+
+**Jonathan:** funny because just on, so I remember doing chemistry for three years at GCC in, in the uk and, and, for two years you have your, you have three years of, of learning up until your GCC exams and then you have these big exams at 16 and, and and you do a whole range of topics. So you kind of do 10 different subjects and it's quiet. And then you decide, okay, I'm gonna do A levels, I'm gonna either do more math or science or whatever, or English or drama or whatever. But I remember chemistry for me, not clicking for about two years and then in the,
+like the week before the exam, It all made sense. So the periodic table and how all of that kind of worked And oh, I could get all the answers from the periodic table.
+I just have to like it, it's like a crossword or whatever. And, It was the light bulb going on and I remember from that point being like, Oh, this is the easiest subject ever But it was two of kind of struggle to get to
+that point. And it's just interesting because I feel like for me, coding is, is similar, which. It's like, immerse yourself in it for a long time and then the penny will drop. And I'm excited for when that happens, and it feels like it's moving in that direction. But I think what you're describing there, you know, I saw friends who they just understood very, very quickly off the bat and kind of enjoyed it.
+And the problem solving aspect was, was, was a main feature of learning. Which is, which is very interesting. I, oh, I find. It's cool that you, you, you experienced that as well yourself, I guess.
+
+**Brian:** I know that there's, there's. The app that my son has, has played on his iPad. There's a company or a series of apps called Dragon Box. I dunno if you've ever, ever heard of those. But they make some really nice educational apps. Like normally I'm, I'm pretty skeptical of like most educational apps.
+But they do a number of really good ones. And one of them is about geometry. And I find, I, I, I think about this as a metaphor a lot. I like it, it wasn't, sorry, it wasn't a geometry, I was algebra. There's a geometry one as well, but with the algebra one, it doesn't actually teach you the concepts of algebra.
+It teaches you the mechanics of algebra. And it does it in a way where you have, you know, you have two different sides where these two different boxes and you have to make things sort of just balance on the two sides, right? You move the monster from one side to the other, or you have to
+transform them in from a certain kind of monster or another.
+It's been a while since I've seen it, but what I remember so clearly is that he was learning the mechanics of algebra. , even though he didn't understand what it was, what he was like working towards and why he was doing this. But it was fun to do it and they did it in this way that made it really engaging.
+And the thing I, I think is, is so great about that and I want him to like go through the app again because like when he, when he starts to do algebra, because I feel like if you have the mechanics down, like then you don't have to worry about those so much. And you can sort of think more about the high level without having to.
+You know, get stressed about the mechanic stuff. And I think maybe that's the thing, what you were saying with chemistry, I don't, I don't know if this is how it was for you, but maybe it's like, why should I care about all this mechanical stuff and these rules and these things? But it's like once you get to a certain point, it's like, okay, I've, I've kind of struggled through that.
+Now I can maybe care about them, like, why am I doing this?
+
+**Jonathan:** Yeah. Yeah. No, it was, it was, it was a really interesting experience because, It was the first time that I'd kind of gone through that process of understanding something and then, and then you, you kind of go through this period of losing a lot of confidence in those subject matters because you think, Oh, my brain isn't particularly wired towards that kind of thought process.
+But actually then if you look at English literature, for example, which was what I did it, you actually go very systematically. Looking at language and how things are structured and, and understanding sort of, but there's, there's a nuance, there's an artistic nature to that whole thing as well, which I mean, you could say there's also that artistic element in, in development and, and coding stuff.
+Each person has their own little flavor and. I think that's what I'm realizing more and more is there's no hard, hard or fast rule to, to anything. It's just, it's all trade offs. So no, it's been, it's been fascinating. So now you've, you did, you helped us on, on the cohorts which if anyone listening that we ran, like learning experiences in Alexa and Golan and Brian, you kind of helped out a little bit with the, with the. The ELIX cohort. And, and so how did you get into Elixir as a language itself? Like what was the, what was the kind of background in getting into that?
+
+**Brian:** Yeah, it's, it's funny cuz someone was just asking me that exact question today. Because it's a, I mean, it's, it's, it's a niche language in a, in a way. But I, I'd been in the Ruby I'd been a Ruby developer for, for a long time. And I really loved Ruby because it's, you know, I'm, I'm the sort of programmer who, like, I want to, I want to get things done.
+I wanna think about it, I wanna get hard problems done. And it's hard to get hard problems done when you're. Thinking about the small details of things and having to deal with pointers or whatever, right? So, Ruby was great for that. And then of course, Jose Val, the creator of er, you know, came outta the Ruby world.
+He was. Prolific already in the Ruby world and decided that , he needed, he did not need, maybe he's, he's amazing. He, you know, was gonna be, you know, create his, create his own language and be pro prolific in that. And, and did an amazing job at that. So I kind of, in a way, you know, I just, I was kind of hooked into that world where, you know, I would listen to some podcasts about where they would sometimes talk about Ruby, but then they were like, Oh, this, this new thing, Elixir.
+And then I think of maybe a bit of a, Shift. A bit of a fundamental thing was where I was living. I just actually moved back to Columbus for a while. Columbus, Ohio and Joseph Val came to the Ruby Group in Columbus, the Columbus Ruby Brigade. And they were like, You know, Joseph is so great to just come and speak on whatever you wanna speak, speak about.
+And of course he was like, Yes, I will speak about Elixir because I've created this language and I'm really excited about it. Yeah.
+
+**Jonathan:** Yeah.
+
+**Brian:** Yeah, exactly. And I remember this I, it, it's so funny, just like a year ago I found a recording of that presentation and it's a bit grainy but you can still watch it and I still, I can find the place where I ask a question of just a and just like I, I remember having this this confusion about how exactly the, these concepts of.
+You create these processes and they can recover from failure if you have supervisors and whatever. And I don't remember exactly what he said, but I was sort of like, how does that work? And like, like, okay, you recover from errors, but do you, like, do you still learn about those errors or like what happens?
+And I, it's, it's been this whole process to like learn what that means. And I think it's a really interesting process. I think at the time there were a lot of them, the community was struggling with how to describe. , these concepts, and I think there's more blog posts out there, more and more things for people to absorb and come on more quickly.
+So, but anyway, that's the sort of place that I came into. I think that was one of the big places is it's just like, Oh, this sounds interesting. And if Jose says that it's, it's cool, then I should check it out.
+
+**Jonathan:** Hmm. So did it, was it almost like the, the timing was right for you to kind of move into, It was just like a lot of different things lined up and, and made sense for you. Have you been exploring other languages? Like, I mean you, you mentioned pointers and is that a reference to, to go specifically or was it kind of you were just on the hunt for some language that suited you?
+You could say.
+
+**Brian:** I think I, I, yeah, I mean, I, I, I, I'm like super into the idea that different things are good for different purposes. And I'm, you know, I'm a, I'm huge into now. I feel like probably, I'm, I'm probably a bit biased to that. Like Yeah, like certain uses for just about anything. That's probably not entirely true, but.
+I think the pointers thing I think was, I was, I had c in mind, I think, you know, had done some c c plus plus in college, but but I think, you know, yeah, so like I for a number of years I was working with Neo for j the graph database. And that was something I was super into and I was one of the maintainers for the, the Neo four J GEMS for Ruby, because it was, We don't have to get too much into it, but like graph databases can let you do certain things faster or just sort of in some ways more easily.
+It was kind of, to me it was this, it was a, it's, it's not a lot of people use Neo for J for this, but I feel like it was kind of like Ruby and that it helped you think about things at a higher level. And so would you let you do things more, more nicely? , but I'm, I'm just into that idea of like, okay, graph databases could be good for this purpose and then a relation to database for this and a document database for this.
+And okay, well if I need to make a little service that can, needs to operate super fast, maybe I make it in rust or go or whatever. And so I should know about those languages. And you know, if I, you know, higher level things, you know, there's Ruby and Python, but now there's Elixir and Elixirs. It actually has a.
+Great advantages. So, but it's, it's, it's also a super, I like, it's a super hard thing to figure out what's good for what for, for different things. Because for, for like, because there's so much involved in like a language for example, that like, okay, figuring out whether it's good for something, quote unquote good is hard.
+
+**Jonathan:** Yeah.
+
+**Brian:** Also people, myself included, I think get emotionally invested in some of the languages that they like for one reason or another. And so it's like, well, it's hard.
+
+**Jonathan:** And do you, and, and Brian, do you, do you use Alexa on a daily basis with work? And, and what is, what is work for you at the moment? Like, what do you, what day to day look like? At this.
+
+**Brian:** Hmm. Yeah. So I'm a consultant with early solutions and so I'm, and I'm working with a client of early solutions which is a company called V ai. I dunno if you've heard of it.
+
+**Jonathan:** Hmm.
+
+**Brian:** I think Lars, Lars Vipin I think has helped them some and has written about them a little bit on his blog.
+He's a kind of semi-famous person in the Alex world. And yeah, so, so they're a company that helps. Other companies they have, they make an application that helps companies process invoices,
+
+**Jonathan:** Mm-hmm.
+
+**Brian:** Semi or fully automatically using artificial intelligence. And so, yeah, that's, and so they have, you know, of course machine learning models, but then they have an Elixir API that lets them sort of coordinate a lot of things.
+
+**Jonathan:** Mm-hmm. . Okay. And so are you, so do you deal with a lot of different clients in the day or is it kind of you work with a specialized group that you sort of walk through and partner with? Like how does that all work?
+
+**Brian:** Yeah, we so I'm, I'm. Usually on a sort of a feature team with a product manager. And we've got a web developer and mobile developer and sometimes the backend developer, the machine learning team. And, but then it's nice to, sometimes we'll have a product or QA person who will interface with our clients to help sort of try to get us the most relevant, most needed.
+Sort of you know, what is it that the users and the clients actually need. But it's, it's a bit like layers. Like we, you know, depending on what it is, like we have, we have one big direct client and then we have some like, Accounting systems that EER PS that we work with, that they have people that you know, are sort of their clients.
+I honestly don't actually work with a lot of it, like with the customer side as much, but I think we have a lot of different ways that we interface with, with clients and we kind of have to, to do a lot of different dances to integrate, which is, which is kind of an interesting problem in itself.
+
+**Jonathan:** So is that, is, is the week quite varied and you sort of do, are you doing a lot of different things during the week? Or is it sort of fairly predictable?
+
+**Brian:** Yeah, I think it's, you know, I, I think I'm, I'm pretty lucky in that I I usually, I mean, there's, there's usually one project that I'm working on but. Like for example, something I can, I think I can say on recently as I was just working on helping make sure that our VA calculations were, were correct in, in how we process invoices.
+Cuz that could be a tricky thing just dealing with that. Especially when you just have invoices coming in from a whole bunch of different vendors that they can be, you know, they can do things differently from each other. And so but I'm, I'm pretty fortunate in that they would like to make sure that we're kind of on top of our code quality and, and in general just on top of things.
+And so we try to spend a decent amount of time doing it. things to make things better make our code better or, or improve things. And so, you know, I I, that's also kind of just how I am, is like, I kind of usually just try to grab at least some of my time for like, you know, we, I do a lot of like integration with Datadog for our application to make sure that we can have tracing for our requests and our background jobs and all those sorts of things.
+And that's a thing, that's something that really. Tickles me to be able to, like, once I've done that, to like, okay, now I have the tools that I need to do my job. But yeah, like I, I like also, I think just recently there's something that I got interested in, like a sort of a way of Organizing code and referencing other modules.
+And there's a tool in the Alexa world called Credo that lets you sort of enforce different rules in your code style. And so I created a new credo rule to potentially enforce that rule. And so I'm kind of curious to see how it codes
+
+**Jonathan:** Okay, cool. Well, it sounds, that sounds to be honest, yeah. Straight over my head a little bit, but somewhat, somewhat. I'm sure someone out there will know what's going on, but you mentioned earlier about you kind of. Worked a little bit for a startup. I think you're right in. I'm right in saying, so you had this sort of tech support side of things and also there was a bit of a startup story going on. Is that something that you would be interested in in the future or is something that's always in the back of your mind? Like what's the kind of trajectory for you, you think, in the next sort of five, 10 years in terms of programming? I mean, you, you may not know, but I just thought it's quite an interesting one just to ask people, you know, where do you see yourself in five years?
+Five 10?
+
+**Brian:** Yeah that's a good question. I mean, I've kind of been like startups, you know, I've always, I've always kind of gone between small to medium sized companies. You know, I'm not usually as happy in, in very large companies. And you know, I never really saw myself as a consultant until recently where I was sort of like, okay, this is kind of like interesting to be able to, to like, go to different companies and, you know, maybe try to help them solve their problems, but then maybe move on to another company.
+I mean, I'm, if anybody from Pi Eyes listening, I'm, I'm not unhappy. I'm not , but this is sort of, when I originally
+
+**Jonathan:** thing to ask someone on a podcast, but with, yeah, just obviously everything's going great. Sorry, my cat's just flooring at the door here,
+
+**Brian:** Oh, yeah. Yeah. I just had a,
+
+**Jonathan:** There we
+
+**Brian:** we just, we just got a puppy about a month ago, and so I'm, I'm constantly like having to, like, she's barking where she's, you know, maybe once or twice, like peeing on the bed and it's like, ah, I gotta deal with this.
+
+**Jonathan:** no, it's, it's, mad. 5:00 AM every morning or to 5, 4 30 in the morning. She sort of jumps on the bed and starts pouring her face. It's, it's cute and
+adorable, but, Yeah, after a while it's like, Come on, leave me
+alone. But But yeah,
+just back to the whole, like,
+Next couple of years, what, what would you love to be able to do or realize?
+
+**Brian:** Yeah, that's a, that's a good question. I think I'm, I'm into the idea of like, figuring out, I think one of the things that appeals to me maybe about Elixir is that it's still a bit fresh.
+And so I, I like, like, you know, what are some ways to sort of pave the new paths and, and find the new patterns and especially in like, you know, it's not just like, you know, I was in, I was in the Ruby world.
+For, for a while. And so like coming into a lecture, sometimes there's things that's like, Oh, I, I missed this from Ruby, so it'd be great to like, build this or, or do this. But then there's also just things that are like, you know, oh, this is something that I couldn't do in Ruby very well, but if I just do this, then, you know, we could, it could be even more awesome by taking advantage of the strengths of Xer.
+So I think that's the sort of stuff that I'm interested in and like finding. Finding the, the, the neat use cases and talking about them. Sharing them. Cuz I, I, that's also some, that's always something that inspires me is like when I read, especially when I like, read about something, like a real use case and see the details of it.
+Not just like, Yeah, we did this thing and we kind of, this is how we went about it. And it's like, but where can I see some code or like what some details of, yeah.
+
+**Jonathan:** It, it sounds like you, you enjoy the optimizing side of things, kind of taking something and pioneering a new, a new way to make something better and, and more, more efficient. That's what I'm hearing at least. Is that fair? Do you think?
+
+**Brian:** Yeah, I think, And then I think efficiency is good, but I think maybe I would say even more about finding ways to make things enjoyable.
+I'm super into the idea of. How can we solve problems so that we don't have to deal with them anymore? Like make, make libraries so that we can be like, Okay, now that problem.
+Yeah, that problem was solved. Now let's move on to something that you know is it's better use of our time, right?
+
+**Jonathan:** Mm. No. Sure. That, that, that's, that makes sense. So, one of the things that I've enjoyed asking people especially in, in the whole, Cause I'm fairly, I would say I'm fairly new to, to tech as an industry as a whole. And don't come from a particularly experienced background in terms of developing from a young age, et cetera, et cetera.
+And one of the things that has often stood out to me is And, and you hear this with, with friends who are in tech a lot is there's quite a lot of opinions flying around which I, it seems fairly, fairly true. But we have this question that we like to ask the sort of people who come on, on our podcast, which is, what is the hill that you would die on, in tech?
+And obviously framing it in a kind of a slightly tongue in cheek way, but. Is there, is there a particular mindset or opinion that, that you have, which You're like, this is the hill that I would defend. And it can be anything. So a good, a good example would be DJ, who's one of our maintainers, you, you might know his hill was, was the role of really key conversation, like having well meaning and good, well structured conversation in the tech space.
+So having that robust, you know, challenging interrogation, which is kind of on, on the right foundations, you could say. I'm trying to think of who someone else, someone else said Rebecca at Unison was like. She would rather have 50 people on a team who were hardworking, conscientious, and maybe less talented than one genius who's a nightmare to engage with. So, hopefully those are kind of good examples. And I, I did throw you a little bit under the bus there with that question out of the blue because there's probably quite a few perspectives that you might have. But is there one that you would be like, No, this is, this is what I'm willing to, to, to hold firm with.
+
+**Brian:** Hmm. Yeah. Yeah. Cuz my first thought was sort of like, oh, like Camel case versus snake case. Well, I don't know if I'd die on that hill or not. And I think a lot about those things . Yeah. Yeah. But a lot of those things I think I maybe become less opinionated about over time. But yeah, no, I like these higher level things that you're, you're sort of talking about.
+I feel like I could, I, like
+there's a
+Let me see if I can bring this up. Unfortunately you're editing this, so my pauses are just gonna go away, right?
+
+**Jonathan:** The plan
+
+**Brian:** very remote. Yeah. So there's a tool called Remote Retro, which I have used a number of times and, and really highly recommend. And it, I learned about it because it's written in a, And, but aside from that, I think it's just well designed. And over time it's grown to be a better and better tool. But it always starts off with a prime directive, which I think was, I, I'm, as I'm looking at it now, I'm seeing it was taken from Norm Keith. There's a wiki page here, so, so you can look this up, You can go remote retro.org if you wanna check this out.
+But, the, yeah, here's the prime directive which I think is just, I, it's sort of the thing that, that you read at the beginning of a retrospective to put people in the right mindset that it says, Regardless of what we discover, we understand and truly believe that everyone did the best job they could, given what they knew at the time, their skills and abilities, the resources available in the situation at hand.
+So I think that's good. I think it's similar that you need to make sure that you're always. , like, and actually I, I'll even say one more thing. There was an interview and I can, I can share this if you wanna like, put the link in the, the show description or whatever later.
+
+**Jonathan:** So if you refer to it for
+
+**Brian:** Yeah. I, I always, I always recommend this article even though it's always super hard to find, and I don't, it's, it's probably passed a bit into obscurity now, but there was this This man who was a administrator of the, the Veteran Association, the Veterans Association in the us the, the government department.
+And specifically I think he dealt with their healthcare system. And he had this interview where he, he came from, but he came from the aerospace world.
+
+**Jonathan:** Okay.
+
+**Brian:** and a lot of what he talked about was. how in aerospace, in a lot of, probably it's not perfect everywhere, but in a lot of what he experienced, you would blame the process.
+You don't blame the people. And if something goes wrong, you say, you know, okay. You know, it's not at, you know, like I've. I've deleted a table in production. But fortunately nobody blamed me for that. They were like, Okay, what do we do now? Well, we make it so that when you go into production on the console, it comes up, the prompt is red and so it's clear that you're in production.
+Right. Because I made that mistake cuz I thought it was development when I was Yeah. Right. So, I was fortunate to have an office in which we blamed the process and not, not the person. . And so that was really great. And so he talked about that in the context of medicine. That was like, okay, we sometimes think a nurse might give the wrong medication to a patient.
+It's like, well, sometimes the labels are confusing and or there's this thing that's like, it's, it's hard or it's just whatever. It's not ideal. It's like, okay, let's, let's fix that. Let's do it. So if we wanna, if we really do care about the patient, let's make it a process that is harder to go wrong.
+So that's something that I think is a big deal for me.
+
+**Jonathan:** That's, that's really cool. I'm gonna definitely put these show notes. Is that, is that out of the sort of agile is it a kind of Upon agile methodology you could say, or is it, I mean, where is it or is it sort of a, a little bit of a something else? What would your thoughts be beyond that?
+
+**Brian:** Yeah, that's a good question. I think I got the impression that it was part of a reasonably long tradition in some aerospace engineering circles. I mean, aerospace, I, I think it, maybe it just has to do with the fact that like, if you have, if you're making airplanes or if you're making rockets You know, you're in the, you're in the job of like, this needs to work.
+You know? And when we put a human on there, whether it's an astronaut or a passenger, right? we need to give it the best chance of working. And the best way to do that is to put our egos aside and say, you know what, what is going to make this work as much as possible every time if we just follow the process.
+So I think that that's, I think that's part of it. Yeah.
+
+**Jonathan:** Just cuz when I was looking up remote, retro, it looked a lot like an agile term like terminology. So I'm wondering if it was maybe kind of
+
+**Brian:** Sure.
+
+**Jonathan:** from, from there somewhere. But no, that's really cool. I, I've, I've not heard that before. The one I have heard is about checklists especially in medical and aerospace.
+So it's, you know,
+like a pilot. We'll go through a checklist that's like, He doesn't deviate from his checklist and a doctor will do the same. No, but that's, that's really cool. So Brian, we'll, we'll, we'll start coming into land. I have one more question really for you this evening. And it's really what, what is your recommendation for the Exercism community in the next week?
+If you could give. One, one piece of advice, or, and it could be on anything. It could be like, go drink kombucha from, I don't know, your local deli, or, you know, go for a run and swim in the Arctic Ocean or whatever it is. If there was one thing you would recommend to the Exm community to go and give it a whirl, what would it be, what would it be this week?
+
+**Brian:** Hmm.
+I would say that I mean within, within your, you know, Abilities cuz maybe this is, you know, not, it's always hard to give advice to everyone, but I think one thing that has been a big thing for me is I think one time I, I went into the ER because I was having a, a sudden headache. And there was maybe a concern that I, it was like a flash headache, which can be a sort of serious thing.
+So, I went in and had the doctor look at me and everything was fine there. But you know, the doctor was just sort of asking general questions and sort of saying like, Okay, how much exercise do you get and, you know, what's your activity and whatever, and, and I was like, you know, being an American, I was sort of like, well, I, I, you know, I walk a good bit.
+I, I get like maybe 8,000 steps a week a month. On average a day. and he is like, No, you should, you should be getting out three times a week for 45 minutes. Like for really getting sweaty. And you know, I didn't do it right away, but, you know, I was after maybe five or six months, I did get into a pattern, a habit of, of running usually three times a week.
+Sometimes it'd be two times a week. But, you know, and I think that, that, that's been something that's been sort of a big change in my life. I've. I think it's helped me a lot. So I think I, I, I know that that's, it's, it's a super hard thing to do and it's super hard for me to get into and, and I think the part of the way I did it is like, I was like, Okay, I'm gonna go out and if I end up walking for 75% of the time, then okay, that's just how it's gonna be.
+I'm just gonna build it up. But yeah.
+
+**Jonathan:** That's
+
+**Brian:** Yeah, so it's like get, get out there and,
+yeah.
+
+**Jonathan:** one. No, that's pretty cool cuz one of the things that we tried to think through with the cohorts was what's gonna facilitate people growing and learning and, and kind of moving and gaining, gaining momentum, I guess in, in that coding jog you could say.
+And one of them was just getting out even if it was for 10 minutes a day, just to kind of just. Put yourself in the place of trying it out. And even if you don't really get anywhere, even if you just read the instructions and then that's it for the day, as long as you turn up in some shape or form, it, it, it kind of makes a big difference.
+But I think that whole. That's a great recommendation. Definitely a reminder for me to go and get my sport going a little bit just cuz it's so sedentary sometimes sitting indoors. So if anyone listening is out there up Ryan's piece of advice and head out for a run. And I mean, it's gonna start getting a little bit chillier in Stockholm in the next couple of weeks.
+So do, do you still run in the, in the,
+in the middle of the winter or is it kind of
+
+**Brian:** Yeah, I do. And I mean, I would say also like, you know, the best, the best exercise you can do if you're gonna get out there for 30, 40 minutes a day for three times a week or something is like whatever, whatever's the thing that you enjoy the most. You know, cuz if you don't enjoy running, then that's, you're probably not gonna be able to keep that up.
+So, you know, I'll say that first. But yeah, in the winter you know, I have a hat which is like, it gets dark in Stockholm too. So my wife got me a hat that has built in fibers that are retro reflective. So that's nice. So it can keep me safe. And then I have a face mask and an ear thing I can put on, Yeah.
+And then, yeah, so I do have to bundle up, but it's, it's, it can be good too cuz it keeps when it's cold that, you know, I can, my heart rate can stay lower and I can still get Yeah, exactly. Exactly.
+
+**Jonathan:** Oh, that's, that's brilliant. But Brian, I just wanted to say a huge thank you for your time this evening. I know it's probably been a long day in Kids and Work and New puppy and all of that kind of stuff. I just wanted to say thank you for, for your time and for sharing it with us.
+And for anyone listing out there, we will put the show notes in the description below so you can check those things out. If you have an opportunity and you're listening to this, go and check out the Alexa track. And I'm sure Brian, I don't know if you do any mentoring at all on, on the Alexa track, but maybe. If you are in the mentoring space ever at all you might see some new people popping in and testing things out. I've had a lot of good things about Alexa, so I think it's definitely one to watch for the future and Yep. Have a wonderful evening, Brian. Just hang on a little bit when I stop the recording, but great to to, to have you on with us and thanks for sharing a little bit of insight into the life of Brian Underwood and yep.
+So thanks everyone for listening and have a wonderful evening. Check you soon. Cool.

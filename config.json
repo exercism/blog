@@ -327,6 +327,19 @@
       "interviewer_handle": "jonathandmiddleton",
       "interviewee_handle": "tehsphinx",
       "youtube_id": "-5Kg3gyfQuM"
+    },
+    {
+      "uuid": "2063c743-98c2-4c6f-84b5-14d3f72da929",
+      "slug": "dont-be-too-productive",
+      "title": "Don't Be Too Productive!",
+      "blurb": "Franziska lives in Germany and has a full-remote position as a Senior Software Engineer at Atlassian (the company behind Jira, Confluence and Trello). She works on Go services for a new product called \"Jira Product Discovery\". It aims to support product managers with their work and is currently in public beta.",
+      "published_at": "2022-11-20 12:01",
+      "length_in_minutes": 50,
+      "thumbnail_url": "",
+      "image_url": "https://test.org/image.png",
+      "interviewer_handle": "jonathandmiddleton",
+      "interviewee_handle": "junedev",
+      "youtube_id": "0k2MOVU8ZtI"
     }
   ]
 }

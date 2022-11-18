@@ -286,6 +286,16 @@
       "youtube_id": "OJqN9adA_6Y",
       "marketing_copy": "Over the last few weeks we've been rolling out the second part our automated feedback strategy - Representers.  Watch to learn what they are, how they work, and why they're useful!",
       "image_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/blog/introducing-representers.jpg"
+    },
+    {
+      "uuid": "892a7a04-982f-457e-9a10-9e27a6393b71",
+      "slug": "freeing-our-maintainers",
+      "category": "updates",
+      "published_at": "2022-12-01 15:00",
+      "title": "Freeing our maintainers",
+      "author_handle": "iHiD",
+      "marketing_copy": "We're spending a few months redesigning our volunteering model and giving our key volunteers a break from the work of reviewing community contributions.",
+      "image_url": ""
     }
   ],
   "stories": [

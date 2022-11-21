@@ -61,7 +61,7 @@ Of course yeah, I thought that was the beginning of my career, so to say.
 **Jonathan:** Huh?
 
 **Gabriel:** The macro writing was when I was like 16. In between, I also wrote some access based system for printing labels for letters so you, they could be sent out.
-So address, addresses and so on. And then came studying and surprise, I did not study informatic.
+So address, addresses and so on. And then came studying and surprise, I did not study informatics.
 
 **Jonathan:** Okay.
 
@@ -141,7 +141,7 @@ I don't really have anything to do right now. And he said, Oh, Gabriel does it. 
 
 **Jonathan:** Wow.
 
-**Gabriel:** I had a project yeah, and then I worked three and a half years for that project. Bringing thousands of books online, the entire Content
+**Gabriel:** I had a project yeah, and then I worked three and a half years for that project. Bringing thousands of books online, the entire Content library
 
 **Jonathan:** Wow.
 
@@ -256,7 +256,7 @@ I worked with them, but
 
 **Jonathan:** Yeah. Something
 
-**Gabriel:** Then I really understood, started to understand them. So that was maybe something that clicked for me because I had a coworker and she explained it to me, and it was really it clicked someday I underst. How they're working and
+**Gabriel:** Then I really understood, started to understand them. So that was maybe something that it clicked for me because I had a coworker and she explained it to me, and it was really it clicked someday I underst. How they're working and
 
 **Jonathan:** Mm-hmm.
 

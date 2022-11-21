@@ -335,7 +335,7 @@
       "blurb": "In this Community Story, Franziska and Jonathan chat about team dynamics, how different people in a business approach collaboration and about how to position yourself in a way to learn to become a programmer.  Franziska is a Senior Software Developer at Atlassion and works fully-remote.",
       "published_at": "2022-11-20 12:01",
       "length_in_minutes": 50,
-      "thumbnail_url": "",
+      "thumbnail_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/blog/story-franziska.jpg",
       "image_url": "https://test.org/image.png",
       "interviewer_handle": "jonathandmiddleton",
       "interviewee_handle": "junedev",

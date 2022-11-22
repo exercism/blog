@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@e2f20e631ae6d7dd3b768f56a5d2af784dd54791
+
+      - name: Setup nodejs
+        uses: actions/setup-node@8c91899e586c5b171469028077307d293428b516
+        with:
+          node-version: 16
+          cache: "yarn"
+
+      - name: Install packages
+        run: yarn install
+
+      - name: Run linter
+        run: yarn lint

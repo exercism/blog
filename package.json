@@ -1,0 +1,11 @@
+{
+  "license": "MIT",
+  "dependencies": {
+    "ajv-cli": "^5.0.0"
+  },
+  "scripts": {
+    "lint": "yarn lint-schema && yarn lint-uuids",
+    "lint-schema": "ajv validate -s config.json.schema.json -d config.json",
+    "lint-uuids": "bin/lint_uuids.sh"
+  }
+}

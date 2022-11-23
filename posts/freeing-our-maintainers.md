@@ -32,6 +32,10 @@ Tracks will be split into three categories:
 
 In all cases, Erik and I will continue to confidence-check PRs to Tooling repos before merge.
 
+The one exception is that we will continue to accept PRs for Approaches and Articles, and will implement an org-wide optimistic merging policy that aims to populate a baseline of Approaches across exercism, and allow for incremental improvements, using the following rules:
+1. If the code solves the exercise and is syntactically and semantically idiomatic (i.e. it looks like $LANG code) it should be merged. If not, it should be fixed by the PR author.
+2. If a maintainer wants to make changes to the content (e.g. to improve the advice, tweak things, highlight better/alternative/more-idiomatic approaches) then that should be done in a follow up PR.
+
 ### Designing a new volunteering system
 
 We’re going to put together a Community Board to co-design a sustainable, healthy volunteering framework for us moving forward, that unlocks Exercism’s potential. If you’re committed to the future of Exercism and want to be part of this process, please get in touch with [Jonathan](mailto:jonathan@exercism.org).

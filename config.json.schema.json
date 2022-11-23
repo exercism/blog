@@ -1,0 +1,128 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "definitions": {
+    "uuid": {
+      "description": "A version 4 UUID",
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+    },
+    "slug": {
+      "description": "A kebab-case string (alphanumeric characters and dashes only)",
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "string": {
+      "description": "A regular string",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "text": {
+      "description": "A more extensive string",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 280
+    },
+    "publication_date": {
+      "description": "A publication date, which is specific to day/hour/minute (no seconds)",
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}$"
+    },
+    "handle": {
+      "description": "A handle, as used on GitHub",
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9_-]+$",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "url": {
+      "description": "A URL",
+      "type": "string",
+      "pattern": "^https?://.+",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "length_in_minutes": {
+      "description": "A length in minutes",
+      "type": "number",
+      "minimum": 1
+    },
+    "post": {
+      "description": "A blog post",
+      "type": "object",
+      "properties": {
+        "uuid": { "$ref": "#/definitions/uuid" },
+        "slug": { "$ref": "#/definitions/slug" },
+        "title": { "$ref": "#/definitions/string" },
+        "category": { "$ref": "#/definitions/slug" },
+        "language": { "$ref": "#/definitions/slug" },
+        "author_handle": { "$ref": "#/definitions/handle" },
+        "published_at": { "$ref": "#/definitions/publication_date" },
+        "image_url": { "$ref": "#/definitions/url" },
+        "youtube_id": { "$ref": "#/definitions/string" },
+        "marketing_copy": { "$ref": "#/definitions/text" }
+      },
+      "required": [
+        "uuid",
+        "slug",
+        "title",
+        "category",
+        "published_at",
+        "author_handle",
+        "marketing_copy"
+      ]
+    },
+    "story": {
+      "description": "A community story",
+      "type": "object",
+      "properties": {
+        "uuid": { "$ref": "#/definitions/uuid" },
+        "slug": { "$ref": "#/definitions/slug" },
+        "title": { "$ref": "#/definitions/string" },
+        "blurb": { "$ref": "#/definitions/text" },
+        "language": { "$ref": "#/definitions/slug" },
+        "author_handle": { "$ref": "#/definitions/handle" },
+        "published_at": { "$ref": "#/definitions/publication_date" },
+        "thumbnail_url": { "$ref": "#/definitions/url" },
+        "image_url": { "$ref": "#/definitions/url" },
+        "length_in_minutes": { "$ref": "#/definitions/length_in_minutes" },
+        "interviewer_handle": { "$ref": "#/definitions/handle" },
+        "interviewee_handle": { "$ref": "#/definitions/handle" },
+        "youtube_id": { "$ref": "#/definitions/string" }
+      },
+      "required": [
+        "uuid",
+        "slug",
+        "title",
+        "blurb",
+        "published_at",
+        "length_in_minutes",
+        "thumbnail_url",
+        "image_url",
+        "interviewee_handle",
+        "interviewer_handle",
+        "youtube_id"
+      ]
+    }
+  },
+  "properties": {
+    "posts": {
+      "description": "The blog posts",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/post"
+      }
+    },
+    "stories": {
+      "description": "The community stories",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/story"
+      }
+    }
+  },
+  "required": ["posts", "stories"]
+}

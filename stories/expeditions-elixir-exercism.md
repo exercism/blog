@@ -1,4 +1,4 @@
-**Jonathan:**  Well, good evening everyone and welcome to the Exorcism podcast. I'm privileged to be joined by **Brian **Underwood. **Brian,** where are you living at this point in time? And tell us a little bit about your story and how you ended up where you are now.
+**Jonathan:**  Well, good evening everyone and welcome to the Exercism podcast. I'm privileged to be joined by **Brian **Underwood. **Brian,** where are you living at this point in time? And tell us a little bit about your story and how you ended up where you are now.
 **Brian:**  Yeah, for sure. Thanks for having me. Yeah, so I'm in Stockholm, Sweden. But originally I'm from the US, born in Ohio, so a bit of a journey from there.
 **Jonathan:**  No.
 **Brian:**  the, I guess, my... you wanted to know like where I where I am from, like my sort of my journey in between I guess.

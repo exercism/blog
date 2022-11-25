@@ -27,7 +27,7 @@ We’re going to free up GitHub entirely for our maintainers to be working on th
 
 Tracks will be split into three categories:
 - The majority of tracks with active maintainers will have community contributions paused, to allow the maintainers to be autonomous or to have a break. (Maintainers of these tracks can request to remove the compulsory one-review requirement. Please speak to Erik on Slack for this)
-- Some tracks with active maintainers who actively want to continue to accept community contributions, will remain open (If you’re a maintainer and would rather go into this mode than (1), please reach out to me on Slack to discuss).
+- Some tracks with active maintainers who actively want to continue to accept community contributions, will remain open (If you’re a maintainer and would rather go into this mode than (1), please reach out to Jonathan Middleton on Slack to discuss).
 - For tracks where there are no active maintainers, track development will essentially be paused for this period.
 
 In all cases, Erik and I will continue to confidence-check PRs to Tooling repos before merge.

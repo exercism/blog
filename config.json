@@ -356,13 +356,26 @@
       "slug": "expeditions-elixir-and-exercism",
       "title": "Expeditions, Elixir and Exercism",
       "blurb": "In this week's Community Story, Brian and Jonathan take a moment to chat about cross-cultural experience, functional programming and what it was like to move from the American mid-west to Scandinavia.",
-      "published_at": "2022-11-27 12:01",
+      "published_at": "2022-12-02 17:01",
       "length_in_minutes": 45,
       "thumbnail_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/blog/story-brian-underwood.jpg",
       "image_url": "https://test.org/image.png",
       "interviewer_handle": "jonathandmiddleton",
       "interviewee_handle": "cheerfulstoic",
       "youtube_id": "X_oTsaLzSck"
+    },
+    {
+      "uuid": "bfef3d25-7942-4b6d-877b-c970e445cc9d",
+      "slug": "entrepreneurial-by-design",
+      "title": "Entrepreneurial by Design",
+      "blurb": "Jonathan and Taiyab approach things from a different angle in this weeks in Community Story. For all those entrepreneurs out there looking to dabble in tech, Taiyab sheds some light on ways to see things from the business and product design perspective.",
+      "published_at": "2022-12-09 17:01",
+      "length_in_minutes": 51,
+      "thumbnail_url": "",
+      "image_url": "https://test.org/image.png",
+      "interviewer_handle": "jonathandmiddleton",
+      "interviewee_handle": "taiyab",
+      "youtube_id": "HBZpD1K9saE"
     }
   ]
 }

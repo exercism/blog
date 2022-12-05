@@ -376,6 +376,18 @@
       "interviewer_handle": "jonathandmiddleton",
       "interviewee_handle": "taiyab",
       "youtube_id": "HBZpD1K9saE"
-    }
+    },
+    {
+      "uuid": "363b6eeb-19b6-4270-90ad-3cf3de21d32d",
+      "slug": "prolific-mentor-and-system-automater",
+      "title": "Prolific Mentor and System Automator",
+      "blurb": "Negatively labelled a jack-of-all-trades? Maybe it's actually a good thing, especially when mentoring people from diverse backgrounds, programming experience and cultures! Isaac is a self-proclaimed techie and Jack of all trades...amongst many other things!",
+      "published_at": "2022-16-09 17:01",
+      "length_in_minutes": 37,
+      "thumbnail_url": "",
+      "image_url": "https://test.org/image.png",
+      "interviewer_handle": "jonathandmiddleton",
+      "interviewee_handle": "isaacg",
+      "youtube_id": "mAVkVr3S2AM",
   ]
 }

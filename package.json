@@ -4,9 +4,10 @@
     "ajv-cli": "^5.0.0"
   },
   "scripts": {
-    "lint": "yarn lint-schema && yarn lint-uuids && yarn lint-structure",
+    "lint": "yarn lint-schema && yarn lint-uuids && yarn lint-structure && yarn lint-images",
     "lint-schema": "ajv validate -s config.json.schema.json -d config.json",
     "lint-uuids": "bin/lint_uuids.sh",
-    "lint-structure": "bin/lint_structure.sh"
+    "lint-structure": "bin/lint_structure.sh",
+    "lint-images": "bin/lint_images.sh"
   }
 }

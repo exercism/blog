@@ -389,6 +389,45 @@
       "interviewer_handle": "jonathandmiddleton",
       "interviewee_handle": "isaacg",
       "youtube_id": "mAVkVr3S2AM"
+    },
+    {
+      "uuid": "955266e4-f931-4578-bc57-6716b19aa226",
+      "slug": "beating-paralysis-and-printing-a-one-handed-keyboard",
+      "title": "Beating Paralysis and Printing a one-handed Keyboard",
+      "blurb": "",
+      "published_at": "",
+      "length_in_minutes": ,
+      "thumbnail_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/blog/story-bobbi-towers.jpg",
+      "image_url": "https://test.org/image.png",
+      "interviewer_handle": "jonathandmiddleton",
+      "interviewee_handle": "",
+      "youtube_id": ""
+    },
+    {
+      "uuid": "1d4aad9e-b737-4edc-889a-69365b412f59",
+      "slug": "becoming-a-polyglot-developer",
+      "title": "Becoming a Polyglot Developer",
+      "blurb": "",
+      "published_at": "",
+      "length_in_minutes": ,
+      "thumbnail_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/blog/story-erik-schierboom.jpg",
+      "image_url": "https://test.org/image.png",
+      "interviewer_handle": "jonathandmiddleton",
+      "interviewee_handle": "",
+      "youtube_id": ""
+    },
+    {
+      "uuid": "ed226307-ae5b-461f-bfc3-af70e4518745",
+      "slug": "",
+      "title": "",
+      "blurb": "",
+      "published_at": "",
+      "length_in_minutes": ,
+      "thumbnail_url": "",
+      "image_url": "https://test.org/image.png",
+      "interviewer_handle": "jonathandmiddleton",
+      "interviewee_handle": "",
+      "youtube_id": ""
     }
   ]
 }

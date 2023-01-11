@@ -428,6 +428,19 @@
       "interviewer_handle": "jonathandmiddleton",
       "interviewee_handle": "sleeplessbyte",
       "youtube_id": "DHmxvFU2D14"
+    },
+    {
+      "uuid": "5d37804a-2ab9-46d7-9cf4-06fb0abaeeb3",
+      "slug": "push-off-with-python",
+      "title": "Push Off With Python!",
+      "blurb": "Every now and then we come across someone who dives into the deep end with learning to program! Carl, also known as 'Meatball' online, started to learn to code using the Python track in Exercism...that is quite the feat, but who doesn't love a challenge!",
+      "published_at": "2023-01-13 17:01",
+      "length_in_minutes": 34,
+      "thumbnail_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/blog/story-carl-oscar.jpg",
+      "image_url": "https://test.org/image.png",
+      "interviewer_handle": "jonathandmiddleton",
+      "interviewee_handle": "meatball",
+      "youtube_id": "FzkujLy3fcg"
     }
   ]
 }

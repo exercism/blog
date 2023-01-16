@@ -89,9 +89,7 @@
 **Jonathan**:  Hmm. It's because you're just doing it as part of.
 **DJ**:  Yeah, it's because you're using things that smarter people than me have come up with and they are accessible by default, right? So think input fields. When you input, you have to put your name into an input field. There's an HTML element, which is called the input element. If you use the input element by default, it will allow you to use a keyboard, but also use speech commands to fill it in. If you use...
 **Jonathan**:  Yeah.
-**DJ**:  a different element, say a div, and you try to make it behave like an input element, you're probably not going to consider all the things other people already thought about. And that's the point, right? So if you don't try to do something special, and you don't think that you're smarter than those people, you will probably use the standard. And if you use the standard, you're already halfway there.
-**Jonathan**:
-**DJ**:  And for everything else...
+**DJ**:  a different element, say a div, and you try to make it behave like an input element, you're probably not going to consider all the things other people already thought about. And that's the point, right? So if you don't try to do something special, and you don't think that you're smarter than those people, you will probably use the standard. And if you use the standard, you're already halfway there. And for everything else...
 **Jonathan**:  Because that to me is the most compelling argument. It's like one of the most compelling arguments is just do what things were designed to be used as, right?
 **DJ**:  Yeah, and you'll actually make it easier for new people who come into the company to understand your code. You'll make it easier for people who are just starting out, because you can point them to all this documentation that already exists out there. That's not... You're not reinventing the wheel here. You're not reinventing the wheel, and that's the point. And because I now, after years of studying this by myself, because I decided to care, I know that so many things are actually not difficult to do.
 **Jonathan**:  you

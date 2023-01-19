@@ -441,6 +441,19 @@
       "interviewer_handle": "jonathandmiddleton",
       "interviewee_handle": "meatball",
       "youtube_id": "FzkujLy3fcg"
+    },
+    {
+      "uuid": "09532ef4-02d8-4bcc-9fe8-c1cd5b32b453",
+      "slug": "programmer-by-accident",
+      "title": "Programmer By Accident!",
+      "blurb": "It would never have occurred to us that solving exercises in Exercism could actually be a form of therapy for many! The human interaction via mentoring and sense of achievement seems to have a powerful impact that we explore in our latest chat with Thelma!",
+      "published_at": "2023-01-20 17:01",
+      "length_in_minutes": 34,
+      "thumbnail_url": "",
+      "image_url": "https://test.org/image.png",
+      "interviewer_handle": "jonathandmiddleton",
+      "interviewee_handle": "thelmalu",
+      "youtube_id": "HIAWuIQ8w8g"
     }
   ]
 }

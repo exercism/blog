@@ -454,6 +454,19 @@
       "interviewer_handle": "jonathandmiddleton",
       "interviewee_handle": "thelmalu",
       "youtube_id": "HIAWuIQ8w8g"
+    },
+    {
+      "uuid": "810d916f-7074-4bd9-ba5f-1dece6778838",
+      "slug": "quantum-quests",
+      "title": "Quantum Quests",
+      "blurb": "Ever talked about Quantum computing in more depth than just skimming the surface...? Well this chat with Ethan was one that took a deep dive into a world few of us know...check it out!",
+      "published_at": "2023-01-27 17:01",
+      "length_in_minutes": 72,
+      "thumbnail_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/blog/story-ethan-hansen.jpg",
+      "image_url": "https://test.org/image.png",
+      "interviewer_handle": "jonathandmiddleton",
+      "interviewee_handle": "Neniu",
+      "youtube_id": "CN23oiW3fno"
     }
   ]
 }

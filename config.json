@@ -296,6 +296,39 @@
       "author_handle": "iHiD",
       "marketing_copy": "We're spending a few months redesigning our volunteering model and giving our key volunteers a break from the work of reviewing community contributions.",
       "image_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/blog/freeing-our-maintainers.jpg"
+    },
+    {
+      "uuid": "b486b896-9a3a-47c5-8e2a-931e61164337",
+      "slug": "12in23-calendar",
+      "category": "updates",
+      "published_at": "2022-01-20 15:30",
+      "title": "The 12in23 calendar",
+      "author_handle": "iHiD",
+      "marketing_copy": "#12in23 has a theme for each month where we encourage you to explore a certain paradigm, type of programming, maybe a specific point in time - for example trying really old languages or really new ones. Learn about the themes in this post",
+      "youtube_id": "2refhxXqePI",
+      "image_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/images/thumbnails/yt-official-12in23-calendar.jpg"
+    },
+    {
+      "uuid": "1a5d4fa3-434f-4966-89c6-d60b7c08f14e",
+      "slug": "functional-february",
+      "category": "updates",
+      "published_at": "2022-02-01 15:30",
+      "title": "Introducting Functional February",
+      "author_handle": "iHiD",
+      "youtube_id": "uIFGx1SDnWI",
+      "marketing_copy": "Functional February is a celebration of functional programming languages. Interviews, livestreams, swag and more. Solve 5 exercises across one of our selected languages to get the badge!",
+      "image_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/images/thumbnails/yt-welcome-to-functional-february.jpg"
+    },
+    {
+      "uuid": "4fbfb936-3dee-4da4-b303-7e4697c15834",
+      "slug": "12in23-feb-update",
+      "category": "updates",
+      "published_at": "2022-02-20 15:30",
+      "title": "How's #12in23 going?",
+      "author_handle": "iHiD",
+      "marketing_copy": "I just thought I’d put together a short update you all on what’s been going on, and how the shape of the year is evolving in our minds.",
+      "youtube_id": "e15lRHLJQKI",
+      "image_url": "https://exercism-static.s3.eu-west-1.amazonaws.com/images/thumbnails/yt-12in23-feb-update.jpg"
     }
   ],
   "stories": [

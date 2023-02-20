@@ -1,0 +1,27 @@
+Hey everyone! How’s your #12in23 going? 
+
+I thought I’d put together a short update you all on what’s been going on, and how the shape of the year is evolving in our minds.
+
+So, #12in23 was just a random idea on January the 1st, where I thought “what would be a fun thing we could do to really make the most of Exercism’s platform and give people loads of fun and education through the year”. So I spiked the whole thing on January 3rd, put a video together, put it all live, and it pretty much took off. The rest of the team came back to work on the 4th and I had made a lot of work for everyone. But to be honest I hadn’t really thought much through beyond the basic idea when we launched.
+
+We came up the idea of the themed months, and that’s then evolved to include all sorts of fun stuff - especially lots of content - interviews with key people in languages, live-streaming, all sorts of stuff. 
+
+I’m recording this towards the end of Functional February, and that’s gone really well. I had a great time interviewing José Valim, the creator of Elixir - if you’ve not watched that already, do check it out, and thanks for everyone who came along and joined in the AMA and the live chat. I’ve got another interview tomorrow, with Louis Pilfold, the creator of Gleam, which I’m excited about as Louis is lovely, and people are really enjoying Gleam.
+
+Thousands of people have been taking part, solving exercises, learning new languages. We’ve had some fun live-streaming sessions too. We’ve got our Functional February swag launching soon - we’ll leave it up for March as it’s come so late! - and we’ve also got a video more of the “Brief introduction to…” videos that Erik is making. He did the first one of those for F# - check it out if you’ve not already! - and he’s put another few together well that we’ll be editing and launching this week - Gleam, Scala, Haskell - maybe one other too.
+
+Erik’s been recording videos for Approaches as well. We launched approaches at the end of 2022 - sort of mini articles that you find after exercises that explore the different ways you could solve that exercise. We’ve got lots of them written across various tracks and exercises now, and also lots of accompanying videos that we’ve pulled in from the community, but Erik’s also been putting a few together specifically for the featured exercises. We’ve put a new Community YouTube channel together to hold this more “unofficial” content - see the description for a link - where we’ll be hosting videos that people make that they don’t have their own channel for. We’re also going to be putting live streams there too, alongside our official Twitch channel.
+
+If you’ve not checked the live-streaming yet, please do. We’ve had a variety of different people streaming throughout February. Some people solving exercises, some learning a language, some streaming themselves contributing to Exercism itself. If you’d like to do some live streaming on our Twitch or Community YouTube channels, ping Jonathan an email - link in the description again - and he’ll get you set up. We’re also hoping to set up some residencies - where people stream each week at a fixed time - so if you’re interested in that let Jonathan know too!
+
+We’re now getting set for Mechanical March. Erik and I are recording the video for this on Wednesday and we’ve chosen the featured exercises etc. The languages are C, C++, D - it’s like reading the alphabet - C, C++, D, Go, Nim, Rust, V and Zig - the last two both new on Exercism in the last couple of weeks. We’re hoping to get language interviews with someone from the Go team, someone from Rust and then the other languages hopefully too!
+
+We’re also creating a new badge that’s going to be quite exclusive. It’s for people who complete all of the featured exercises in a relevant language throughout the year. So for example, you’ll need to have completed the 5 exercises featured in February in a functional language, then the 5 exercises featured in March in a systems language, etc. You can do these whenever during the year, so if you come late to #12in23 that’s fine. And you’ll get awarded the badge at the end of the year. We’ll put a little status UI on the #12in23 page too - that page needs some proper work!
+
+I also want to say thank you to everyone that’s donated. I was feeling pretty down about Exercism at the end of 2022 - we had almost no-one supporting us financially and it felt pretty demoralising. The donations that have come in since the start of the year have been a massive boost to motivation and really reinvigorated me personally. I’m going to put another video together about this, but we have a long way to go still this year to get Exercism to a place where it’s sustainable, but I feel like your support has been a massive first step. So thank you all.
+
+There’s another few things we have bubbling away too. Some new additions to the website - including a strong rumour that we might finally be launching dark mode - as well as some improvements and tweaks in general. I’ll put something more information into an update in the coming weeks.
+
+Well, I think that’s me done. I’m excited to put the Mechanical March video together this week and get that launched. And also super excited for the interview with Louis tomorrow - don’t miss that! If you’ve not got your Functional February badge yet, don’t miss out! You’ve got 1 week left! 
+
+Thanks for reading!

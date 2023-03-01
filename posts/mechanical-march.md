@@ -93,7 +93,7 @@ The newer languages all work at higher levels of abstraction than C/C++.
 E.g. Rust, D and Nim also allow for a very functional way of writing code. 
 Nim and D even have the concept of “pure” functions.
 
-## Intro to the language
+## Introduction to the languages of the month
 
 So it’d be good to look at each of the languages in turn. All the languages have similarities - they’re all strong and statically typed. But lets look at how they vary. Shall we start with C? 
 

@@ -329,6 +329,17 @@
       "marketing_copy": "I just thought I’d put together a short update you all on what’s been going on, and how the shape of the year is evolving in our minds.",
       "youtube_id": "e15lRHLJQKI",
       "image_url": "https://exercism-v3-icons.s3.eu-west-2.amazonaws.com/images/thumbnails/yt-12in23-feb-update.jpg"
+    },
+    {
+      "uuid": "dc7fd4f3-111a-43a4-9a84-38c7faacb283",
+      "slug": "mechanical-march",
+      "category": "updates",
+      "published_at": "2023-03-01 00:00",
+      "title": "It's Mechanical March!",
+      "author_handle": "iHiD",
+      "marketing_copy": "This month, as part of #!12in23, we're having fun with languages that compile to machine. code We've got interviews with people from the Go and Rust teams (and hopefully more!), walkthroughs, tutorials and loads of system languages for you to explore, specifically C, C++, D, Go, Nim, Rust, V and Zig. Join us for the journey!",
+      "youtube_id": "_PPXEJZ7gOg",
+      "image_url": "https://exercism-v3-icons.s3.eu-west-2.amazonaws.com/images/thumbnails/yt-mechanical-march.jpg"
     }
   ],
   "stories": [

@@ -337,7 +337,7 @@
       "published_at": "2023-03-01 00:00",
       "title": "It's Mechanical March!",
       "author_handle": "iHiD",
-      "marketing_copy": "This month, as part of #!12in23, we're having fun with languages that compile to machine. code We've got interviews with people from the Go and Rust teams (and hopefully more!), walkthroughs, tutorials and loads of system languages for you to explore, specifically C, C++, D, Go, Nim, Rust, V and Zig. Join us for the journey!",
+      "marketing_copy": "This month, as part of #!12in23, we're having fun with languages that compile to machine code. Join us for the journey!",
       "youtube_id": "_PPXEJZ7gOg",
       "image_url": "https://exercism-v3-icons.s3.eu-west-2.amazonaws.com/images/thumbnails/yt-mechanical-march.jpg"
     }

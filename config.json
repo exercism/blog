@@ -340,6 +340,17 @@
       "marketing_copy": "This month, as part of #!12in23, we're having fun with languages that compile to machine code. Join us for the journey!",
       "youtube_id": "_PPXEJZ7gOg",
       "image_url": "https://exercism-v3-icons.s3.eu-west-2.amazonaws.com/images/thumbnails/yt-mechanical-march.jpg"
+    },
+    {
+      "uuid": "fc462f5b-ab5b-4579-85ec-ffe48e385cb3",
+      "slug": "insiders-preview",
+      "category": "updates",
+      "published_at": "2023-04-05 06:00",
+      "title": "Exercism Insiders: Early access to Dark Mode + ChatGPT integration!",
+      "author_handle": "iHiD",
+      "marketing_copy": "To help make Exercism more financially sustainable we're adding Track Sponsors and Exercism Insiders.",
+      "youtube_id": "8onnSv5r9Hw",
+      "image_url": "https://exercism-v3-icons.s3.eu-west-2.amazonaws.com/images/thumbnails/yt-insiders-preview.jpg"
     }
   ],
   "stories": [

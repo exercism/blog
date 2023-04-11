@@ -342,6 +342,17 @@
       "image_url": "https://exercism-v3-icons.s3.eu-west-2.amazonaws.com/images/thumbnails/yt-mechanical-march.jpg"
     },
     {
+      "uuid": "ca7d6e21-db54-4f60-ad0e-a22afca17bcb",
+      "slug": "analytical-april",
+      "category": "updates",
+      "published_at": "2023-04-01 00:00",
+      "title": "It's Analytical April!",
+      "author_handle": "iHiD",
+      "marketing_copy": "This month, as part of #!12in23, we're having fun with languages that are used for data-science: Julia, Python and R. Join us for the journey!",
+      "youtube_id": "RTWo4C1r41I",
+      "image_url": "https://exercism-v3-icons.s3.eu-west-2.amazonaws.com/images/thumbnails/yt-analytical-april.jpg"
+    },
+    {
       "uuid": "fc462f5b-ab5b-4579-85ec-ffe48e385cb3",
       "slug": "insiders-preview",
       "category": "updates",

@@ -362,7 +362,18 @@
       "marketing_copy": "To help make Exercism more financially sustainable we're adding Track Sponsors and Exercism Insiders.",
       "youtube_id": "8onnSv5r9Hw",
       "image_url": "https://exercism-v3-icons.s3.eu-west-2.amazonaws.com/images/thumbnails/yt-insiders-preview.jpg"
-    }
+    },
+    {
+      "uuid": "73b46357-f5df-418c-9883-a088daa77613",
+      "slug": "mindshifting-may",
+      "category": "updates",
+      "published_at": "2023-05-01 00:00",
+      "title": "It's MindShifting April!",
+      "author_handle": "iHiD",
+      "marketing_copy": "This month we're exploring languages that will make you rethink what you know about programming: Ballerina, Red, Pharo, Tcl, Unison and Prolog!",
+      "youtube_id": "RpbpnmTfd8w",
+      "image_url": "https://exercism-v3-icons.s3.eu-west-2.amazonaws.com/images/thumbnails/yt-mindshifting-may.jpg"
+    },
   ],
   "stories": [
     {

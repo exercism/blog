@@ -9,7 +9,7 @@ We’re incredibly proud of what we have built so far.
 The 85,000 testimonials that have been given speak to the amazing work our community has done in building our language tracks and mentoring so many students through them.
 Most importantly, we believe we're just scratching the surface of what is possible.
 We have huge ideas, hopes, and excitement for all that Exercism can be.
- But to achieve them, we first need to resolve some fundamental problems that linger under the surface.
+But to achieve them, we first need to resolve some fundamental problems that linger under the surface.
 
 Foremost of these is a need to solve the challenge of scaling our volunteer community in a healthy, sustainable way.
 Exercism has been built on the shoulders of hundreds of dedicated volunteers, but a large proportion of them now feel burnt out and many have left as a result.

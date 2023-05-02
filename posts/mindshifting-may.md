@@ -12,9 +12,9 @@ So we have a whopping six languages this month: Ballerina, Pharo, Prolog, Red, T
 
 ## The badges
 
-To get the Mindshifting May badge you need to complete any five exercises in one of those languages during April.
+To get the Mindshifting May badge you need to complete any five exercises in one of those languages during May.
 
-There’s also the year long 12in23 badge. To get that you need to solve five of our featured exercises in the language. If you’re watching this after April, you can do this bit at any time during the year, so you’ve not missed out. Choosing these exercises was hard as the languages are all so different, so we went for more generic exercises that are fun to solve and interesting to explore different approaches to.
+There’s also the year long 12in23 badge. To get that you need to solve five of our featured exercises in the language. If you’re watching this after May, you can do this bit at any time during the year, so you’ve not missed out. Choosing these exercises was hard as the languages are all so different, so we went for more generic exercises that are fun to solve and interesting to explore different approaches to.
 - **Acronym**: convert a phrase to its acronym
 - **Isogram**: check whether a phrase contains repeating letters
 - **Roman Numerals**: translate a decimal number into roman numerals

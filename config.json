@@ -373,6 +373,28 @@
       "marketing_copy": "This month we're exploring languages that will make you rethink what you know about programming: Ballerina, Red, Pharo, Tcl, Unison and Prolog!",
       "youtube_id": "RpbpnmTfd8w",
       "image_url": "https://exercism-v3-icons.s3.eu-west-2.amazonaws.com/images/thumbnails/yt-mindshifting-may.jpg"
+    },
+    {
+      "uuid": "57810e6c-7129-4f70-ba7f-687264d4b407",
+      "slug": "summer-of-sexps",
+      "category": "updates",
+      "published_at": "2023-06-01 00:00",
+      "title": "It's the summer of Sexps!",
+      "author_handle": "iHiD",
+      "marketing_copy": "This month we're exploring varients of Lisp. With languages ranging from 50 to 10 years old, its fascinating to see how this branch of programming has grown and evolved!",
+      "youtube_id": "5Kg7gC1YcWs",
+      "image_url": "https://exercism-v3-icons.s3.eu-west-2.amazonaws.com/images/thumbnails/yt-summer-of-sexps.jpg"
+    },
+    {
+      "uuid": "ff9aab97-0a71-4dcd-bcd5-da73505619e4",
+      "slug": "jurassic-july",
+      "category": "updates",
+      "published_at": "2023-07-01 00:00",
+      "title": "It's Jurassic July!",
+      "author_handle": "iHiD",
+      "marketing_copy": "This month we're looking at some old skool languages - Cobol, Fortran, C, C++ and Visual Basic. Very different languages, but all fundamental parts of how the world of programming has evolved!",
+      "youtube_id": "TlJaw3UZVsY",
+      "image_url": "https://exercism-v3-icons.s3.eu-west-2.amazonaws.com/images/thumbnails/yt-jurassic-july.jpg"
     }
   ],
   "stories": [

@@ -306,7 +306,7 @@
       "author_handle": "iHiD",
       "marketing_copy": "#12in23 has a theme for each month where we encourage you to explore a certain paradigm, type of programming, maybe a specific point in time - for example trying really old languages or really new ones. Learn about the themes in this post",
       "youtube_id": "2refhxXqePI",
-      "image_url": "https://exercism-v3-icons.s3.eu-west-2.amazonaws.com/images/thumbnails/yt-official-12in23-calendar.jpg"
+      "image_url": "https://assets.exercism.org/images/thumbnails/yt-official-12in23-calendar.jpg"
     },
     {
       "uuid": "1a5d4fa3-434f-4966-89c6-d60b7c08f14e",
@@ -317,7 +317,7 @@
       "author_handle": "iHiD",
       "youtube_id": "uIFGx1SDnWI",
       "marketing_copy": "Functional February is a celebration of functional programming languages. Interviews, livestreams, swag and more. Solve 5 exercises across one of our selected languages to get the badge!",
-      "image_url": "https://exercism-v3-icons.s3.eu-west-2.amazonaws.com/images/thumbnails/yt-welcome-to-functional-february.jpg"
+      "image_url": "https://assets.exercism.org/images/thumbnails/yt-welcome-to-functional-february.jpg"
     },
     {
       "uuid": "4fbfb936-3dee-4da4-b303-7e4697c15834",
@@ -328,7 +328,7 @@
       "author_handle": "iHiD",
       "marketing_copy": "I just thought I’d put together a short update you all on what’s been going on, and how the shape of the year is evolving in our minds.",
       "youtube_id": "e15lRHLJQKI",
-      "image_url": "https://exercism-v3-icons.s3.eu-west-2.amazonaws.com/images/thumbnails/yt-12in23-feb-update.jpg"
+      "image_url": "https://assets.exercism.org/images/thumbnails/yt-12in23-feb-update.jpg"
     },
     {
       "uuid": "dc7fd4f3-111a-43a4-9a84-38c7faacb283",
@@ -339,7 +339,7 @@
       "author_handle": "iHiD",
       "marketing_copy": "This month, as part of #!12in23, we're having fun with languages that compile to machine code. Join us for the journey!",
       "youtube_id": "_PPXEJZ7gOg",
-      "image_url": "https://exercism-v3-icons.s3.eu-west-2.amazonaws.com/images/thumbnails/yt-mechanical-march.jpg"
+      "image_url": "https://assets.exercism.org/images/thumbnails/yt-mechanical-march.jpg"
     },
     {
       "uuid": "ca7d6e21-db54-4f60-ad0e-a22afca17bcb",
@@ -350,7 +350,7 @@
       "author_handle": "iHiD",
       "marketing_copy": "This month, as part of #!12in23, we're having fun with languages that are used for data-science: Julia, Python and R. Join us for the journey!",
       "youtube_id": "RTWo4C1r41I",
-      "image_url": "https://exercism-v3-icons.s3.eu-west-2.amazonaws.com/images/thumbnails/yt-analytical-april.jpg"
+      "image_url": "https://assets.exercism.org/images/thumbnails/yt-analytical-april.jpg"
     },
     {
       "uuid": "fc462f5b-ab5b-4579-85ec-ffe48e385cb3",
@@ -361,7 +361,7 @@
       "author_handle": "iHiD",
       "marketing_copy": "To help make Exercism more financially sustainable we're adding Track Sponsors and Exercism Insiders.",
       "youtube_id": "8onnSv5r9Hw",
-      "image_url": "https://exercism-v3-icons.s3.eu-west-2.amazonaws.com/images/thumbnails/yt-insiders-preview.jpg"
+      "image_url": "https://assets.exercism.org/images/thumbnails/yt-insiders-preview.jpg"
     },
     {
       "uuid": "73b46357-f5df-418c-9883-a088daa77613",
@@ -372,7 +372,7 @@
       "author_handle": "iHiD",
       "marketing_copy": "This month we're exploring languages that will make you rethink what you know about programming: Ballerina, Red, Pharo, Tcl, Unison and Prolog!",
       "youtube_id": "RpbpnmTfd8w",
-      "image_url": "https://exercism-v3-icons.s3.eu-west-2.amazonaws.com/images/thumbnails/yt-mindshifting-may.jpg"
+      "image_url": "https://assets.exercism.org/images/thumbnails/yt-mindshifting-may.jpg"
     },
     {
       "uuid": "57810e6c-7129-4f70-ba7f-687264d4b407",
@@ -383,7 +383,7 @@
       "author_handle": "iHiD",
       "marketing_copy": "This month we're exploring varients of Lisp. With languages ranging from 50 to 10 years old, its fascinating to see how this branch of programming has grown and evolved!",
       "youtube_id": "5Kg7gC1YcWs",
-      "image_url": "https://exercism-v3-icons.s3.eu-west-2.amazonaws.com/images/thumbnails/yt-summer-of-sexps.jpg"
+      "image_url": "https://assets.exercism.org/images/thumbnails/yt-summer-of-sexps.jpg"
     },
     {
       "uuid": "ff9aab97-0a71-4dcd-bcd5-da73505619e4",
@@ -394,7 +394,7 @@
       "author_handle": "iHiD",
       "marketing_copy": "This month we're looking at some old skool languages - Cobol, Fortran, C, C++ and Visual Basic. Very different languages, but all fundamental parts of how the world of programming has evolved!",
       "youtube_id": "TlJaw3UZVsY",
-      "image_url": "https://exercism-v3-icons.s3.eu-west-2.amazonaws.com/images/thumbnails/yt-jurassic-july.jpg"
+      "image_url": "https://assets.exercism.org/images/thumbnails/yt-jurassic-july.jpg"
     }
   ],
   "stories": [

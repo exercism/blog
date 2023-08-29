@@ -406,6 +406,17 @@
       "marketing_copy": "This month we're exploring languages that can be used to build apps - ABAP, CoffeeScript, Dart, Delphi, Elm, Java, JavaScript, Kotlin, Objective-C, PHP, PureScript, ReasonML, Swift and TypeScript.",
       "youtube_id": "HuGqVceSyDk",
       "image_url": "https://assets.exercism.org/images/thumbnails/yt-appy-august.jpg"
+    },
+    {
+      "uuid": "977717db-d87f-49e2-a9e3-3459f0a3d699",
+      "slug": "slimline-september",
+      "category": "updates",
+      "published_at": "2023-09-01 00:00",
+      "title": "It's Slimline September!",
+      "author_handle": "ErikSchierboom",
+      "marketing_copy": "This month we're exploring languages with concise syntax - 8th, AWK, Bash, jq, Perl and Raku.",
+      "youtube_id": "k9QMbXPcpr4",
+      "image_url": "https://assets.exercism.org/images/thumbnails/yt-slimline-september.jpg"
     }
   ],
   "stories": [

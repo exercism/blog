@@ -395,6 +395,17 @@
       "marketing_copy": "This month we're looking at some old skool languages - Cobol, Fortran, C, C++ and Visual Basic. Very different languages, but all fundamental parts of how the world of programming has evolved!",
       "youtube_id": "TlJaw3UZVsY",
       "image_url": "https://assets.exercism.org/images/thumbnails/yt-jurassic-july.jpg"
+    },
+    {
+      "uuid": "ccf2c18a-8eed-4d33-82d4-81c81e081c65",
+      "slug": "appy-august",
+      "category": "updates",
+      "published_at": "2023-08-01 00:00",
+      "title": "It's Appy August!",
+      "author_handle": "ErikSchierboom",
+      "marketing_copy": "This month we're exploring languages that can be used to build apps - ABAP, CoffeeScript, Dart, Delphi, Elm, Java, JavaScript, Kotlin, Objective-C, PHP, PureScript, ReasonML, Swift and TypeScript.",
+      "youtube_id": "HuGqVceSyDk",
+      "image_url": "https://assets.exercism.org/images/thumbnails/yt-appy-august.jpg"
     }
   ],
   "stories": [

@@ -7,7 +7,7 @@ Hi everyone! I hope you're all doing well.
 We've had a big August at Exercism. We've merged Premium and Insiders, added automated feedback directly into the editor, launched Track Trophies, and made loads of small improvements to the site too! If you've not checked your tracks yet to see which trophies you get, definitely do that. We've sent an email out to everyone that's got one or more trophies, so keep an eye out for that too.
 During August we also had loads of fun in #12in23, exploring languages that people normally use to create Apps.
 
-This month is Slimline September, in which we're exploring languages that tend to be very concise and terse in their syntax. Specifically we're looking at 8th (a descendent of Forth), AWK, Bash, jq, Perl and Raku (which used to be known as Perl 6).
+This month is Slimline September, in which we're exploring languages that tend to be very concise and terse in their syntax. Specifically we're looking at 8th (a descendant of Forth), AWK, Bash, jq, Perl and Raku (which used to be known as Perl 6).
 
 ## The badges
 
@@ -101,7 +101,7 @@ Let's dig in and explore the languages with an overview of each.
 
 - Used for text processing, system administration, and more
 
-## What makes these languages interesting from a programming perspectuve?
+## What makes these languages interesting from a programming perspective?
 
 Most languages are dynamically typed and interpreted, which fits well with their scripting nature. That said, there are some exceptions, especially in the supported paradigms.
 

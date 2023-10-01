@@ -417,6 +417,17 @@
       "marketing_copy": "This month we're exploring languages with concise syntax - 8th, AWK, Bash, jq, Perl and Raku.",
       "youtube_id": "k9QMbXPcpr4",
       "image_url": "https://assets.exercism.org/images/thumbnails/yt-slimline-september.jpg"
+    },
+    {
+      "uuid": "6f7c505a-84bd-4c5d-9cd2-3c491ebabe33",
+      "slug": "object-oriented-october",
+      "category": "updates",
+      "published_at": "2023-10-01 00:00",
+      "title": "It's Object Oriented October",
+      "author_handle": "iHiD",
+      "marketing_copy": "This month we're exploring object oriented languages with concise syntax - C#, Ruby, Powershell, Crystal, Java and Pharo",
+      "youtube_id": "YUmbekwFUa0",
+      "image_url": "https://assets.exercism.org/images/thumbnails/yt-october-oriented-october.jpg"
     }
   ],
   "stories": [

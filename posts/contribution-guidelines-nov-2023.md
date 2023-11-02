@@ -4,22 +4,14 @@ _If you’re being pointed here from an automatically closed Issue/PR, please do
 
 For the last year, we’ve been experimenting with limiting contributions from non-maintainers in order to free up our core contributors time and allow them to make more significant improvements to tracks.
 This has worked pretty well.
-<<<<<<< Updated upstream
-Compared to 2022, during 2023 we’ve seen double the amount of new exercises added and three times the amount of syllabuses created.
-=======
 Compared to 2022, during 2023 we’ve **seen double the amount of new exercises added and three times the amount of syllabuses created.**
->>>>>>> Stashed changes
 The change of methodology has allowed for much larger contributions, less frustration and less distraction for our core contributors.
 
 However, I’m also aware that it’s created frustrations for new contributors who are committed to helping out, but feel blocked by our contribution process.
 So today, I want to put forward some new (or clarified) guidelines for how we’re going to move forward with contributions during the next few months.
 
-<<<<<<< Updated upstream
-The fundamental rule to make sense of is that we discuss ideas, bugs and issues on our forum and that we discuss the resulting changes to code on GitHub (in PR reviews).
-=======
 The fundamental rule to make sense of is that **we discuss ideas, bugs and issues on our forum and that we discuss the resulting changes to code on GitHub (in PR reviews).**
 The secondary rule is that (with the exception of maintainers who are autonomous) we discuss things before we do things.
->>>>>>> Stashed changes
 Our forum allows contributors and maintainers across tracks to share knowledge and wisdom on a wide range of languages and ideas without needing to subscribe to 300 different repositories on GitHub and overwhelming their notifications.
 
 ## Updated Guidance

@@ -439,6 +439,16 @@
       "marketing_copy": "This month we're exploring assembly languages: x86-64 Assembly, MIPS Assembly and WebAssembly",
       "youtube_id": "Dc_eaC19vVo",
       "image_url": "https://assets.exercism.org/images/thumbnails/yt-nibbly-november.jpg"
+    },
+    {
+      "uuid": "d723f74a-1e6c-4b81-9782-5024bae9812f",
+      "slug": "contribution-guidelines-nov-2023",
+      "category": "updates",
+      "published_at": "2023-11-02 00:00",
+      "title": "New Contribution Guidelines",
+      "author_handle": "iHiD",
+      "marketing_copy": "After a few months of experimenting with closing community contributions, we're evolving our guidelines",
+      "image_url": "https://assets.exercism.org/images/thumbnails/contribution-guidelines-nov-2023.jpg"
     }
   ],
   "stories": [

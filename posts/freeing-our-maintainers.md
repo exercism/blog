@@ -1,3 +1,7 @@
+**Important: This information is now outdated. Please see our [newer blog post](https://exercism.org/blog/contribution-guidelines-nov-2023) for up to date details.**
+
+---
+
 _TL;DR; We're spending a few months redesigning our volunteering model and giving our key volunteers a break from the work of reviewing community contributions.
 If you use Exercism purely to learn or mentor, there’s nothing here you need to know (although please read if you’re interested!).
 If you are a track maintainer, wish to contribute to Exercism, or wish to report a bug/problem, then consider this essential reading 🙂_

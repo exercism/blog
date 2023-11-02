@@ -428,6 +428,17 @@
       "marketing_copy": "This month we're exploring object oriented languages with concise syntax - C#, Ruby, Powershell, Crystal, Java and Pharo",
       "youtube_id": "YUmbekwFUa0",
       "image_url": "https://assets.exercism.org/images/thumbnails/yt-object-oriented-october.jpg"
+    },
+    {
+      "uuid": "de0b197d-3c6d-4900-bbdd-7617c3ea26ef",
+      "slug": "nibbly-november",
+      "category": "updates",
+      "published_at": "2023-11-01 00:00",
+      "title": "It's Nibbly November",
+      "author_handle": "iHiD",
+      "marketing_copy": "This month we're exploring assembly languages: x86-64 Assembly, MIPS Assembly and WebAssembly",
+      "youtube_id": "Dc_eaC19vVo",
+      "image_url": "https://assets.exercism.org/images/thumbnails/yt-nibbly-november.jpg"
     }
   ],
   "stories": [

@@ -441,6 +441,17 @@
       "image_url": "https://assets.exercism.org/images/thumbnails/yt-nibbly-november.jpg"
     },
     {
+      "uuid": "9a3277d2-9cac-4981-862f-1d2230b2ab41",
+      "slug": "december-diversions",
+      "category": "updates",
+      "published_at": "2023-12-01 00:00",
+      "title": "December Diversions",
+      "author_handle": "iHiD",
+      "marketing_copy": "This month we're exploring a diverse set of languages: ColdFusion, Groovy, Lua, VimScript and Wren",
+      "youtube_id": "_w5Q3Tc1kqY",
+      "image_url": "https://assets.exercism.org/images/thumbnails/yt-december-diversions.jpg"
+    },
+    {
       "uuid": "d723f74a-1e6c-4b81-9782-5024bae9812f",
       "slug": "contribution-guidelines-nov-2023",
       "category": "updates",

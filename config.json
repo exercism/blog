@@ -460,6 +460,16 @@
       "author_handle": "iHiD",
       "marketing_copy": "After a few months of experimenting with closing community contributions, we're evolving our guidelines",
       "image_url": "https://assets.exercism.org/images/thumbnails/contribution-guidelines-nov-2023.jpg"
+    },
+    {
+      "uuid": "18513581-e355-453b-bdae-34c32d11d04b",
+      "slug": "xavdid-does-12in23",
+      "category": "updates",
+      "published_at": "2023-12-22 00:00",
+      "title": "@xavdid Does #12in23",
+      "author_handle": "xavdid",
+      "marketing_copy": "Community member David Brownman reviews the 12 languages he used for Exercim's 12 in 23 challenge",
+      "image_url": "FIXME"
     }
   ],
   "stories": [

@@ -460,7 +460,18 @@
       "author_handle": "iHiD",
       "marketing_copy": "After a few months of experimenting with closing community contributions, we're evolving our guidelines",
       "image_url": "https://assets.exercism.org/images/thumbnails/contribution-guidelines-nov-2023.jpg"
+    },
+    {
+      "uuid": "3a568fdc-6999-4edb-b774-1a6941da52fd",
+      "slug": "introducing-48in24",
+      "category": "updates",
+      "published_at": "2024-01-05 00:00",
+      "title": "Introducing #48in24",
+      "author_handle": "iHiD",
+      "marketing_copy": "New year, new challenge. Building on the success of #12in23, we're challenging you to solve a different exercise each week for the year.",
+      "image_url": "https://assets.exercism.org/images/thumbnails/introducing-48-in-24.jpg"
     }
+
   ],
   "stories": [
     {

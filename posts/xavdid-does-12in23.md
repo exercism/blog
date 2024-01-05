@@ -1,4 +1,4 @@
-> this post originally appeared on [David's website](https://xavd.id/blog/post/12-languages-in-12-months/) and is republished here with permission
+_This post originally appeared on [David's website](https://xavd.id/blog/post/12-languages-in-12-months/) and is republished here with permission_
 
 Last January, Exercism [announced](https://forum.exercism.org/t/the-12in23-challenge/2213) a new program called `12in23`, where they challenged participants to try 12 new programming languages in 2023. Each month would have a theme (such as "Analytical April" or "Object Oriented October") and would highlight specific languages to try. I love learning new things and have become a bit of a (programming) language nerd, so I decided to give it a try. 12 languages, 12 months!
 
@@ -14,7 +14,7 @@ I laid out a few guidelines for the year to help me make the most of the experie
 
 Let's get to it!
 
-![](./images/badges.png) - FIXME
+![](https://assets.exercism.org/images/community/xavdid-12in23-badges.png)
 
 ## January (Unthemed)
 
@@ -26,7 +26,7 @@ I didn't enjoy using it so much that I'll reach for it as a first choice, but it
 
 ## Functional February
 
-![](./images/functional_programming.jpg) - FIXME
+![](https://assets.exercism.org/images/community/xavdid-12in23-functional_programming.jpg)
 
 [February](https://exercism.org/blog/functional-february) jumped right into the deep end with [functional](https://en.wikipedia.org/wiki/Functional_programming) languages, which are a math-y offshoot of more common imperative programming languages. Functional languages are known for their "pure" functions (without side effects). I chose [Elixir](https://elixir-lang.org/), mostly because my friend [Caleb](https://ca1eb.omg.lol/) has used it for Advent of Code and raves about it.
 
@@ -239,7 +239,7 @@ While I don't have anything I immediately need Lua for, it's another great tool 
 
 ## Wrapping it Up
 
-![](./images/languages.png) - FIXME
+![](https://assets.exercism.org/images/community/xavdid-12in23-languages.png)
 
 I enjoyed this language tour more than I expected to. Not only did I learn some new practical skills, my horizons feel thoroughly broadened.
 

@@ -466,10 +466,10 @@
       "slug": "xavdid-does-12in23",
       "category": "updates",
       "published_at": "2023-12-22 00:00",
-      "title": "@xavdid Does #12in23",
+      "title": "A reflection on #12in23 from someone who completed it",
       "author_handle": "xavdid",
-      "marketing_copy": "Community member David Brownman reviews the 12 languages he used for Exercim's 12 in 23 challenge",
-      "image_url": "FIXME"
+      "marketing_copy": "David Brownman (@xavdid) discusses the 12 languages he used for Exercism's #12in23 challenge",
+      "image_url": "https://assets.exercism.org/images/thumbnails/xavdid-12in23.jpg"
     }
   ],
   "stories": [

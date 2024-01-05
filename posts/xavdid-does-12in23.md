@@ -14,7 +14,7 @@ I laid out a few guidelines for the year to help me make the most of the experie
 
 Let's get to it!
 
-![](https://assets.exercism.org/images/community/xavdid-12in23-badges.png)
+![](https://assets.exercism.org/images/community/xavdid-12in23-badges.jpg)
 
 ## January (Unthemed)
 
@@ -239,7 +239,7 @@ While I don't have anything I immediately need Lua for, it's another great tool 
 
 ## Wrapping it Up
 
-![](https://assets.exercism.org/images/community/xavdid-12in23-languages.png)
+![](https://assets.exercism.org/images/community/xavdid-12in23-languages.jpg)
 
 I enjoyed this language tour more than I expected to. Not only did I learn some new practical skills, my horizons feel thoroughly broadened.
 

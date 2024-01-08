@@ -1,6 +1,6 @@
 New year, new challenge!
 
-It’s 2024 and I’m really excited to announce that we’re rolling out a whole new year-long challenge to keep you motivated on your programming journey - #48in24!
+It’s 2024 and I’m really excited to announce that we’re rolling out a whole new year-long challenge to keep you motivated on your programming journey - [#48in24](https://exercism.org/challenges/48in24)!
 
 Now, don’t panic, we’re not upping the game and asking you to learn 48 programming languages this year to replicate what we did with #12in23 - that would be ridiculous even by our standards. Instead, we’re challenging you to solve and dig into 48 different exercises throughout the year.
 
@@ -17,5 +17,4 @@ We’re also going to be using this opportunity to focus our contributing commun
 
 Exercises will be released on Tuesdays and the first will be January 16th. We’ll then continue releasing one per week until we hit 48 in December, giving people the last couple of weeks of the year to tie up any loose ends (and have a holiday!) 
 
-You can sign up for the challenge at https://exercism.org/challenges/48in24 - see you inside!
-
+You can sign up for the challenge at [https://exercism.org/challenges/48in24](https://exercism.org/challenges/48in24) - see you inside!

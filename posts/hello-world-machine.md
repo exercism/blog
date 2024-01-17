@@ -2,7 +2,7 @@
 
 _For the purpose of this article, all the code will be in Python._
 
-In their [#48in24 challenge](https://exercism.org/challenges/48in24), Exercism are exploring how different people approach to different coding challenges.
+In their [#48in24 challenge](https://exercism.org/challenges/48in24), Exercism are exploring how the community approaches different coding challenges.
 "Hello, World!" is the most basic exercise on Exercism and was deemed too simple to make an official video for.
 But I'm not so sure, and thought it might be fun to look at some more interesting approaches to this simple exercise!
 

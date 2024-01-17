@@ -1,20 +1,23 @@
 ## Introduction
 
-*For the purpose of this article, all the code will be in Python.
+_For the purpose of this article, all the code will be in Python._
 
-"Hello, World!" is without a doubt the most famous program in the world, virtually anybody who learn to code have seen it at least once.
+"Hello, World!" is probably most famous program in the world, virtually anybody who's learned to code has written it at least once.
 Its simplicity and the friendly message being printed out to greet a newcomer often signify the first step into the wonderful world of programming.
 
-But for practical reason, it is often used as a first test basic to make sure that the computer language you are about to use is being installed and set up correctly, and the user understand the very basics of how to use it. And this is no difference here on Exercism.
+For practical reasons, it is often used to test that the user's environment is set up correctly, and that the they understand the very basics of the language. This is no different here on Exercism.
 
-The usual set up is a function (class/module) named `hello` with an included string of "Goodbye, Mars!" to be returned with a string "Hello, World!"
+On Exercism, you are provided with a function named `hello` that returns "Goodbye, Mars!". 
+Your task is simply to return "Hello, World!" instead:
 
 ```python
 def hello():
     return 'Goodbye, Mars!'
 ```
 
-Next, I will attempt to solve this quandary using various methods that I could think of. And for narrative purpose, I will refer to this simple function as *the* MACHINE!! whose only job is returning a greeting of : "Hello, World!". Let's see where it goes.
+Next, I will attempt to solve this problem using various methods that I could think of.
+For narrative purposes, I will refer to this simple function as *the* MACHINE!! whose only job is to return a "Hello, World!" greeting.
+Let's see where this goes.
 
 
 #### The Traditional
@@ -28,7 +31,7 @@ With just a simple change of string from "Goodbye, Mars!" to "Hello, World!", we
 
 #### The Parameter
 
-You decide maybe it is a good idea to give the machine an input of the phrase, so it can remember it for later usage.
+You decide that maybe it is a good idea to give the machine the phrase as an input, so it can remember it for later usage.
 
 ```python
 def hello(greeting: str) -> str:
@@ -39,7 +42,7 @@ hello("Hello, World!")
 
 #### The Named Parameter
 
-After the previous attemp, the machine only managed to remember where is it but it can't remember the greeting, so you need to put in the greeting again.
+After the previous attempt, the machine only managed to remember where is it, but can't remember the greeting, so you need to put in the greeting again.
 
 ```python
 def hello(greeting: str, location="World") -> str:
@@ -50,7 +53,7 @@ hello("Hello")
 
 ### The -join
 
-The machine already have some of the words, but it can't seen to string a ~~sen-~~ string together.
+The machine already knows some of the words, but it can't seen to string ah, eg, well, string together.
 
 ```python
 def hello() -> str:
@@ -60,7 +63,7 @@ def hello() -> str:
 
 #### The Title
 
-The machine's battery is a bit low today, all the words are lacking energy and not being capitalized properly.
+The machine's battery is a bit low today as all the words are lacking energy and not being capitalized properly.
 
 ```python
 def hello() -> str:
@@ -70,7 +73,7 @@ def hello() -> str:
 
 #### The Reversal
 
-The machine somehow have the greeting ready, but something about it looks a bit ..backward.
+The machine somehow knows the greeting, but something about it looks a bit ..backward.
 
 ```python
 def hello() -> str:
@@ -81,7 +84,7 @@ def hello() -> str:
 
 #### The Slice 'n Dice
 
-Maybe the machine need to have its oil changed, the normal greeting message seem to be a bit mixed up.
+Maybe the machine need to have its oil changed, the normal greeting message seems to be a bit mixed up.
 
 ```python
 def hello() -> str:
@@ -92,7 +95,8 @@ def hello() -> str:
 
 #### The Curry
 
-Oh oh, some parts of the machine is in maintenance mode. It forgot the greeting  message and now can only accept part by part back.
+Oh oh, some parts of the machine are in maintenance mode.
+ It forgot the greeting message and can now only accept the message part by part.
 
 ```python
 def hello(greet: str):
@@ -106,7 +110,7 @@ hello("World")
 
 #### The Ascii
 
-You accidentally spilled some lemonade on the machine and now it only show you these strange number instead of the usual characters in the message.
+You accidentally spilled some lemonade on the machine and now it only shows you these strange numbers instead of the usual characters in the message.
 
 ```python
 def hello() -> str:
@@ -116,7 +120,9 @@ def hello() -> str:
 
 #### The Dictionary
 
-You watched the news and saw a snippet about a man being rescued using S.O.S signal. "Maybe the machine should be able to handle morse code as well!" - you thought, but you are not sure why. Its only job is to return the greeting message...
+You watched the news and saw a snippet about a man being rescued using an S.O.S signal.
+"Maybe the machine should be able to handle morse code as well!" - you thought, but you are not sure why. 
+Its only job is to return the greeting message...
 
 ```python
 def hello(morse) -> str:
@@ -140,7 +146,9 @@ print(hello(".... . .-.. .-.. --- --..-- / .-- --- .-. .-.. -.. -.-.--"))
 
 #### The Functional
 
-With your current machine are prone to changes and damage, you decide to build a smaller but an immutable and indestructible machine that do the exact same thing. And whenever the regular machine not working or acting up, it will activate the smaller one instead. Hang on, why don't we just use the smaller on from now on..
+With your current machine prone to changes and damage, you decide to build a smaller but immutable and indestructible machine that does the exact same thing.
+Whenever the regular machine is not working or acting up, it will activate the smaller one instead.
+Hang on, why don't we just use the smaller on from now on..
 
 ```python
 def hi() -> str:
@@ -152,8 +160,12 @@ def hello() -> str:
 
 #### The Permutation
 
-A strong thunderstorm went by and your poor unlucky machine got struck by lightning, it still power up but now it is acting weird.  All the characters to assemble the greeting message is still there but they are not in order, and the damaged to the logic board mean the machine can't get the correct order for the message anymore. 
-And just your luck, the incredible reliable and *indestructible* smaller one you built earlier was in fact stealable (Yes, it's gone!). So you decide to just let your good ol' buddy to try every possible ways to scramble these letters into the correct message. After all, it is only 13 characters and the machine has a lot of memory that you recently downloaded, this should be quick...
+A strong thunderstorm passed by and your poor unlucky machine got struck by lightning.
+It still powers up. but now it is acting weird.
+All the characters to assemble the greeting message are still there, but they are not in order and the damage to the logic board means the machine can't get the order for the message right anymore. 
+And just your luck, the incredibly reliable and *indestructible* smaller machine you built earlier was in fact stealable (yes, it's gone!).
+Therefore, you decide to just let your good ol' buddy try every possible way to scramble these letters into the correct message.
+After all, it is only 13 characters and the machine has a lot of memory, this should be quick...
 
 ```python
 from itertools import permutations
@@ -169,7 +181,10 @@ def hello() -> str:
 
 #### The Search
 
-You decided to give an update to the machine, make it learn new language so it can greet in different languages. But its ONLY job is to say "Hello, World!" in English, so in its confusion it decides to download a bazillion ways of saying "Hello, World!", each with slightly different capitalized characters and placement. Now it confused and not sure which one to pick, well, at least these are all in some sort of order. You have to tell machine the correct way to phrase it, so it can find the phrase and be normal again(maybe)
+You decided to update the machine to allow it to greet in different languages.
+But its ONLY job is to say "Hello, World!" in English, so in its confusion it decides to download a bazillion ways of saying "Hello, World!", each with slightly different capitalized characters and placement.
+That left you confused and not sure which one to pick, but at least they are all in some sort of order.
+You have to tell the machine the correct way to phrase it, so it can find the phrase and be normal again(maybe).
 
 ```python
 def hello(my_fav_phrase) -> str:
@@ -196,11 +211,14 @@ def hello(my_fav_phrase) -> str:
 hello("Hello, World!")
 ```
 
-Your younger brother who has been watching the whole thing asked why didn't you just delete the whole mess, then give the machine the only correct phrase for it to remember, you didn't say anything and just glare at him. 
+Your younger brother who has been watching the whole thing asked why didn't you just delete the whole mess, then give the machine the only correct phrase for it to remember.
+You didn't reply and just glared at him. 
 
 #### The Classy
 
-You decide to experiment and tweak the machine to behave differently based on what button being pressed. You thought about making it a bit more casual, starting to say "Hi". But being a class*y* person, you decide to only ever use the `hello` method and tape over the other one. You realize you have quite a lot of time on your hands for these things..
+You decide to experiment and tweak the machine to behave differently based on what button is being pressed.
+You thought about making it a bit more casual, starting to say "Hi". but being a class*y* person, you decide to only ever use the `hello` method and tape over the other one.
+You realize you have quite a lot of time on your hands for these things..
 
 ```python
 class Greeting:
@@ -221,7 +239,7 @@ salutation.hello()
 
 #### The Recursion
 
-For some reason you decided that it would be funny if the machine lag behind a bit and only response 10 secs late to prank people. Your brother once again raising the question about the logic behind this feature, because according to his word you are the only one who use the machine.
+For some reason, you decided it would be funny if the machine lagged a bit and would only respond 10 seconds late. Your brother once again raises the question about the logic behind this feature, because according to him, you are the only one who uses the machine.
 
 ```python
 import time
@@ -236,7 +254,9 @@ def hello(n=10):
 
 #### The Randomness
 
-Suddenly, one day you just feel tired of the same greeting over and over again, so you decide that you would let it greet you one last time and retire the machine for good. Never to touch it again. But it has been with you for a long time through thick and thin, so you decide to let this final meeting between "friends" to be in the hand of fate. You power it up one last time and just let it spins.
+Suddenly, one day you just feel tired of the same greeting over and over again, so you decide that you would let it greet you one last time and retire the machine for good, never to touch it again.
+As the machine has been with you through thick and thin and for a long time, you decide to let this final meeting between "friends" to be in the hand of fate.
+ You power it up one last time and just let it spin...
 
 ```python
 import random

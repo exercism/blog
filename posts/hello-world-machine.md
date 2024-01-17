@@ -8,7 +8,7 @@ But I'm not so sure, and thought it might be fun to look at some more interestin
 
 ## Meet "Hello, World!"
 
-"Hello, World!" is probably most famous program in the world.
+"Hello, World!" is probably the most famous program in the world.
 Virtually anybody who's learned to code has written it at least once.
 Its simplicity and the friendly message often signify the first step into the wonderful world of programming.
 
@@ -19,7 +19,7 @@ def hello():
     return 'Goodbye, Mars!'
 ```
 
-Your task is simply to change it to return "Hello, World!" instead.
+Your task is to change it to return "Hello, World!" instead.
 
 ## The Traditional Approach
 
@@ -39,9 +39,9 @@ For narrative purposes, I will refer to this simple function as the "machine", a
 
 Let's see where this goes...!
 
-### The -join
+### The Join
 
-The machine already knows some of the words, but it can't seen to string ah, eg, well, string together.
+The machine already knows some of the words, but it can't seen to string ah, eg, well, string them together.
 
 ```python
 def hello() -> str:
@@ -51,7 +51,7 @@ def hello() -> str:
 
 ### The Title
 
-The machine's battery is a bit low today as all the words are lacking energy and not being capitalized properly.
+The machine's battery is a bit low today as all the words are lacking energy and are not being capitalized properly.
 
 ```python
 def hello() -> str:
@@ -148,7 +148,7 @@ def hello() -> str:
 ### The Permutation
 
 A strong thunderstorm passed by and your poor unlucky machine got struck by lightning.
-It still powers up. but now it is acting weird.
+It still powers up, but now it is acting weird.
 All the characters to assemble the greeting message are still there, but they are not in order and the damage to the logic board means the machine can't get the order for the message right anymore.
 And just your luck, the incredibly reliable and *indestructible* smaller machine you built earlier was in fact stealable (yes, it's gone!).
 Therefore, you decide to just let your good ol' buddy try every possible way to scramble these letters into the correct message.
@@ -198,13 +198,13 @@ def hello(my_fav_phrase) -> str:
 hello("Hello, World!")
 ```
 
-Your younger brother who has been watching the whole thing asked why didn't you just delete the whole mess, then give the machine the only correct phrase for it to remember.
+Your younger brother, who has been watching the whole thing, asked why you didn't just delete the whole mess, and then give the machine the correct phrase for it to remember.
 You didn't reply and just glared at him.
 
 ### The Classy
 
 You decide to experiment and tweak the machine to behave differently based on what button is being pressed.
-You thought about making it a bit more casual, starting to say "Hi". but being a class*y* person, you decide to only ever use the `hello` method and tape over the other one.
+You thought about making it a bit more casual, starting to say "Hi". but being a *classy* person, you decide to only ever use the `hello` method and tape over the other one.
 You realize you have quite a lot of time on your hands for these things..
 
 ```python

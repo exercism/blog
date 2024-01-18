@@ -1,13 +1,13 @@
 ## Introduction
 Hi everyone! I hope you’re all doing well.
 
-It’s been a really exciting few weeks at Exercism, with the launch of Exercism Premium and Exercism Insiders. We’ve also had some great community calls, and got lots of improvements to the site deployed and coming soon. There’s lots to be excited for at the moment, but nothing more exciting than us entering month 6 of #12in23! - The summer of S-expressions, or more nicely shortened to the Summer of Sex.
+It’s been a really exciting few weeks at Exercism, with the launch of Exercism Premium and Exercism Insiders. We’ve also had some great community calls, and got lots of improvements to the site deployed and coming soon. There’s lots to be excited for at the moment, but nothing more exciting than us entering month 6 of #12in23! - The summer of S-expressions, or more nicely shortened to the Summer of Sexps.
 
 As normal, I’m joined by the wise sage of the programming world - Erik.
 
 So we have five languages this month: Clojure, Common Lisp, Emacs Lisp, Racket and Scheme. Each of these languages is a dialect of the Lisp language, and so rather than focussing too heavily on the different languages in this video, we’re going to look a little more at Lisp itself, and what makes it unique. And then we’ll finish by going over the languages in brief.
 
-But before that, some housekeeping! To get the Summer of Sex badge you need to complete any five exercises in one of those languages during June.
+But before that, some housekeeping! To get the Summer of Sexps badge you need to complete any five exercises in one of those languages during June.
 
 ## The badges
 

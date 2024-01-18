@@ -24,7 +24,7 @@ Your task is to change it to return "Hello, World!" instead.
 ## The Traditional Approach
 
 First up, we have the most simple approach, and the one Exercism hopes you'll implement.
-With just a simple change of string from "Goodbye, Mars!" to "Hello, World!", we can now safely return it!
+With just a simple change of the string from "Goodbye, Mars!" to "Hello, World!", we can now safely return it!
 
 ```python
 def hello() -> str:
@@ -68,11 +68,11 @@ def hello() -> str:
     sdrow = "!dlroW ,olleH"
     return sdrow[::-1]
 ```
-**Note:** [`Reverse String`](https://exercism.org/exercises/reverse-string) is a featured exercise for the #48in24 challenge, remember to check out various approaches of how to do it in different languages!
+**Note:** [`Reverse String`](https://exercism.org/exercises/reverse-string) is a featured exercise for the #48in24 challenge. Remember to check out various approaches of how to do it in different languages!
 
 ### The Slice 'n Dice
 
-Maybe the machine need to have its oil changed, the normal greeting message seems to be a bit mixed up.
+Maybe the machine needs to have its oil changed as the normal greeting message seems to be a bit mixed up.
 
 ```python
 def hello() -> str:
@@ -95,7 +95,7 @@ hello = hello("Hello")
 hello("World")
 ```
 
-### The Ascii
+### The ASCII
 
 You accidentally spilled some lemonade on the machine and now it only shows you these strange numbers instead of the usual characters in the message.
 
@@ -108,7 +108,7 @@ def hello() -> str:
 ### The Dictionary
 
 You watched the news and saw a snippet about a man being rescued using an S.O.S signal.
-"Maybe the machine should be able to handle morse code as well!" - you thought, but you are not sure why.
+"Maybe the machine should be able to handle Morse code as well!" - you thought, but you are not sure why.
 Its only job is to return the greeting message...
 
 ```python
@@ -152,7 +152,7 @@ It still powers up, but now it is acting weird.
 All the characters to assemble the greeting message are still there, but they are not in order and the damage to the logic board means the machine can't get the order for the message right anymore.
 And just your luck, the incredibly reliable and *indestructible* smaller machine you built earlier was in fact stealable (yes, it's gone!).
 Therefore, you decide to just let your good ol' buddy try every possible way to scramble these letters into the correct message.
-After all, it is only 13 characters and the machine has a lot of memory, this should be quick...
+After all, it is only 13 characters and the machine has a lot of memory. This should be quick...
 
 ```python
 from itertools import permutations
@@ -171,7 +171,7 @@ def hello() -> str:
 You decided to update the machine to allow it to greet in different languages.
 But its ONLY job is to say "Hello, World!" in English, so in its confusion it decides to download a bazillion ways of saying "Hello, World!", each with slightly different capitalized characters and placement.
 That left you confused and not sure which one to pick, but at least they are all in some sort of order.
-You have to tell the machine the correct way to phrase it, so it can find the phrase and be normal again(maybe).
+You have to tell the machine the correct way to phrase it, so it can find the phrase and be normal again (maybe).
 
 ```python
 def hello(my_fav_phrase) -> str:
@@ -198,13 +198,13 @@ def hello(my_fav_phrase) -> str:
 hello("Hello, World!")
 ```
 
-Your younger brother, who has been watching the whole thing, asked why you didn't just delete the whole mess, and then give the machine the correct phrase for it to remember.
+Your younger brother, who has been watching the whole thing, asked why you didn't just delete the whole mess and then give the machine the correct phrase for it to remember.
 You didn't reply and just glared at him.
 
 ### The Classy
 
 You decide to experiment and tweak the machine to behave differently based on what button is being pressed.
-You thought about making it a bit more casual, starting to say "Hi". but being a *classy* person, you decide to only ever use the `hello` method and tape over the other one.
+You thought about making it a bit more casual, starting to say "Hi", but being a *classy* person, you decide to only ever use the `hello` method and tape over the other one.
 You realize you have quite a lot of time on your hands for these things..
 
 ```python
@@ -242,7 +242,7 @@ def hello(n=10):
 ### The Randomness
 
 Suddenly, one day you just feel tired of the same greeting over and over again, so you decide that you would let it greet you one last time and retire the machine for good, never to touch it again.
-As the machine has been with you through thick and thin and for a long time, you decide to let this final meeting between "friends" to be in the hand of fate.
+As the machine has been with you through thick and thin and for a long time, you decide to let this final meeting between "friends" be in the hand of fate.
  You power it up one last time and just let it spin...
 
 ```python

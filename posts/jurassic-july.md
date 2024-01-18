@@ -32,13 +32,13 @@ And for the year-long badge, you need to complete:
 - First high-level programming language (reduces lines of code by about a factor 20)
 - Also the first optimizing compiler (customers were reluctant to use a high-level programming language unless its compiler could generate code with performance approaching that of hand-coded assembly language)
 - Static and strongly typed language
-- - Initially only supported imperative programming, but procedural programming was added soon after that. Later extensions added support for other paradigms, like object-oriented programming and array programming
+- Initially only supported imperative programming, but procedural programming was added soon after that. Later extensions added support for other paradigms, like object-oriented programming and array programming
 - Standardized, first in 1966 with Fortran 66, and last updated in 2018!
 - Highly influential, from Basic to ALGOL, inspiration for many languages. Much of the early programming language research aimed to help improve Fortran
 
 - Still being actively developed, with new features being added, whilst still having strong backwards compatibility guarantees (old code usually still compiles and runs)
 - Built-in parallelism using coarrays, a safe and efficient method of expressing parallelism. Functions can be marked as pure, which helps the compiler optimize for parallel computing
-- - Safe memory handling using allocatable variables, where the compiler is responsible for freeing memory.
+- Safe memory handling using allocatable variables, where the compiler is responsible for freeing memory.
 - Built-in interoperability with C
 
 ### COBOL

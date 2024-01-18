@@ -481,7 +481,18 @@
       "marketing_copy": "New year, new challenge. Building on the success of #12in23, we're challenging you to solve a different exercise each week for the year.",
       "image_url": "https://assets.exercism.org/images/thumbnails/introducing-48-in-24.jpg",
       "youtube_id": "v6fMaOdUxSk"
+    },
+    {
+      "uuid": "6a932933-4166-4fce-a76d-399aab1068b7",
+      "slug": "14-increasingly-strange-ways-to-solve-hello-world",
+      "category": "updates",
+      "published_at": "2024-01-18 17:40",
+      "title": "14 increasingly strange ways to solve Hello World!",
+      "author_handle": "glaxxie",
+      "marketing_copy": "Join Glaxxie as they take a fantastical tour through the many weird and wonderful ways you can solve the 'Hello, World!' exercise on Exercism. ",
+      "image_url": "https://assets.exercism.org/images/thumbnails/14-increasingly-strange-ways-to-solve-hello-world.jpg"
     }
+
   ],
   "stories": [
     {

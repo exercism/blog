@@ -1,4 +1,4 @@
-function check_slugs() {
+function check_slugs {
     duplicate_slugs=$(jq -r ".[\"$1\"][].slug" config.json | sort | uniq -d)
     if [ -n "$duplicate_slugs" ]; then
         echo "\033[0;31mThe following $1 slugs are not unique:\033[0m"

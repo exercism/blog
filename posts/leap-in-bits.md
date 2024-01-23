@@ -22,14 +22,16 @@ doing:
 ``` Return ((year % 4) % 4 and ((year%100) !=0 or (year %400 ) ==0)){
 ```
 
-I tried writing it in Mips, but it was overly complicated.  I did some
+I tried writing it in MIPS, but it was overly complicated.  I did some
+
 searching and found someone on Stack Overflow explaining how to do Leap year
 with bitwise operations rather than all modulus and logic operators .  Not
 only that but it used numbers smaller than a bite which improved the
 performance more and made it work better on 8-bit chips.  
 
 With the Stack Overflow description of the solution in mind I figured out how
-to write it in Mips and then I changed all my other languages that could do it
+to write it in MIPS and then I changed all my other languages that could do it
+
 with bitwise operators to the same method.  That included languages like
 Javascript, C, C++ X86 Assembler, and others.
 

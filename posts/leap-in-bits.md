@@ -12,21 +12,26 @@ accessibility tools to work together with IDEs but that is not what this blog
 is about. 
 
 I was working my way through Python writing the shortest complicated unique
-answers I could come up with for each exercise when the 48 in 24 came out.  I
-thought it would be fun to continue to write the shortest fun answers for the chalange as well.
+answers I could come up with for each exercise when #48in24 came out.  I
+
+thought it would be fun to continue to write the shortest fun answers for the challenge as well.
+
 Some languages are harder to do that in than others. 
 
 After I came up with the one line logic wise method that I think everyone was
 doing:
 
-``` Return ((year % 4) % 4 and ((year%100) !=0 or (year %400 ) ==0)){
+``` Return ((year % 4) == 0 and ((year%100) !=0 or (year %400 ) ==0)){
+
 ```
 
 I tried writing it in MIPS, but it was overly complicated.  I did some
 
 searching and found someone on Stack Overflow explaining how to do Leap year
-with bitwise operations rather than all modulus and logic operators .  Not
-only that but it used numbers smaller than a bite which improved the
+with bitwise operations rather than all modulus and logic operators.  Not
+
+only that but it used numbers smaller than a byte which improved the
+
 performance more and made it work better on 8-bit chips.  
 
 With the Stack Overflow description of the solution in mind I figured out how
@@ -159,7 +164,8 @@ similarly to the JavaScript version, emphasizing the consistency of the bit
 method across different programming languages.
 
 
-Now go forth and find a better smaller faster way if you can.  
+Now go forth and find a better, smaller or faster way if you can.  
+
 
 Quoted references from:
 [Stack Overflow](https://stackoverflow.com/questions/3220163/how-to-find-leap-year-programmatically-in-c/11595914#11595914)

@@ -491,8 +491,17 @@
       "author_handle": "glaxxie",
       "marketing_copy": "Join Glaxxie as they take a fantastical tour through the many weird and wonderful ways you can solve the 'Hello, World!' exercise on Exercism. ",
       "image_url": "https://assets.exercism.org/images/thumbnails/14-increasingly-strange-ways-to-solve-hello-world.jpg"
+    },
+    {
+      "uuid": "e46c61df-603a-4bfb-907f-7bc2f0822341",
+      "slug": "finding-leap-years-with-cal",
+      "category": "updates",
+      "published_at": "",
+      "title": "Finding leap years with cal",
+      "author_handle": "sdball",
+      "marketing_copy": "Stephen goes through some approaches for how to use the output of the cal command to identify leap years.",
+      "image_url": ""
     }
-
   ],
   "stories": [
     {

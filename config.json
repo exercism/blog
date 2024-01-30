@@ -496,11 +496,11 @@
       "uuid": "e46c61df-603a-4bfb-907f-7bc2f0822341",
       "slug": "finding-leap-years-with-cal",
       "category": "updates",
-      "published_at": "",
+      "published_at": "2024-01-30 18:40",
       "title": "Finding leap years with cal",
       "author_handle": "sdball",
-      "marketing_copy": "Stephen goes through some approaches for how to use the output of the cal command to identify leap years.",
-      "image_url": ""
+      "marketing_copy": "Stephen explores how to use the output of the cal command on Linux/MacOS to identify leap years, and solve the Leap exercise in a very different way!",
+      "image_url": "https://assets.exercism.org/images/thumbnails/solving-leap-with-cal.jpg"
     }
   ],
   "stories": [

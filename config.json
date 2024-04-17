@@ -501,6 +501,16 @@
       "author_handle": "sdball",
       "marketing_copy": "Stephen explores how to use the output of the cal command on Linux/MacOS to identify leap years, and solve the Leap exercise in a very different way!",
       "image_url": "https://assets.exercism.org/images/thumbnails/solving-leap-with-cal.jpg"
+    },
+    {
+      "uuid": "8852a22f-b0f6-4345-82a0-de2f30da41b8",
+      "slug": "soxfox-scrabble-score",
+      "category": "updates",
+      "published_at": "",
+      "title": "Some slightly silly Scrabble scoring strategies",
+      "author_handle": "soxfox42",
+      "marketing_copy": "Finn (@soxfox42) takes you through their solutions for #48in24's Scrabble Score, including a one-liner (sort of), and a \"practical\" use for a 128-bit integer!",
+      "image_url": ""
     }
   ],
   "stories": [

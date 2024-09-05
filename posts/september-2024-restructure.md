@@ -74,7 +74,7 @@ For the last few months, I've been working on a new educational product teaching
 96% of people who try to learn coding give up - which I find unacceptable, so I'm aiming to change that.
 My plan is to give beginners a rock-solid base, then funnel them into Exercism.
 I'm creating a new for-profit company for the new company, and going to use proceeds from that to keep Exercism growing.
-I've raised a little investment for this, which means Aron I can continue to pay Aron's salary, so he'll be staying around, working on that with me, and tweaking Exercism as needed.
+I've raised a little investment for this, which means I can continue to pay Aron's salary, so he'll be staying around, working on that with me, and tweaking Exercism as needed.
 
 I'm also planning (probably 90% certain) of running a dedicated learn-to-code course from Jan-March 2025, where I can test out some of what we've been building, and I can get my hands dirty working with the students who existing platforms don't serve. 
 So keep out for an announcement about this soon.

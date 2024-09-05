@@ -37,7 +37,7 @@ Erik's a die-hard Exercism fan, and he's going to continue as a senior maintaine
 The one key thing we're enforcing is that every PR in a live Exercism repository should get a review before it can be merged (with only one exception outlined below). 
 This has generally been the case anyway for a long time, but there are places where it's fallen through the cracks, so we've now scripted things to ensure this is always the case.
 
-To do this, we've come up with some new classifications system for repos, and specific rules for each type:
+To do this, we've come up with a new classification system for repos, and specific rules for each type:
 - `maintained`: A repo that has multiple maintainers. All PRs require reviews from a track maintainer.
 - `maintained-solitary`: A repo that has one maintainer. A new cross-track-maintainers team will get pinged to review all PRs.
 - `unmaintained`: A repo that has no maintainers. The cross-track-maintainers team will get pinged here too.

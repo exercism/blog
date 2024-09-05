@@ -2,13 +2,13 @@
 
 Hi everyone!
 
-Last week we hit the huge milestone of two million users. 
-Within a few hours, we also hit 45 million exercise submissions.
+Last week we hit the huge milestone of **two million users**. 
+Within a few hours, we also hit **45 million exercise submissions**.
 
-A day later, I paid the final payroll for me, Erik and Aron, and our bank account reduced down to the point we can't afford to pay another.
+A day later, I paid the **final payroll** for me, Erik and Aron, and our bank account reduced down to the point we can't afford to pay another.
 
 I think this sums up Exercism's story pretty well.
-Over 1,200 people per day sign up to Exercism.
+Over **1,200 people per day sign up** to Exercism.
 Tens of thousands solve exercises each day.
 But we don't have enough money to continue to work on the platform.
 

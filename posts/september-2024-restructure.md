@@ -65,6 +65,8 @@ So if you're donating right now, thank you.
 You are literally keeping our servers on.
 Our donor base is generally quite stable, so I'm not too worried about Exercism's existential prospects.
 
+(It would be really good to build a bit of a financial buffer, so if you can afford it, please consider making a [recurring or one-off donation](https://exercism.org/donate) 💙)
+
 We also have an amazing community, maintainer team, and group of mentors who keep adding new exercises (and tracks!), helping students, and numerous other things.
 Exercism has probably never been healthier as an organisation.
 It's growing faster than ever, more people are using it than ever, and I think the product and educational experience is better than ever.

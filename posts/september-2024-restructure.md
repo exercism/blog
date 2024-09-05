@@ -1,4 +1,4 @@
-# September 2025 Restructure
+# September 2024 Restructure
 
 Hi everyone!
 
@@ -32,7 +32,7 @@ He's also been a wonderful colleague and friend, and I'll really miss working al
 It goes without saying that I'm incredbily grateful to Erik for all his hard work and support.
 And I know many of you will feel the same (if so, please reach out and tell him!)
 
-Erik's a die-hard Exercism fan, and he's going to continue as a senior maintainer of a few tracks, and he'll hold onto his super-admin priviledges, but the plethera of hidden (and often a bit boring) things that he does day-to-day need to get spread across the organisation.
+Erik's a die-hard Exercism fan, and he's going to continue as a senior maintainer of a few tracks, and he'll hold onto his super-admin privileges, but the plethora of hidden (and often a bit boring) things that he does day-to-day need to get spread across the organisation.
 
 The one key thing we're enforcing is that every PR in a live Exercism repository should get a review before it can be merged (with only one exception outlined below). 
 This has generally been the case anyway for a long time, but there are places where it's fallen through the cracks, so we've now scripted things to ensure this is always the case.

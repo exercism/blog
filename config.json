@@ -290,7 +290,7 @@
     {
       "uuid": "892a7a04-982f-457e-9a10-9e27a6393b71",
       "slug": "freeing-our-maintainers",
-      "category": "updates",
+      "cathttps://github.com/exercism/gh-notifications-manager/pull/16egory": "updates",
       "published_at": "2022-11-23 15:10",
       "title": "Freeing our maintainers",
       "author_handle": "iHiD",
@@ -504,10 +504,10 @@
     },
     {
       "uuid": "022e2db5-3309-4d14-9ed8-4dee7265ff1d",
-      "slug": "september-2025-restructure",
+      "slug": "september-2024-restructure",
       "category": "updates",
       "published_at": "2024-09-05 12:00",
-      "title": "September 2025 Restructure",
+      "title": "September 2024 Restructure",
       "author_handle": "iHiD",
       "marketing_copy": "2M users. No money in the bank. Erik's leaving. Exercism Teams. A new coding fundamentals platforms. There's a lot of news...",
       "image_url": ""

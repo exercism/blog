@@ -65,6 +65,11 @@ So if you're donating right now, thank you.
 You are literally keeping our servers on.
 Our donor base is generally quite stable, so I'm not too worried about Exercism's existential prospects.
 
+We also have an amazing community, maintainer team, and group of mentors who keep adding new exercises (and tracks!), helping students, and numerous other things.
+Exercism has probably never been healthier as an organisation.
+It's growing faster than ever, more people are using it than ever, and I think the product and educational experience is better than ever.
+So I'm still deeply dedicated to growing and nurturing Exercism.
+
 For the last few months, I've been working on a new educational product teaching coding fundamentals that I'm going to launch in 2025.
 96% of people who try to learn coding give up - which I find unacceptable, so I'm aiming to change that.
 My plan is to give beginners a rock-solid base, then funnel them into Exercism.

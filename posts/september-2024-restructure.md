@@ -20,7 +20,7 @@ By serving people everywhere, it seems we don't serve a narrow enough demographi
 The one area we have had some promising success is in advertising on the site.
 But the effort it takes to find advertisers and manage them, and my general desire not to flood Exercism with adverts, has meant that I feel this isn't a very sustainable strategy.
 
-I think it's fair to say that at this stage I've lost faith in the nonprofit buisness model working in a way that allows Exercism to reach any of its potential.
+I think it's fair to say that at this stage I've lost faith in the nonprofit business model working in a way that allows Exercism to reach any of its potential.
 Keeping something free for everyone relies on either the user being the product, or on significant donations, and without either, it's very hard to grow.
 
 ## Erik + OSS Restructure
@@ -29,7 +29,7 @@ Probably the hardest thing about the situation right now, is that we can no long
 
 Erik has been an absolute critical part of Exercism's growth and success over the last few years.
 He's also been a wonderful colleague and friend, and I'll really miss working alongside him.
-It goes without saying that I'm incredbily grateful to Erik for all his hard work and support.
+It goes without saying that I'm incredibly grateful to Erik for all his hard work and support.
 And I know many of you will feel the same (if so, please reach out and tell him!)
 
 Erik's a die-hard Exercism fan, and he's going to continue as a senior maintainer of a few tracks, and he'll hold onto his super-admin privileges, but the plethora of hidden (and often a bit boring) things that he does day-to-day need to get spread across the organisation.
@@ -87,4 +87,4 @@ But first, I need a breather.
 I'll be taking the next two weeks off, unplugging and recovering a little.
 
 Thanks for all your support - emotional and financial. 
-Exercism's community is phenominal and I'm deeply grateful to everyone involved in the project.
+Exercism's community is phenomenal and I'm deeply grateful to everyone involved in the project.

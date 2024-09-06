@@ -1,4 +1,4 @@
-Thank you everyone!
+# Thank you everyone!
 
 For those of you who missed it: this is my last day as an Exercism employee.
 I'd like to take this opportunity to thank everyone who I've worked with during my time at Exercism.

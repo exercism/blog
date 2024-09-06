@@ -1,5 +1,7 @@
 # Thank you everyone!
 
+Hi everyone,
+
 For those of you who missed it: this is my last day as an Exercism employee.
 I'd like to take this opportunity to thank everyone who I've worked with during my time at Exercism.
 It may be a surprise to some, but it was not Exercism's many fantastic languages that got me hooked, but the community (i.e. the people)!

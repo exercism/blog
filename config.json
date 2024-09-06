@@ -511,6 +511,16 @@
       "author_handle": "iHiD",
       "marketing_copy": "2M users. No money in the bank. Erik's leaving. Exercism Teams. A new coding fundamentals platforms. There's a lot of news...",
       "image_url": "https://assets.exercism.org/images/thumbnails/september-2024-restructure.jpg"
+    },
+    {
+      "uuid": "5705c00a-97c5-4b6b-8a1a-b33b258caec0",
+      "slug": "thank-you-by-erik",
+      "category": "updates",
+      "published_at": "2024-09-06 12:00",
+      "title": "Thank you everyone!",
+      "author_handle": "ErikSchierboom",
+      "marketing_copy": "",
+      "image_url": ""
     }
   ],
   "stories": [

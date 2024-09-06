@@ -30,5 +30,3 @@ Overall, it has been an incredible 5 years and I wouldn't have missed it for the
 As I'll still be hanging around, I don't even have to say goodbye!
 I'd just like to say: thank you all for being the wonderful people you are.
 It has been my pleasure and honor working with you (especially Jeremy).
-
-Erik

@@ -1,5 +1,9 @@
 # September 2024 Restructure
 
+_Update: This post went somewhat viral beyond the Exercism community. Thanks to everyone who's offered wishes of support and to the hundreds who have donated in response. I added a little more context and clarified a few things in a [Hacker News comment](https://news.ycombinator.com/item?id=41469477)._
+
+---
+
 Hi everyone!
 
 Last week we hit the huge milestone of **two million users**. 

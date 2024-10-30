@@ -25,8 +25,8 @@ The bootcamp will be in two parts:
 Students can take just the first part (3 months from Jan-March) or the whole course (6 months from Jan-July). 
 I may also just offer the second part later, for existing developers who want to learn some web development skills.
 
-The bootcamp is remote, part-time, and priced as cheaply as possible with 
-pricing parity available, along with discounts for students and those who are currently unemployed
+The bootcamp is remote, part-time, and priced as cheaply as possible, with 
+pricing parity available along with discounts for students and those who are currently unemployed.
 
 The whole focus is on learning through doing. 
 Like Exercism, people will learn by coding lots.

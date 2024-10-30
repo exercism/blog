@@ -42,7 +42,7 @@ There are two ways that you can help!
 The biggest thing you can do to help is to encourage everyone you know to come and join!
 
 I've written many times about how valuable I think learning to code is for pretty much everyone today.
-Even if you don't want a career in tech, coding a great skill to have. It nurtures critical thinking skills, helps you understand how so much of the world worlds, and with the power of LLMs, its increasingly easy for people to piece together different little bits of code to do useful things.
+Even if you don't want a career in tech, coding is a great skill to have. It nurtures critical thinking skills, helps you understand how so much of the world worlds, and, with the power of LLMs, it's increasingly easy for people to piece together different little bits of code to do useful things.
 
 We're setting up an affiliate scheme where your friends or followers can get a 20% discount, and you get a 20% "commission" on the sale (which you can choose not to take to support Exercism if you prefer!)
 If you're interested in this, please [let me know](mailto:bootcamp@exercism.org).

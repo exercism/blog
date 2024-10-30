@@ -521,6 +521,16 @@
       "author_handle": "ErikSchierboom",
       "marketing_copy": "Today's my last day as an Exercism employee. I just wanted to say thank you...",
       "image_url": "https://assets.exercism.org/images/thumbnails/erik-until-next-time.jpg"
+    },
+    {
+      "uuid": "fa078767-e0b4-4c04-a297-12f1eb961e49",
+      "slug": "bootcamp",
+      "category": "updates",
+      "published_at": "2024-10-30 12:00",
+      "title": "We're running a beginners bootcamp!",
+      "author_handle": "iHiD",
+      "marketing_copy": "From January 2025, we're going to be running a remote, part-time bootcamp for people wanting to learn to code from scratch. It's going to be a lot of fun!",
+      "image_url": "https://assets.exercism.org/images/thumbnails/bootcamp.jpg"
     }
   ],
   "stories": [

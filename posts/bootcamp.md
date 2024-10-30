@@ -67,6 +67,6 @@ I'm really, **really** excited for this.
 I hope it'll help a ton of people, help us refine a product I've passionate about, and bring a little money into Exercism to keep us afloat. 
 It feels like a win win win.
 
-I'll be talking lots more about it over the next few months, but in the mean time, I'd massively appreciate your support in spreading the word and generating some hype! 
+I'll be talking lots more about it over the next few months, but in the meantime, I'd massively appreciate your support in spreading the word and generating some hype! 
 
 Thanks for reading 🙂

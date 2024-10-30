@@ -59,7 +59,7 @@ One of the areas I'd love your help with is in supporting our bootcamp students 
 We're going to be taking a very specific approach to learning, where we introduce concepts in a specific order and let the students internalize the ideas through lots and lots of practice.
 We'll rely heavily on the [Lie to children](https://en.wikipedia.org/wiki/Lie-to-children) methodology, to ensure people don't get overwhelmed or drawn into areas that will complicate matters. 
 
-If you would be interested in supporting/mentoring total newbies and are happy with the "Lie to Children" approach and working within the framework we're building, then I'd love to hear from you (please email me at [jeremy@exercism.org](jeremy@exercism.org)!).
+If you would be interested in supporting/mentoring total newbies and are happy with the "Lie to Children" approach and working within the framework we're building, then I'd love to hear from you (please email me at [bootcamp@exercism.org](bootcamp@exercism.org)!).
 
 ## Conclusion
 

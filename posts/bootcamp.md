@@ -12,7 +12,7 @@ over 95% of people who try to learn to code give up, which I find unacceptable.
 
 We're building a new platform that will sit alongside Exercism which is going to be dedicated to beginners, which we'll be launching in mid-2025. 
 We've already put a lot of effort into this and I'm really proud of how it's evolving.
-I'll be talking a lot more about it in the coming months
+I'll be talking a lot more about it in the coming months.
 
 But before launching that, we're going to run a 6 month bootcamp, that will use some of the technology we're building. This will allow me to get super-close to students' learning experience, to refine and develop the platform as real people learn from it, and help me understand where students get stuck, and work out how to help them further.
 

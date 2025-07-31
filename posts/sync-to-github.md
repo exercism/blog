@@ -18,6 +18,7 @@ Once you enable the feature, your solutions will start automatically being backe
 We quietly launched to Insiders a month back and have now backed up tens of thousands of solutions to GitHub. The more people have used it, the more they've appreciated it. As one Insider said:
 
 > I didn't have strong feelings about this feature when it was first proposed, but now that it is here, I am super happy you have moved forward! I already can't imagine Exercism without it.
+> - W8CYE on Discord
 
 To get started, simply go to [your settings](https://exercism.org/settings/github_syncer) and connect a repo. 
 

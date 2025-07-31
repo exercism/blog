@@ -531,6 +531,16 @@
       "author_handle": "iHiD",
       "marketing_copy": "From January 2025, we're going to be running a remote, part-time bootcamp for people wanting to learn to code from scratch. It's going to be a lot of fun!",
       "image_url": "https://assets.exercism.org/images/thumbnails/bootcamp.jpg"
+    },
+    {
+      "uuid": "1a00fc08-6808-4f24-a459-7b05a32ab764",
+      "slug": "sync-to-github",
+      "category": "updates",
+      "published_at": "2025-07-31 12:00",
+      "title": "Announcing GitHub Syncer and Favorites",
+      "author_handle": "iHiD",
+      "marketing_copy": "Today we're launching two new features - GitHub Syncer and Favorites!",
+      "image_url": "https://assets.exercism.org/images/thumbnails/github-sync-and-favorites.jpg"
     }
   ],
   "stories": [

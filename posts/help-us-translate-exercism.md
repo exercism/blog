@@ -12,7 +12,7 @@ Many people see the solution to this as getting everyone to learn English, but w
 
 ## So let's do it!
 
-So today we're officially kicking off our Internationalization efforts with the aim of translating Exercism into the most used 90 natural languages. 
+So today we're officially kicking off our Internationalization efforts with the aim of translating Exercism into the most used 90 natural languages: 🇨🇳 🇮🇳 🇪🇸 🇬🇧 🇧🇩 🇧🇷 🇵🇹 🇷🇺 🇯🇵 🇵🇰 🇩🇪 🇮🇩 🇫🇷 🇰🇷 🇮🇹 🇹🇷 🇻🇳 🇮🇷 🇺🇦 🇸🇦 🇹🇭 🇵🇭 🇳🇬 🇪🇬 🇪🇹 🇵🇱 🇦🇷 🇰🇪 🇿🇦 🇲🇲 🇳🇵 🇨🇦 🇸🇪 🇳🇱 🇲🇾 🇨🇱 🇨🇿 🇨🇭 🇭🇷 🇬🇷 🇩🇰 🇫🇮 🇳🇴 🇮🇸 🇧🇬 🇷🇴 🇭🇺 🇸🇰 🇸🇮 🇷🇸 🇲🇰 🇱🇻 🇱🇹 🇪🇪 🇮🇪 🇲🇹 🇱🇺 🇦🇱 🇦🇿 🇺🇿 🇹🇯 🇰🇬 🇦🇲 🇬🇪 🇲🇳 🇧🇾 🇧🇦 🇲🇪 🇲🇬 🇼🇸 🇵🇪 🇱🇸 🇿🇼 🇸🇴
 
 There's a few steps to getting there:
 1. Extract all the English out of Exercism ready to be translated ([here's the giant PR that achieved that!](https://github.com/exercism/website/pull/8044)).

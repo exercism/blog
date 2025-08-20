@@ -1,6 +1,8 @@
-_TL;DR; Want to help us translate Exercism into your language? [Join the Translator team here](https://exercism.org/localization/translator/new)_
+_TL;DR; Want to help us translate Exercism into your language? [Join the Translator team here](https://exercism.org/localization/translator/new)!_
 
 ---
+
+## Introduction
 
 Since Exercism began over a decade ago, the number one request has been for us to translate it into other natural languages. 
 

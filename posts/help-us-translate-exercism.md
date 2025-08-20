@@ -6,7 +6,7 @@ _TL;DR; Want to help us translate Exercism into your language? [Join the Transla
 
 Since Exercism began over a decade ago, the number one request has been for us to translate it into other natural languages. 
 
-Only 20% of the world's population can read English and yet nearly all of the top learning resources and documentation are exclusively in English. In many parts of the world (e.g. the US and EU) English has become the defacto language of coding, but for in the rest of the world, this isn't the case. 
+Only 20% of the world's population can read English and yet nearly all of the top learning resources and documentation are exclusively in English. In many parts of the world (e.g. the US and EU) English has become the de facto language of coding, but for the rest of the world, this isn't the case. 
 
 Many people see the solution to this as getting everyone to learn English, but with the introduction of LLMs, it seems to me that it's much easier to translate those resources to 90 languages, than it is to ask 4 billion people to learn to read and write in a different language! 
 

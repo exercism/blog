@@ -541,6 +541,16 @@
       "author_handle": "iHiD",
       "marketing_copy": "Today we're launching two new features. Our new GitHub Syncer let's you automatically back up your solutions to GitHub, and our new Favorites section lets your save those solutions that inspire you the most!",
       "image_url": "https://assets.exercism.org/images/thumbnails/github-sync-and-favorites.jpg"
+    },
+    {
+      "uuid": "8222bfc8-541a-448a-81d5-f76fc2d5a7f4",
+      "slug": "help-us-translate-exercism",
+      "category": "updates",
+      "published_at": "2025-08-20 12:00",
+      "title": "Help us translate Exercism into your language!",
+      "author_handle": "iHiD",
+      "marketing_copy": "We're officially kicking off our localization project - translating Exercism into 90 natural languages! Help us translate it into yours!",
+      "image_url": "https://assets.exercism.org/images/thumbnails/translators.jpg"
     }
   ],
   "stories": [

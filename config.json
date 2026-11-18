@@ -551,6 +551,15 @@
       "author_handle": "iHiD",
       "marketing_copy": "We're officially kicking off our localization project - translating Exercism into 90 natural languages! Help us translate it into yours!",
       "image_url": "https://assets.exercism.org/images/thumbnails/translators.jpg"
+    },
+    {
+      "uuid": "858f7572-6e1b-4a55-a8ef-663b7f9ed15e",
+      "slug": "exercism-just-solved-its-biggest-problem",
+      "category": "updates",
+      "published_at": "2026-07-01 12:00",
+      "title": "Exercism just solved its biggest problem",
+      "author_handle": "iHiD",
+      "marketing_copy": "If you research where to learn to code, Exercism comes up everywhere. But it was never built for beginners — and I should know, I built it. Today I want to tell you where beginners should actually go: Jiki."
     }
   ],
   "stories": [
